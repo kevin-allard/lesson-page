@@ -1,0 +1,63 @@
+[
+  {
+    "courseName": "Grade 6",
+    "lessons": [
+      {
+        "name": "Lesson 1: Taking Apart Numbers and Shapes",
+        "path": "data/SM5e_G06_TIG_M01_T01_L01.json"
+      },
+      {
+        "name": "Lesson 2: Re-Engaging with the Distributive Property",
+        "path": "data/SM5e_G06_TIG_M01_T01_L02.json"
+      },
+      {
+        "name": "Lesson 3: Searching for Common Ground",
+        "path": "data/SM5e_G06_TIG_M01_T01_L03.json"
+      },
+      {
+        "name": "Lesson 4: Re-Engaging with Common Factors and Multiples",
+        "path": "data/SM5e_G06_TIG_M01_T01_L04.json"
+      },
+      {
+        "name": "Lesson 5: Composing and Decomposing Numbers",
+        "path": "data/SM5e_G06_TIG_M01_T01_L05.json"
+      },
+      {
+        "name": "Lesson 6: Re-Engaging with Greatest Common Factors",
+        "path": "data/SM5e_G06_TIG_M01_T01_L06.json"
+      },
+      {
+        "name": "Lesson 7: I'd Divide, Modeling Fraction Division",
+        "path": "data/SM5e_G06_TIG_M01_T01_L07.json"
+      },
+      {
+        "name": "Lesson 8: Re-Engaging with Fraction Division",
+        "path": "data/SM5e_G06_TIG_M01_T01_L08.json"
+      },
+      {
+        "name": "Lesson 9: Yours IS to Reason Why!, Fraction by Fraction Division",
+        "path": "data/SM5e_G06_TIG_M01_T01_L09.json"
+      },
+      {
+        "name": "Lesson 10: Re-Engaging with Dividing Fractions",
+        "path": "data/SM5e_G06_TIG_M01_T01_L10.json"
+      }
+    ]
+  },
+  {
+    "courseName": "Grade 7",
+    "lessons": []
+  },
+  {
+    "courseName": "Grade 8",
+    "lessons": []
+  },
+  {
+    "courseName": "Algebra I",
+    "lessons": []
+  },
+  {
+    "courseName": "Integrated Math I",
+    "lessons": []
+  }
+]
