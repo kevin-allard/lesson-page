@@ -1,0 +1,90 @@
+{
+  "lesson_type": "concept",
+  "lesson_number": 3,
+  "lesson_title": "Searching for Common Ground",
+  "lesson_subtitle": "Identifying Common Factors and Common Multiples",
+  "lesson_description": "In this lesson, students create rectangles with given areas and relate their dimensions to factors and common factors.‚Äã They use prime factorizations to determine the greatest common factor (GCF) and the least common multiple (LCM) of two numbers. Students examine the rows and the columns of an area model to identify multiples and the LCM.",
+  "lesson_pacing_min": 60,
+  "learning_goals": [
+    "I can determine the greatest common factor of two whole numbers less than or equal to 100.",
+    "I can determine the least common multiple of two whole numbers less than or equal to 12.",
+    "I can use the Distributive Property to rewrite the sum of two whole numbers with a common factor as a multiple of the sum of two whole numbers with no common factor."
+  ],
+  "big_ideas": [
+    "Patterns Inside Numbers"
+  ],
+  "essential_ideas": [
+    "Prime factorization is a method to determine common factors and common multiples of two numbers.",
+    "The greatest common factor (GCF) of two numbers is the largest factor shared by the two numbers.",
+    "The least common multiple (LCM) of two numbers is the smallest nonzero multiple shared by the two numbers.",
+    "You can use the Commutative and Distributive Properties to generate equivalent expressions.",
+    "If two numbers a and b are relatively prime, then the GCF(a, b) = 1 and the LCM(a, b) = ab."
+  ],
+  "key_terms": [
+    "common factors",
+    "greatest common factor (GCF)",
+    "relatively prime",
+    "least common multiple (LCM)"
+  ],
+  "lesson_structure_and_pacing_guide": [
+    {
+      "session": 1,
+      "block": "Activate",
+      "activity_no": null,
+      "title": "The \"It\" Factor",
+      "description": "Students use a situation to determine how to share items equally.",
+      "duration_minutes": 5,
+      "mode": "presentation"
+    },
+    {
+      "session": 1,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 1",
+      "title": "Understanding Common Factors",
+      "description": "Students create rectangular arrays to explore factors.",
+      "duration_minutes": 20,
+      "mode": "book"
+    },
+    {
+      "session": 1,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 2",
+      "title": "Prime Factors and Common Factors",
+      "description": "Students write prime factorizations and use them to determine the GCF of two numbers.",
+      "duration_minutes": 15,
+      "mode": "book"
+    },
+    {
+      "session": 2,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 3",
+      "title": "Common Multiples",
+      "description": "Students use a rectangular array to generate lists of common multiples of two numbers.",
+      "duration_minutes": 20,
+      "mode": "book"
+    },
+    {
+      "session": 2,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 4",
+      "title": "Determining GCF and LCM",
+      "description": "Students practice determining the GCF and LCM of pairs of numbers.",
+      "duration_minutes": 10,
+      "mode": "online"
+    },
+    {
+      "session": 2,
+      "block": "Reflect",
+      "activity_no": null,
+      "title": "Bringing It Back Around",
+      "description": "Students rewrite the sum of two numbers using the Distributive Property and generalize about least common multiples.",
+      "duration_minutes": 10,
+      "mode": "book"
+    }
+  ],
+  "materials_needed": [
+    "Grid Paper",
+    "scissors",
+    "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+  ]
+}

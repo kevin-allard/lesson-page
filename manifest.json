@@ -3,43 +3,43 @@
     "courseName": "Grade 6",
     "lessons": [
       {
-        "name": "Lesson 1: Taking Apart Numbers and Shapes",
+        "name": "M1 T1 L1: Taking Apart Numbers and Shapes",
         "path": "data/SM5e_G06_TIG_M01_T01_L01.json"
       },
       {
-        "name": "Lesson 2: Re-Engaging with the Distributive Property",
+        "name": "M1 T1 L2: Re-Engaging with the Distributive Property",
         "path": "data/SM5e_G06_TIG_M01_T01_L02.json"
       },
       {
-        "name": "Lesson 3: Searching for Common Ground",
+        "name": "M1 T1 L3: Searching for Common Ground",
         "path": "data/SM5e_G06_TIG_M01_T01_L03.json"
       },
       {
-        "name": "Lesson 4: Re-Engaging with Common Factors and Multiples",
+        "name": "M1 T1 L4: Re-Engaging with Common Factors and Multiples",
         "path": "data/SM5e_G06_TIG_M01_T01_L04.json"
       },
       {
-        "name": "Lesson 5: Composing and Decomposing Numbers",
+        "name": "M1 T1 L5: Composing and Decomposing Numbers",
         "path": "data/SM5e_G06_TIG_M01_T01_L05.json"
       },
       {
-        "name": "Lesson 6: Re-Engaging with Greatest Common Factors",
+        "name": "M1 T1 L6: Re-Engaging with Greatest Common Factors",
         "path": "data/SM5e_G06_TIG_M01_T01_L06.json"
       },
       {
-        "name": "Lesson 7: I'd Divide, Modeling Fraction Division",
+        "name": "M1 T1 L7: I'd Divide, Modeling Fraction Division",
         "path": "data/SM5e_G06_TIG_M01_T01_L07.json"
       },
       {
-        "name": "Lesson 8: Re-Engaging with Fraction Division",
+        "name": "M1 T1 L8: Re-Engaging with Fraction Division",
         "path": "data/SM5e_G06_TIG_M01_T01_L08.json"
       },
       {
-        "name": "Lesson 9: Yours IS to Reason Why!, Fraction by Fraction Division",
+        "name": "M1 T1 L9: Yours IS to Reason Why!, Fraction by Fraction Division",
         "path": "data/SM5e_G06_TIG_M01_T01_L09.json"
       },
       {
-        "name": "Lesson 10: Re-Engaging with Dividing Fractions",
+        "name": "M1 T1 L10: Re-Engaging with Dividing Fractions",
         "path": "data/SM5e_G06_TIG_M01_T01_L10.json"
       }
     ]
@@ -54,7 +54,12 @@
   },
   {
     "courseName": "Algebra I",
-    "lessons": []
+    "lessons": [
+
+        "name": "M1 T1 L1: Making Connections Between Arithmetic Sequences and Linear Functions",
+        "path": "data/SM5e_A1_TIG_M02_T04_L01.json"
+      }
+]
   },
   {
     "courseName": "Integrated Math I",

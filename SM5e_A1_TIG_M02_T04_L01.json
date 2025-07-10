@@ -1,0 +1,79 @@
+{
+  "lesson_type": "concept",
+  "lesson_number": 1,
+  "lesson_title": "Connecting the Dots",
+  "lesson_subtitle": "Making Connections Between Arithmetic Sequences and Linear Functions",
+  "lesson_description": "In this lesson, students connect an arithmetic sequence in explicit form to a linear function in slope-intercept form. They prove that the common difference and the slope are always constant and equal. Students use first differences to determine whether a table represents a linear relationship and learn about average rate of change. They create a table of values and determine whether the sequences have the same slope between any two points.",
+  "lesson_pacing_min": 90,
+  "learning_goals": [
+    "I can relate the defining characteristics of an arithmetic sequence, the first term and common difference, and the defining characteristics of a linear function, the y-intercept and slope.",
+    "I can use algebraic properties to prove that the explicit formula for an arithmetic sequence is equivalent to the equation of a linear function.",
+    "I can connect the slope of a line to the average rate of change of a function."
+  ],
+  "big_ideas": [
+    "Function Investigations",
+    "Growth and Decay"
+  ],
+  "essential_ideas": [
+    "You can write the explicit formula of an arithmetic sequence in slope-intercept form.",
+    "The explicit formula of an arithmetic sequence, <math><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mi>d</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo></math>, includes the first term of the sequence, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mn>1</mn><mo stretchy=\"false\">)</mo></math>, and the common difference. The slope-intercept form of a linear function, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, includes <math><mi>f</mi><mo stretchy=\"false\">(</mo><mn>0</mn><mo stretchy=\"false\">)</mo></math> and the slope.",
+    "You can use the average rate of change formula to calculate the unit rate over a given interval.",
+    "You can calculate the first differences of a table by subtracting consecutive output values when the input values have an interval of 1. When the first differences are constant, you can model the table of values with a linear function.",
+    "The arithmetic sequence's domain includes the counting numbers, while the linear function's domain includes all real numbers."
+  ],
+  "key_terms": [
+    "average rate of change",
+    "first differences"
+  ],
+  "lesson_structure_and_pacing_guide": [
+    {
+      "session": 1,
+      "block": "Activate",
+      "activity_no": null,
+      "title": "Explicitly Matched",
+      "description": "Students investigate the relationship between an explicit formula for an arithmetic sequence and its graph.",
+      "duration_minutes": 5,
+      "mode": "presentation"
+    },
+    {
+      "session": 1,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 1",
+      "title": "Connecting Forms",
+      "description": "Students discover that the common difference of an arithmetic sequence is the slope of the linear function.",
+      "duration_minutes": 35,
+      "mode": "book"
+    },
+    {
+      "session": 2,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 2",
+      "title": "Verifying that Slope Is Constant",
+      "description": "Students generalize about the connection between slope and average rate of change.",
+      "duration_minutes": 15,
+      "mode": "book"
+    },
+    {
+      "session": 2,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 3",
+      "title": "Analyzing Tables of Values",
+      "description": "Students use first differences to determine whether a table of values represents a linear function.",
+      "duration_minutes": 15,
+      "mode": "online"
+    },
+    {
+      "session": 2,
+      "block": "Reflect",
+      "activity_no": null,
+      "title": "Line Up in Sequential Order",
+      "description": "Students analyze two sequences and create a table of values to determine which graph represents a linear function.",
+      "duration_minutes": 10,
+      "mode": "book"
+    }
+  ],
+  "materials_needed": [
+    "If facilitating this lesson without student devices, no additional materials are needed.",
+    "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+  ]
+}
