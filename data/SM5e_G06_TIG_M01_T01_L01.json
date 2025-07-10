@@ -1,0 +1,59 @@
+{
+  "lesson_type": "concept",
+  "lesson_number": 1,
+  "lesson_title": "Taking Apart Numbers and Shapes",
+  "lesson_subtitle": "Writing Equivalent Expressions Using the Distributive Property",
+  "lesson_description": "In this lesson, students partition area models to see that the sum of the areas of the smaller regions equals the area of the whole model.‚Äã They then rewrite the product of two factors as a factor times the sum of two or more terms, leading to the formalization of the Distributive Property.",
+  "lesson_pacing_min": 45,
+  "learning_goals": [
+    "I can recognize parts of an expression as a single entity.",
+    "I can apply the Distributive Property to rewrite the product of two factors."
+  ],
+  "big_ideas": [
+    "Generalizing with Multiple Representations"
+  ],
+  "essential_ideas": [
+    "The area of a rectangle is the product of its length and width.",
+    "You can illustrate the Distributive Property using an area model of a rectangle with side lengths a and (b + c).",
+    "The Distributive Property of Multiplication over Addition states that for any numbers a, b, and c, a(b + c) = ab + ac.",
+    "You can rewrite equivalent expressions using properties."
+  ],
+  "key_terms": [
+    "numeric expression",
+    "equation",
+    "Distributive Property of Multiplication over Addition"
+  ],
+  "lesson_structure_and_pacing_guide": [
+    {
+      "session": 1,
+      "block": "Activate",
+      "activity_no": null,
+      "title": "Piles of Tiles",
+      "description": "Students investigate a partially tiled space and determine the number of tiles needed to complete the space.",
+      "duration_minutes": 5,
+      "mode": "presentation"
+    },
+    {
+      "session": 1,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 1",
+      "title": "Connecting Area Models and the Distributive Property",
+      "description": "Students rewrite products to formalize the Distributive Property.",
+      "duration_minutes": 25,
+      "mode": "book"
+    },
+    {
+      "session": 1,
+      "block": "Reflect",
+      "activity_no": null,
+      "title": "The Floor Is Yours",
+      "description": "Students use the Distributive Property to design a gym floor plan.",
+      "duration_minutes": 15,
+      "mode": "book"
+    }
+  ],
+  "materials_needed": [
+    "If facilitating this lesson without student devices, no additional materials are needed.",
+    "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+  ]
+}

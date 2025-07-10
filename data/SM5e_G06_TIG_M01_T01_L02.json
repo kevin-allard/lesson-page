@@ -1,0 +1,47 @@
+{
+  "lesson_type": "re-engagement",
+  "lesson_number": 2,
+  "lesson_title": "Re-Engaging with the Distributive Property",
+  "lesson_subtitle": null,
+  "lesson_description": "Reinforce learning by connecting classroom instruction to individual problem solving and practice. MATHia serves as the primary instructional tool in these lessons.",
+  "lesson_pacing_min": 45,
+  "learning_goals": [
+    "I can work independently on my MATHia playlist and engage in activities to support my individual learning goals."
+  ],
+  "big_ideas": null,
+  "essential_ideas": null,
+  "key_terms": null,
+  "lesson_structure_and_pacing_guide": [
+    {
+      "session": null,
+      "block": "Activate",
+      "activity_no": null,
+      "title": "Number Comparison",
+      "description": "Students compare two whole numbers by describing their similarities and differences.",
+      "duration_minutes": 5,
+      "mode": "presentation"
+    },
+    {
+      "session": null,
+      "block": "Explore and Develop",
+      "activity_no": null,
+      "title": "Personalized Learning and Intervention",
+      "description": "### MATHia Playlist\n\n#### Getting Started\nStudents learn how to navigate MATHia, learning about features like hints, the glossary, and the built-in calculator. They explore learning science principles to stay motivated.\n\n#### Exploring the Distributive Property with Numeric Expressions\nStudents use an interactive grid to model the Distributive Property of Multiplication over Addition with numeric expressions.\n\n### Clarify\n\n#### Center A: Interactive Skills Practice\nStudents complete the Problem Set 1: Exploring the Distributive Property with Numeric Expressions interactive skills practice to develop their understanding of the Distributive Property to rewrite the product of two numbers as the product of a number and a sum.\n\n### Re-Teach\n\n#### Center B: MATHstream Interactive Video\nStudents complete a MATHstream video based on the instruction they missed.\n• Lesson 1 Taking Apart Numbers and Shapes\nº Using the Distributive Property",
+      "duration_minutes": 35,
+      "mode": "online"
+    },
+    {
+      "session": null,
+      "block": "Reflect",
+      "activity_no": null,
+      "title": "Learning Reflection",
+      "description": "Students reflect on the learning goals and MATHia workspaces they have engaged with in this topic.",
+      "duration_minutes": 5,
+      "mode": "book"
+    }
+  ],
+  "materials_needed": [
+    "If facilitating this lesson without student devices, no additional materials are needed.",
+    "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them now using the Present button above."
+  ]
+}

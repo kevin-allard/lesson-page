@@ -1,0 +1,47 @@
+{
+  "lesson_type": "re-engagement",
+  "lesson_number": 10,
+  "lesson_title": "Re-Engaging with Dividing Fractions",
+  "lesson_subtitle": null,
+  "lesson_description": "Reinforce learning by connecting classroom instruction to individual problem solving and practice. MATHia serves as the primary instructional tool in these lessons.",
+  "lesson_pacing_min": 45,
+  "learning_goals": [
+    "I can work independently on my MATHia playlist and engage in activities to support my individual learning goals."
+  ],
+  "big_ideas": null,
+  "essential_ideas": null,
+  "key_terms": null,
+  "lesson_structure_and_pacing_guide": [
+    {
+      "session": null,
+      "block": "Activate",
+      "activity_no": null,
+      "title": "Would You Rather?: Least Common Multiples",
+      "description": "Students use the LCM of two numbers to make a decision about a real-world context.",
+      "duration_minutes": 5,
+      "mode": "presentation"
+    },
+    {
+      "session": null,
+      "block": "Explore and Develop",
+      "activity_no": null,
+      "title": "Personalized Learning and Intervention",
+      "description": "### MATHia Playlist\n\n#### Multiplying and Dividing Rational Numbers\nStudents calculate products and quotients of fractions, mixed numbers, and improper fractions.\n\n### Clarify\n\n#### Center A: Interactive Skills Practice\nStudents complete the Problem Set 8: Interpreting Remainders Using Models interactive skills practice to develop their understanding of interpreting remainders in real-world problems that require dividing a fraction by a fraction.\n\n### Re-Teach\n\n#### Center B: MATHstream Interactive Video\nStudents complete a MATHstream video based on the instruction they missed.\n• Lesson 9 Yours IS to Reason Why!\nº Different Strategies for Fraction by Fraction Division",
+      "duration_minutes": 35,
+      "mode": "online"
+    },
+    {
+      "session": null,
+      "block": "Reflect",
+      "activity_no": null,
+      "title": "Learning Reflection",
+      "description": "Students reflect on the learning goals and MATHia workspaces they have engaged with in this topic.",
+      "duration_minutes": 5,
+      "mode": "book"
+    }
+  ],
+  "materials_needed": [
+    "If facilitating this lesson without student devices, no additional materials are needed.",
+    "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+  ]
+}

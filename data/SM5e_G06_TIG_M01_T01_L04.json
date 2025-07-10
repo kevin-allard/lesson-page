@@ -1,0 +1,47 @@
+{
+  "lesson_type": "re-engagement",
+  "lesson_number": 4,
+  "lesson_title": "Re-Engaging with Common Factors and Multiples",
+  "lesson_subtitle": null,
+  "lesson_description": "Reinforce learning by connecting classroom instruction to individual problem solving and practice. MATHia serves as the primary instructional tool in these lessons.",
+  "lesson_pacing_min": 45,
+  "learning_goals": [
+    "I can work independently on my MATHia playlist and engage in activities to support my individual learning goals."
+  ],
+  "big_ideas": null,
+  "essential_ideas": null,
+  "key_terms": null,
+  "lesson_structure_and_pacing_guide": [
+    {
+      "session": null,
+      "block": "Activate",
+      "activity_no": null,
+      "title": "Time to Factorize!",
+      "description": "Students analyze two strategies for identifying the prime factors of a number.",
+      "duration_minutes": 5,
+      "mode": "presentation"
+    },
+    {
+      "session": null,
+      "block": "Explore and Develop",
+      "activity_no": null,
+      "title": "Personalized Learning and Intervention",
+      "description": "### MATHia Playlist\n\n#### Using the Distributive Property with Numeric Expressions\nStudents apply distributive properties (multiplication over addition, division over addition) to rewrite numeric expressions and calculate efficiently.\n\n#### Determining the LCM or GCF of Two Numbers\nStudents use factor trees to determine the LCM or GCF of two numbers by identifying and multiplying shared and non-shared prime factors.\n\n### Clarify\n\n#### Center A: MATHstream Interactive Video\nStudents complete the Least Common Multiple MATHstream interactive video to revisit strategies for determining the least common multiple of two numbers less than or equal to 12.\n\n### Re-Teach\n\n#### Center B: MATHstream Interactive Video\nStudents complete a MATHstream video based on the instruction they missed.\n• Lesson 3 Searching for Common Ground\nº Using Rectangles to Identify Common Factors\nº Using Prime Factors to Identify Common Factors\nº Identifying Common Multiples",
+      "duration_minutes": 35,
+      "mode": "online"
+    },
+    {
+      "session": null,
+      "block": "Reflect",
+      "activity_no": null,
+      "title": "Learning Reflection",
+      "description": "Students reflect on the learning goals and MATHia workspaces they have engaged with in this topic.",
+      "duration_minutes": 5,
+      "mode": "book"
+    }
+  ],
+  "materials_needed": [
+    "If facilitating this lesson without student devices, no additional materials are needed.",
+    "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+  ]
+}

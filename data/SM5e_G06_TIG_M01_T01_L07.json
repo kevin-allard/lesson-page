@@ -1,0 +1,75 @@
+{
+  "lesson_type": "concept",
+  "lesson_number": 7,
+  "lesson_title": "I'd Divide",
+  "lesson_subtitle": "Modeling Fraction Division",
+  "lesson_description": "In this lesson, students use fraction strips and number line models to investigate the division of fractions by fractions.‚Äã They use these models to develop an algorithm for rewriting division sentences as multiplication sentences. Students then apply the procedure to solve problems involving fractions and mixed numbers.",
+  "lesson_pacing_min": 90,
+  "learning_goals": [
+    "I can model the division of fractions using pictures, bar models, and number lines.",
+    "I can interpret and compute quotients of fractions."
+  ],
+  "big_ideas": [
+    "Fraction Relationships"
+  ],
+  "essential_ideas": [
+    "You can use area models and fact families to illustrate the quotients of fractions.",
+    "The reciprocal or multiplicative inverse of a number a/b is the number b/a, where a and b are nonzero numbers.",
+    "To calculate the quotient of two fractions, multiply the dividend by the reciprocal of the divisor."
+  ],
+  "key_terms": [
+    "reciprocal",
+    "multiplicative inverse"
+  ],
+  "lesson_structure_and_pacing_guide": [
+    {
+      "session": 1,
+      "block": "Activate",
+      "activity_no": null,
+      "title": "All in the Fact Family",
+      "description": "Students identify an equation that is part of a multiplication-division fact family given an area model.",
+      "duration_minutes": 5,
+      "mode": "presentation"
+    },
+    {
+      "session": 1,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 1",
+      "title": "Whole Number ÷ Fraction",
+      "description": "Students investigate the division of whole numbers by fractions.",
+      "duration_minutes": 35,
+      "mode": "book"
+    },
+    {
+      "session": 2,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 2",
+      "title": "Fraction ÷ Fraction",
+      "description": "Students investigate the division of fractions by fractions.",
+      "duration_minutes": 15,
+      "mode": "book"
+    },
+    {
+      "session": 2,
+      "block": "Explore and Develop",
+      "activity_no": "Activity 3",
+      "title": "Moving from the Model to a Procedure",
+      "description": "Students develop an algorithm to rewrite division sentences as multiplication sentences.",
+      "duration_minutes": 20,
+      "mode": "online"
+    },
+    {
+      "session": 2,
+      "block": "Reflect",
+      "activity_no": null,
+      "title": "A Vision of Division",
+      "description": "Students apply the fraction division algorithm to solve real-world situations.",
+      "duration_minutes": 5,
+      "mode": "book"
+    }
+  ],
+  "materials_needed": [
+    "If facilitating this lesson without student devices, no additional materials are needed.",
+    "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+  ]
+}
