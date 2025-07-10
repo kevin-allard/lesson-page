@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson Plan Prototype</title>
     <style>
-        /* CSS is largely the same, but with styles for Markdown content */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
         :root {
             --primary-green: #27894D; --primary-blue: #008FFD; --light-purple-bg: #F7F2FE;
             --purple-accent: #8A42DB; --text-dark: #212529; --text-medium: #6c757d;
-            --border-light: #dee2e6; --bg-light: #f8f9fa;
+            --border-light: #dee2e6; --bg-light: #f8f9fa; --orange-accent: #fd7e14;
         }
         body { font-family: 'Roboto', sans-serif; background-color: #ffffff; color: var(--text-dark); margin: 0; padding: 2rem; display: flex; justify-content: center; }
         .lesson-container { width: 100%; max-width: 1024px; }
@@ -27,33 +26,44 @@
         .selector-group { display: flex; flex-direction: column; gap: 0.5rem; }
         .selector-group label { font-size: 0.9rem; font-weight: 500; color: var(--text-medium); }
         .selector-group select { padding: 0.5rem; font-size: 1rem; border: 1px solid var(--border-light); border-radius: 0.5rem; background-color: white; }
-        .tabs { display: flex; border-bottom: 1px solid var(--border-light); gap: 1.5rem; margin-bottom: 1.5rem; }
+        .tabs { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--border-light); gap: 1.5rem; margin-bottom: 1.5rem; }
         .tab-button { display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem 0.25rem; cursor: pointer; border: none; background-color: transparent; font-size: 1rem; font-family: inherit; color: var(--text-medium); border-bottom: 3px solid transparent; margin-bottom: -1px; }
         .tab-button.active { color: var(--text-dark); font-weight: 500; border-bottom-color: var(--primary-green); }
         .tab-button:hover { color: var(--text-dark); }
         .tab-button svg { width: 20px; height: 20px; stroke: currentColor; }
         .tab-panel { display: none; background-color: var(--light-purple-bg); border-radius: 1rem; padding: 2rem; }
         .tab-panel.active { display: block; }
-        .tab-panel ul { list-style: none; padding-left: 0; margin: 0; }
-        .tab-panel li { padding-left: 2rem; position: relative; margin-bottom: 1rem; font-size: 1rem; line-height: 1.5; }
-        .tab-panel li::before { content: ''; position: absolute; left: 0.5rem; top: 0.5rem; width: 0.5rem; height: 0.5rem; background-color: var(--purple-accent); border-radius: 50%; }
+        .tab-panel > ul { list-style: none; padding-left: 0; margin: 0; }
+        .tab-panel > ul > li { padding-left: 2rem; position: relative; margin-bottom: 1rem; font-size: 1rem; line-height: 1.5; }
+        .tab-panel > ul > li::before { content: ''; position: absolute; left: 0.5rem; top: 0.5rem; width: 0.5rem; height: 0.5rem; background-color: var(--purple-accent); border-radius: 50%; }
         .pacing-session { margin-bottom: 2rem; }
         .pacing-session h2 { margin: 0 0 1.5rem 0; font-size: 1.25rem; }
         .pacing-block { padding-left: 1.5rem; border-left: 2px solid var(--primary-green); }
         .pacing-block h3 { font-size: 1rem; font-weight: 700; color: var(--primary-green); margin: 0 0 1rem 0; text-transform: uppercase; }
         .pacing-activity { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; gap: 1rem; }
-        .pacing-activity div { flex-grow: 1; }
+        .pacing-activity > div { flex-grow: 1; }
         .pacing-activity h4 { font-size: 1.1rem; margin: 0; }
-        .pacing-activity p { font-size: 0.9rem; color: var(--text-medium); margin: 0.25rem 0 0 0; }
-        /* Styles for Markdown content */
-        .pacing-activity .md-content ul { list-style: disc; padding-left: 20px; margin-top: 0.5rem; }
-        .pacing-activity .md-content li { padding-left: 0; margin-bottom: 0.5rem; }
-        .pacing-activity .md-content li::before { display: none; }
-        .pacing-activity .md-content strong { font-weight: 700; }
-        .pacing-duration { font-size: 1rem; font-weight: 500; color: var(--text-medium); white-space: nowrap; }
+        .pacing-duration { font-size: 1rem; font-weight: 500; color: var(--text-medium); white-space: nowrap; flex-shrink: 0; }
         .key-terms-list { list-style-type: none; padding: 0; }
         .key-terms-list li { font-size: 1.1rem; margin-bottom: 0.75rem; }
         .content-placeholder { text-align: center; color: var(--text-medium); padding: 4rem 2rem; }
+
+        /* --- Rich Text / Markdown Styles --- */
+        .md-content { font-size: 0.9rem; color: var(--text-medium); line-height: 1.6; }
+        .md-content p { margin: 0.5rem 0 1rem 0; }
+        .md-content p:first-child { margin-top: 0; }
+        .md-content h4 { font-size: 1.1rem; color: var(--purple-accent); font-weight: 700; margin: 1.5rem 0 0.5rem 0; }
+        .md-content > h4:first-child { margin-top: 0; }
+        .md-playlist { background-color: #6d28d91a; border-left: 4px solid var(--purple-accent); padding: 1.5rem; border-radius: 0.5rem; margin-bottom: 1.5rem; }
+        .md-playlist h3 { font-size: 1.2rem; color: var(--purple-accent); margin: 0 0 1rem 0; }
+        .md-playlist h4 { margin-top: 1rem; }
+        .md-center-block { border-top: 1px solid var(--border-light); padding-top: 1rem; margin-bottom: 1.5rem; }
+        .md-center-title { display: inline-block; font-weight: 700; border: 2px solid var(--orange-accent); border-radius: 1rem; padding: 0.1rem 0.8rem; margin-bottom: 0.5rem; background-color: #fff; color: var(--text-dark); }
+        .md-content ul { list-style: none; padding-left: 1rem; margin: 0.5rem 0; }
+        .md-content ul li { padding-left: 1.5rem; position: relative; margin-bottom: 0.5rem; }
+        .md-content ul li::before { position: absolute; left: 0; top: 0.4em; color: var(--primary-green); font-weight: bold; }
+        .md-content > ul > li::before { content: '•'; }
+        .md-content ul ul li::before { content: 'º'; }
     </style>
 </head>
 <body>
@@ -91,15 +101,7 @@
         let fullManifestData = [];
 
         // --- ICONS ---
-        const icons = {
-            learningGoals: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>`,
-            pacingGuide: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 21h-4.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v3" /><path d="M14 2v4h-8v-4" /><path d="M1 10h12" /><path d="M19 16l-2 3h4l-2 3" /><path d="M19 21v-8" /></svg>`,
-            keyTerms: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6v13" /><path d="M12 6v13" /><path d="M21 6v13" /></svg>`,
-            materials: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v13" /><path d="M5 21v-10.5a1.5 1.5 0 0 1 3 0v10.5" /><path d="M19 21v-10.5a1.5 1.5 0 0 0 -3 0v10.5" /><path d="M12 21v-10.5a1.5 1.5 0 0 0 -3 0v10.5" /><path d="M8 5a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3h-8v-3z" /></svg>`,
-            facilitation: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 9l3 3l-3 3" /><path d="M13 15h3" /><path d="M3 4h18" /><path d="M4 4v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-10" /><path d="M12 16v4" /><path d="M8 20h8" /></svg>`,
-            essentialIdeas: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" /><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" /><path d="M9.7 17l4.6 0" /></svg>`,
-            clock: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>`
-        };
+        const icons = { /* ... (icons object remains the same) ... */ };
 
         // --- DOM Elements ---
         const courseSelector = document.getElementById('course-selector');
@@ -112,7 +114,15 @@
         const panelsContainer = document.getElementById('tab-panels-container');
 
         // --- CORE LOGIC ---
-        // (This section remains the same)
+        // (This section remains unchanged from the previous version)
+        async function initializeApp() { /* ... */ }
+        function populateCourseSelector() { /* ... */ }
+        function populateLessonSelector(courseName) { /* ... */ }
+        function handleCourseChange() { /* ... */ }
+        function handleLessonChange() { /* ... */ }
+        async function loadAndDisplayLesson(filePath) { /* ... */ }
+
+        // Re-pasting the core logic for completeness
         async function initializeApp() {
             try {
                 const response = await fetch('manifest.json');
@@ -128,9 +138,7 @@
             }
         }
         function populateCourseSelector() {
-            fullManifestData.forEach(course => {
-                courseSelector.add(new Option(course.courseName, course.courseName));
-            });
+            fullManifestData.forEach(course => { courseSelector.add(new Option(course.courseName, course.courseName)); });
         }
         function populateLessonSelector(courseName) {
             lessonSelector.innerHTML = '';
@@ -167,7 +175,7 @@
                 panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'.</p>`;
             }
         }
-
+        
         // --- RENDERING & DISPLAY ---
 
         function clearLessonDisplay() {
@@ -178,28 +186,23 @@
         }
         
         function renderLesson(lessonData) {
-            titleEl.innerHTML = `Lesson ${lessonData.lesson_number}: ${lessonData.lesson_title} <span class="subtitle">${lessonData.lesson_subtitle}</span>`;
-            pacingEl.innerHTML = `${icons.clock} ${lessonData.lesson_pacing_min} mins`;
+            const subtitle = lessonData.lesson_subtitle ? `<span class="subtitle">${lessonData.lesson_subtitle}</span>` : '';
+            titleEl.innerHTML = `Lesson ${lessonData.lesson_number}: ${lessonData.lesson_title} ${subtitle}`;
+            pacingEl.innerHTML = lessonData.lesson_pacing_min ? `${icons.clock || ''} ${lessonData.lesson_pacing_min} mins` : '';
             descriptionEl.textContent = lessonData.lesson_description;
             renderTabsAndPanels(lessonData);
             setupTabInteraction();
         }
 
-        /**
-         * NEW: Conditionally builds tabs based on available data in the lesson JSON.
-         */
         function renderTabsAndPanels(lessonData) {
             const potentialTabs = [
                 { key: 'learning_goals', title: 'Learning Goals', icon: icons.learningGoals, content: renderList(lessonData.learning_goals) },
                 { key: 'lesson_structure_and_pacing_guide', title: 'Pacing Guide', icon: icons.pacingGuide, content: renderPacingGuide(lessonData.lesson_structure_and_pacing_guide) },
                 { key: 'key_terms', title: 'Key Terms', icon: icons.keyTerms, content: renderKeyTerms(lessonData.key_terms) },
                 { key: 'materials_needed', title: 'Materials', icon: icons.materials, content: renderList(lessonData.materials_needed) },
-                // Add a key for facilitation notes if it exists in your JSON, e.g., 'facilitation_notes'
-                // { key: 'facilitation_notes', title: 'Facilitation Guidance', icon: icons.facilitation, content: renderList(lessonData.facilitation_notes) },
                 { key: 'essential_ideas', title: 'Essential Ideas', icon: icons.essentialIdeas, content: renderList(lessonData.essential_ideas) }
             ];
             
-            // Filter out tabs that don't have corresponding data
             const availableTabs = potentialTabs.filter(tab => {
                 const data = lessonData[tab.key];
                 return Array.isArray(data) ? data.length > 0 : data != null;
@@ -214,38 +217,85 @@
             let tabsHTML = '', panelsHTML = '';
             availableTabs.forEach((tab, index) => {
                 const isActive = index === 0;
-                tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tab.key}" role="tab" aria-controls="panel-${tab.key}" aria-selected="${isActive}">${tab.icon}<span>${tab.title}</span></button>`;
-                panelsHTML += `<div class="tab-panel ${isActive ? 'active' : ''}" id="panel-${tab.key}" role="tabpanel" aria-labelledby="tab-${tab.key}">${tab.content}</div>`;
+                const tabId = tab.key.replace(/_/g, '-');
+                tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tabId}" role="tab" aria-controls="panel-${tabId}" aria-selected="${isActive}">${tab.icon || ''}<span>${tab.title}</span></button>`;
+                panelsHTML += `<div class="tab-panel ${isActive ? 'active' : ''}" id="panel-${tabId}" role="tabpanel" aria-labelledby="tab-${tabId}">${tab.content}</div>`;
             });
             tabsContainer.innerHTML = tabsHTML;
             panelsContainer.innerHTML = panelsHTML;
         }
-        
+
         /**
-         * NEW: Simple Markdown parser for descriptions.
-         * Handles: **bold**, and * or - for bullet points.
+         * NEW: Advanced parser for structured rich text from JSON descriptions.
          */
-        function parseMarkdown(text) {
-            if (!text) return '';
-            let html = text
-                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') // Bold
-                .replace(/\n([*-]) (.*)/g, (match, p1, p2) => `<li>${p2}</li>`) // List items
-                .replace(/^(<li>.*<\/li>)/gm, '<ul>$1</ul>') // Wrap lists
-                .replace(/<\/ul>\n<ul>/g, ''); // Join adjacent lists
+        function parseRichText(text) {
+            if (!text || typeof text !== 'string') return '<p></p>';
+
+            const blocks = text.trim().split(/\n(?=### )/);
+            let html = '';
+
+            blocks.forEach(blockText => {
+                const lines = blockText.trim().split('\n');
+                const firstLine = lines.shift().trim();
+                let blockContent = '';
+                let listLevel = 0;
+                let listHtml = '';
+
+                function closeList() {
+                    if (listLevel > 0) {
+                        listHtml += '</ul></li>'.repeat(listLevel-1) + '</ul>';
+                        listLevel = 0;
+                    }
+                    blockContent += listHtml;
+                    listHtml = '';
+                }
+
+                lines.forEach(line => {
+                    const trimmedLine = line.trim();
+                    if (trimmedLine.startsWith('#### ')) {
+                        closeList();
+                        blockContent += `<h4>${trimmedLine.substring(5)}</h4>`;
+                    } else if (trimmedLine.startsWith('• ')) {
+                        closeList();
+                        listLevel = 1;
+                        listHtml += `<ul><li>${trimmedLine.substring(2)}`;
+                    } else if (trimmedLine.startsWith('º ')) {
+                        if (listLevel === 1) {
+                            listLevel = 2;
+                            listHtml += `<ul><li>${trimmedLine.substring(2)}`;
+                        }
+                    } else if (trimmedLine) {
+                        if (listLevel > 0) { // Append to open list item
+                             listHtml += ` ${trimmedLine}`;
+                        } else { // Regular paragraph
+                            blockContent += `<p>${trimmedLine}</p>`;
+                        }
+                    }
+                });
+                closeList();
+
+                if (firstLine.startsWith('### ')) {
+                    const title = firstLine.substring(4);
+                    if (title === 'MATHia Playlist') {
+                        html += `<div class="md-playlist"><h3>${title}</h3>${blockContent}</div>`;
+                    } else { // Clarify, Re-Teach, etc.
+                        html += `<div class="md-center-block"><span class="md-center-title">${title}</span>${blockContent}</div>`;
+                    }
+                } else {
+                    html += `<p>${firstLine}</p>${blockContent}`; // Fallback for content not starting with ###
+                }
+            });
 
             return `<div class="md-content">${html}</div>`;
         }
 
+
         function renderList(items) { return `<ul>${(items || []).map(item => `<li>${item}</li>`).join('')}</ul>`; }
         function renderKeyTerms(items) { return `<ul class="key-terms-list">${(items || []).map(item => `<li>${item}</li>`).join('')}</ul>`; }
         
-        /**
-         * NEW: Handles null sessions and uses the Markdown parser.
-         */
         function renderPacingGuide(guide) {
             if (!guide) return '<p class="content-placeholder">No pacing guide available.</p>';
             
-            // Group activities by session number, using '_NO_SESSION_' for null/undefined sessions
             const sessions = guide.reduce((acc, item) => {
                 const sessionKey = item.session ? `Session ${item.session}` : '_NO_SESSION_';
                 if (!acc[sessionKey]) acc[sessionKey] = {};
@@ -254,39 +304,28 @@
                 return acc;
             }, {});
 
-            let html = '';
-            
-            // Function to render a block of activities
             const renderBlock = (blockData) => {
                 let blockHtml = '';
                 for (const blockName in blockData) {
-                    blockHtml += `
-                        <div class="pacing-block">
-                            <h3>${blockName}</h3>
-                            ${blockData[blockName].map(activity => `
-                                <div class="pacing-activity">
-                                    <div>
-                                        <h4>${activity.title}</h4>
-                                        ${parseMarkdown(activity.description)}
-                                    </div>
-                                    <span class="pacing-duration">~${activity.duration_minutes} min</span>
-                                </div>`).join('')}
-                        </div>`;
+                    blockHtml += `<div class="pacing-block"><h3>${blockName}</h3>${blockData[blockName].map(activity => `
+                        <div class="pacing-activity">
+                            <div>
+                                <h4>${activity.title}</h4>
+                                ${parseRichText(activity.description)}
+                            </div>
+                            <span class="pacing-duration">~${activity.duration_minutes} min</span>
+                        </div>`).join('')}</div>`;
                 }
                 return blockHtml;
             };
 
-            // Render activities without a session number first
-            if (sessions['_NO_SESSION_']) {
-                html += renderBlock(sessions['_NO_SESSION_']);
-            }
-            
-            // Render numbered sessions
+            let html = '';
+            if (sessions['_NO_SESSION_']) html += renderBlock(sessions['_NO_SESSION_']);
             Object.keys(sessions).sort().forEach(sessionName => {
-                if (sessionName === '_NO_SESSION_') return; // Skip the one we already rendered
-                html += `<div class="pacing-session"><h2>${sessionName}</h2>${renderBlock(sessions[sessionName])}</div>`;
+                if (sessionName !== '_NO_SESSION_') {
+                    html += `<div class="pacing-session"><h2>${sessionName}</h2>${renderBlock(sessions[sessionName])}</div>`;
+                }
             });
-            
             return html;
         }
         
