@@ -55,7 +55,7 @@
   {
     "courseName": "Algebra I",
     "lessons": [
-
+     {
         "name": "M1 T1 L1: Making Connections Between Arithmetic Sequences and Linear Functions",
         "path": "data/SM5e_A1_TIG_M02_T04_L01.json"
       }
