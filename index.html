@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson Plan Prototype</title>
     <style>
-        /* CSS remains the same, with minor additions for the new selector */
+        /* CSS is largely the same, but with styles for Markdown content */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
         :root {
             --primary-green: #27894D; --primary-blue: #008FFD; --light-purple-bg: #F7F2FE;
@@ -24,8 +24,6 @@
         .lesson-pacing svg { width: 20px; height: 20px; }
         .lesson-description { font-size: 1rem; line-height: 1.6; color: var(--text-medium); }
         .lesson-actions { display: flex; flex-direction: column; gap: 1rem; min-width: 220px; }
-        .quick-start-btn { background-color: var(--primary-green); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 0.5rem; font-size: 1rem; font-weight: 500; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; white-space: nowrap; }
-        .quick-start-btn:hover { opacity: 0.9; }
         .selector-group { display: flex; flex-direction: column; gap: 0.5rem; }
         .selector-group label { font-size: 0.9rem; font-weight: 500; color: var(--text-medium); }
         .selector-group select { padding: 0.5rem; font-size: 1rem; border: 1px solid var(--border-light); border-radius: 0.5rem; background-color: white; }
@@ -47,6 +45,11 @@
         .pacing-activity div { flex-grow: 1; }
         .pacing-activity h4 { font-size: 1.1rem; margin: 0; }
         .pacing-activity p { font-size: 0.9rem; color: var(--text-medium); margin: 0.25rem 0 0 0; }
+        /* Styles for Markdown content */
+        .pacing-activity .md-content ul { list-style: disc; padding-left: 20px; margin-top: 0.5rem; }
+        .pacing-activity .md-content li { padding-left: 0; margin-bottom: 0.5rem; }
+        .pacing-activity .md-content li::before { display: none; }
+        .pacing-activity .md-content strong { font-weight: 700; }
         .pacing-duration { font-size: 1rem; font-weight: 500; color: var(--text-medium); white-space: nowrap; }
         .key-terms-list { list-style-type: none; padding: 0; }
         .key-terms-list li { font-size: 1.1rem; margin-bottom: 0.75rem; }
@@ -57,9 +60,7 @@
     <div class="lesson-container">
         <header class="lesson-header">
             <div class="lesson-image">
-                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="50" cy="50" r="45" fill="#e9ecef"/><path d="M50 5C25.1472 5 5 25.1472 5 50C5 74.8528 25.1472 95 50 95C74.8528 95 95 74.8528 95 50" stroke="#adb5bd" stroke-width="4" stroke-linecap="round"/><circle cx="50" cy="50" r="30" fill="white"/><circle cx="50" cy="50" r="20" fill="#ced4da"/><path d="M50 10V30" stroke="#495057" stroke-width="4" stroke-linecap="round"/>
-                </svg>
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#e9ecef"/><path d="M50 5C25.1472 5 5 25.1472 5 50C5 74.8528 25.1472 95 50 95C74.8528 95 95 74.8528 95 50" stroke="#adb5bd" stroke-width="4" stroke-linecap="round"/><circle cx="50" cy="50" r="30" fill="white"/><circle cx="50" cy="50" r="20" fill="#ced4da"/><path d="M50 10V30" stroke="#495057" stroke-width="4" stroke-linecap="round"/></svg>
             </div>
             <div class="lesson-details">
                 <h1 id="lesson-title-subtitle"></h1>
@@ -111,77 +112,55 @@
         const panelsContainer = document.getElementById('tab-panels-container');
 
         // --- CORE LOGIC ---
+        // (This section remains the same)
         async function initializeApp() {
             try {
                 const response = await fetch('manifest.json');
                 if (!response.ok) throw new Error("Manifest file not found.");
                 fullManifestData = await response.json();
                 populateCourseSelector();
-                
-                // Add event listeners
                 courseSelector.addEventListener('change', handleCourseChange);
                 lessonSelector.addEventListener('change', handleLessonChange);
-                
-                // Trigger initial population and load
                 handleCourseChange();
-
             } catch (error) {
                 console.error("Initialization failed:", error);
-                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json. Please ensure the file exists and is correctly formatted.</p>`;
+                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json.</p>`;
             }
         }
-        
         function populateCourseSelector() {
             fullManifestData.forEach(course => {
-                const option = document.createElement('option');
-                option.value = course.courseName;
-                option.textContent = course.courseName;
-                courseSelector.appendChild(option);
+                courseSelector.add(new Option(course.courseName, course.courseName));
             });
         }
-
         function populateLessonSelector(courseName) {
-            // Clear previous lesson options
             lessonSelector.innerHTML = '';
-            
             const course = fullManifestData.find(c => c.courseName === courseName);
-            
             if (course && course.lessons.length > 0) {
                 lessonSelector.disabled = false;
-                course.lessons.forEach(lesson => {
-                    const option = new Option(lesson.name, lesson.path);
-                    lessonSelector.add(option);
-                });
+                course.lessons.forEach(lesson => lessonSelector.add(new Option(lesson.name, lesson.path)));
             } else {
                 lessonSelector.disabled = true;
-                const option = new Option('No lessons available', '');
-                lessonSelector.add(option);
+                lessonSelector.add(new Option('No lessons available', ''));
             }
         }
-
         function handleCourseChange() {
-            const selectedCourseName = courseSelector.value;
-            populateLessonSelector(selectedCourseName);
-            handleLessonChange(); // Auto-select and load the first lesson of the new course
+            populateLessonSelector(courseSelector.value);
+            handleLessonChange();
         }
-
         function handleLessonChange() {
-            const selectedLessonPath = lessonSelector.value;
-            if (selectedLessonPath) {
-                loadAndDisplayLesson(selectedLessonPath);
+            if (lessonSelector.value) {
+                loadAndDisplayLesson(lessonSelector.value);
             } else {
-                // Handle case where a course has no lessons
                 clearLessonDisplay();
             }
         }
-
         async function loadAndDisplayLesson(filePath) {
             try {
                 const response = await fetch(filePath);
                 if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 const lessonData = await response.json();
                 renderLesson(lessonData);
-                contentArea.style.display = 'block'; // Show content area
+                contentArea.style.display = 'block';
             } catch (error) {
                 console.error("Could not load or render lesson:", error);
                 clearLessonDisplay();
@@ -195,58 +174,119 @@
             titleEl.innerHTML = 'No Lesson Selected';
             pacingEl.innerHTML = '';
             descriptionEl.innerHTML = '';
-            contentArea.style.display = 'none'; // Hide content area
+            contentArea.style.display = 'none';
         }
         
         function renderLesson(lessonData) {
-            // Render Header
             titleEl.innerHTML = `Lesson ${lessonData.lesson_number}: ${lessonData.lesson_title} <span class="subtitle">${lessonData.lesson_subtitle}</span>`;
             pacingEl.innerHTML = `${icons.clock} ${lessonData.lesson_pacing_min} mins`;
             descriptionEl.textContent = lessonData.lesson_description;
-
-            // Render Tabs and Panels
             renderTabsAndPanels(lessonData);
             setupTabInteraction();
         }
 
+        /**
+         * NEW: Conditionally builds tabs based on available data in the lesson JSON.
+         */
         function renderTabsAndPanels(lessonData) {
-            const tabs = [
-                { id: 'learning-goals', title: 'Learning Goals', icon: icons.learningGoals, content: renderList(lessonData.learning_goals) },
-                { id: 'pacing-guide', title: 'Pacing Guide', icon: icons.pacingGuide, content: renderPacingGuide(lessonData.lesson_structure_and_pacing_guide) },
-                { id: 'key-terms', title: 'Key Terms', icon: icons.keyTerms, content: renderKeyTerms(lessonData.key_terms) },
-                { id: 'materials', title: 'Materials', icon: icons.materials, content: renderList(lessonData.materials_needed) },
-                { id: 'facilitation', title: 'Facilitation Guidance', icon: icons.facilitation, content: `<p class="content-placeholder">Facilitation guidance and resources will be displayed here.</p>` },
-                { id: 'essential-ideas', title: 'Essential Ideas', icon: icons.essentialIdeas, content: renderList(lessonData.essential_ideas) }
+            const potentialTabs = [
+                { key: 'learning_goals', title: 'Learning Goals', icon: icons.learningGoals, content: renderList(lessonData.learning_goals) },
+                { key: 'lesson_structure_and_pacing_guide', title: 'Pacing Guide', icon: icons.pacingGuide, content: renderPacingGuide(lessonData.lesson_structure_and_pacing_guide) },
+                { key: 'key_terms', title: 'Key Terms', icon: icons.keyTerms, content: renderKeyTerms(lessonData.key_terms) },
+                { key: 'materials_needed', title: 'Materials', icon: icons.materials, content: renderList(lessonData.materials_needed) },
+                // Add a key for facilitation notes if it exists in your JSON, e.g., 'facilitation_notes'
+                // { key: 'facilitation_notes', title: 'Facilitation Guidance', icon: icons.facilitation, content: renderList(lessonData.facilitation_notes) },
+                { key: 'essential_ideas', title: 'Essential Ideas', icon: icons.essentialIdeas, content: renderList(lessonData.essential_ideas) }
             ];
+            
+            // Filter out tabs that don't have corresponding data
+            const availableTabs = potentialTabs.filter(tab => {
+                const data = lessonData[tab.key];
+                return Array.isArray(data) ? data.length > 0 : data != null;
+            });
+
+            if (availableTabs.length === 0) {
+                tabsContainer.innerHTML = '';
+                panelsContainer.innerHTML = '<p class="content-placeholder">No detailed information available for this lesson.</p>';
+                return;
+            }
 
             let tabsHTML = '', panelsHTML = '';
-            tabs.forEach((tab, index) => {
+            availableTabs.forEach((tab, index) => {
                 const isActive = index === 0;
-                tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tab.id}" role="tab" aria-controls="panel-${tab.id}" aria-selected="${isActive}">${tab.icon}<span>${tab.title}</span></button>`;
-                panelsHTML += `<div class="tab-panel ${isActive ? 'active' : ''}" id="panel-${tab.id}" role="tabpanel" aria-labelledby="tab-${tab.id}">${tab.content}</div>`;
+                tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tab.key}" role="tab" aria-controls="panel-${tab.key}" aria-selected="${isActive}">${tab.icon}<span>${tab.title}</span></button>`;
+                panelsHTML += `<div class="tab-panel ${isActive ? 'active' : ''}" id="panel-${tab.key}" role="tabpanel" aria-labelledby="tab-${tab.key}">${tab.content}</div>`;
             });
             tabsContainer.innerHTML = tabsHTML;
             panelsContainer.innerHTML = panelsHTML;
         }
         
-        function renderList(items) { return `<ul>${(items || []).map(item => `<li>${item}</li>`).join('')}</ul>` || '<p>No items to display.</p>'; }
-        function renderKeyTerms(items) { return `<ul class="key-terms-list">${(items || []).map(item => `<li>${item}</li>`).join('')}</ul>` || '<p>No key terms for this lesson.</p>'; }
+        /**
+         * NEW: Simple Markdown parser for descriptions.
+         * Handles: **bold**, and * or - for bullet points.
+         */
+        function parseMarkdown(text) {
+            if (!text) return '';
+            let html = text
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') // Bold
+                .replace(/\n([*-]) (.*)/g, (match, p1, p2) => `<li>${p2}</li>`) // List items
+                .replace(/^(<li>.*<\/li>)/gm, '<ul>$1</ul>') // Wrap lists
+                .replace(/<\/ul>\n<ul>/g, ''); // Join adjacent lists
+
+            return `<div class="md-content">${html}</div>`;
+        }
+
+        function renderList(items) { return `<ul>${(items || []).map(item => `<li>${item}</li>`).join('')}</ul>`; }
+        function renderKeyTerms(items) { return `<ul class="key-terms-list">${(items || []).map(item => `<li>${item}</li>`).join('')}</ul>`; }
+        
+        /**
+         * NEW: Handles null sessions and uses the Markdown parser.
+         */
         function renderPacingGuide(guide) {
             if (!guide) return '<p class="content-placeholder">No pacing guide available.</p>';
+            
+            // Group activities by session number, using '_NO_SESSION_' for null/undefined sessions
             const sessions = guide.reduce((acc, item) => {
-                const sessionKey = `Session ${item.session}`;
-                if (!acc[sessionKey]) { acc[sessionKey] = {}; }
-                if (!acc[sessionKey][item.block]) { acc[sessionKey][item.block] = []; }
-                acc[sessionKey][item.block].push(item); return acc;
+                const sessionKey = item.session ? `Session ${item.session}` : '_NO_SESSION_';
+                if (!acc[sessionKey]) acc[sessionKey] = {};
+                if (!acc[sessionKey][item.block]) acc[sessionKey][item.block] = [];
+                acc[sessionKey][item.block].push(item); 
+                return acc;
             }, {});
+
             let html = '';
-            for (const sessionName in sessions) {
-                html += `<div class="pacing-session"><h2>${sessionName}</h2>`;
-                for (const blockName in sessions[sessionName]) {
-                    html += `<div class="pacing-block"><h3>${blockName}</h3>${sessions[sessionName][blockName].map(activity => `<div class="pacing-activity"><div><h4>${activity.title}</h4><p>${activity.description}</p></div><span class="pacing-duration">~${activity.duration_minutes} min</span></div>`).join('')}</div>`;
+            
+            // Function to render a block of activities
+            const renderBlock = (blockData) => {
+                let blockHtml = '';
+                for (const blockName in blockData) {
+                    blockHtml += `
+                        <div class="pacing-block">
+                            <h3>${blockName}</h3>
+                            ${blockData[blockName].map(activity => `
+                                <div class="pacing-activity">
+                                    <div>
+                                        <h4>${activity.title}</h4>
+                                        ${parseMarkdown(activity.description)}
+                                    </div>
+                                    <span class="pacing-duration">~${activity.duration_minutes} min</span>
+                                </div>`).join('')}
+                        </div>`;
                 }
-                html += `</div>`;
+                return blockHtml;
+            };
+
+            // Render activities without a session number first
+            if (sessions['_NO_SESSION_']) {
+                html += renderBlock(sessions['_NO_SESSION_']);
             }
+            
+            // Render numbered sessions
+            Object.keys(sessions).sort().forEach(sessionName => {
+                if (sessionName === '_NO_SESSION_') return; // Skip the one we already rendered
+                html += `<div class="pacing-session"><h2>${sessionName}</h2>${renderBlock(sessions[sessionName])}</div>`;
+            });
+            
             return html;
         }
         
