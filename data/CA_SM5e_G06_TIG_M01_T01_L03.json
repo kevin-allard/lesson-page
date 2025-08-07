@@ -59,28 +59,24 @@
       "overview_item_title": "Key Terms",
       "overview_item_data": {
         "overview_item_data_type": "group_list",
-        "overview_item_data_items": [
+        "overview_item_data_groups": [
           {
-            "overview_item_data_groups": [
-              {
-                "overview_item_data_group_title": "Activity 1",
-                "overview_item_data_group_items": [
-                  "common factors"
-                ]
-              },
-              {
-                "overview_item_data_group_title": "Activity 2",
-                "overview_item_data_group_items": [
-                  "greatest common factor (GCF)",
-                  "relatively prime"
-                ]
-              },
-              {
-                "overview_item_data_group_title": "Activity 3",
-                "overview_item_data_group_items": [
-                  "least common multiple (LCM)"
-                ]
-              }
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "common factors"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "greatest common factor (GCF)",
+              "relatively prime"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "least common multiple (LCM)"
             ]
           }
         ]
@@ -91,76 +87,72 @@
       "overview_item_title": "Lesson Structure and Pacing Guide",
       "overview_item_data": {
         "overview_item_data_type": "session_list",
-        "overview_item_data_items": [
+        "overview_item_data_groups": [
           {
-            "overview_item_data_groups": [
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_group_items": [
               {
-                "overview_item_data_group_title": "Session 1",
+                "overview_item_data_group_title": "Activate",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_title": "Activate",
-                    "overview_item_data_group_items": [
-                      {
-                        "overview_item_data_group_item_type": "presentation",
-                        "overview_item_data_group_item_title": "The \"It\" Factor",
-                        "overview_item_data_group_item_description": "Students use a situation to determine how to share items equally.",
-                        "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
-                      }
-                    ]
-                  },
-                  {
-                    "overview_item_data_group_title": "Explore and Develop",
-                    "overview_item_data_group_items": [
-                      {
-                        "overview_item_data_group_item_type": "book",
-                        "overview_item_data_group_item_prefix": "Activity 1",
-                        "overview_item_data_group_item_title": "Understanding Common Factors",
-                        "overview_item_data_group_item_description": "Students create rectangular arrays to explore factors.",
-                        "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
-                      },
-                      {
-                        "overview_item_data_group_item_type": "book",
-                        "overview_item_data_group_item_prefix": "Activity 2",
-                        "overview_item_data_group_item_title": "Prime Factors and Common Factors",
-                        "overview_item_data_group_item_description": "Students write prime factorizations and use them to determine the GCF of two numbers.",
-                        "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
-                      }
-                    ]
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "The \"It\" Factor",
+                    "overview_item_data_group_item_description": "Students use a situation to determine how to share items equally.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
                   }
                 ]
               },
               {
-                "overview_item_data_group_title": "Session 2",
+                "overview_item_data_group_title": "Explore and Develop",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_title": "Explore and Develop",
-                    "overview_item_data_group_items": [
-                      {
-                        "overview_item_data_group_item_type": "book",
-                        "overview_item_data_group_item_prefix": "Activity 3",
-                        "overview_item_data_group_item_title": "Common Multiples",
-                        "overview_item_data_group_item_description": "Students use a rectangular array to generate lists of common multiples of two numbers.",
-                        "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
-                      },
-                      {
-                        "overview_item_data_group_item_type": "online",
-                        "overview_item_data_group_item_prefix": "Activity 4",
-                        "overview_item_data_group_item_title": "Determining GCF and LCM",
-                        "overview_item_data_group_item_description": "Students practice determining the GCF and LCM of pairs of numbers.",
-                        "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
-                      }
-                    ]
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Understanding Common Factors",
+                    "overview_item_data_group_item_description": "Students create rectangular arrays to explore factors.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
                   },
                   {
-                    "overview_item_data_group_title": "Reflect",
-                    "overview_item_data_group_items": [
-                      {
-                        "overview_item_data_group_item_type": "book",
-                        "overview_item_data_group_item_title": "Bringing It Back Around",
-                        "overview_item_data_group_item_description": "Students rewrite the sum of two numbers using the Distributive Property and generalize about least common multiples.",
-                        "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
-                      }
-                    ]
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Prime Factors and Common Factors",
+                    "overview_item_data_group_item_description": "Students write prime factorizations and use them to determine the GCF of two numbers.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_group_items": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Common Multiples",
+                    "overview_item_data_group_item_description": "Students use a rectangular array to generate lists of common multiples of two numbers.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "online",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Determining GCF and LCM",
+                    "overview_item_data_group_item_description": "Students practice determining the GCF and LCM of pairs of numbers.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Bringing It Back Around",
+                    "overview_item_data_group_item_description": "Students rewrite the sum of two numbers using the Distributive Property and generalize about least common multiples.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
                   }
                 ]
               }
