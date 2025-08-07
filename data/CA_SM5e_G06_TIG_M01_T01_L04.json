@@ -23,7 +23,6 @@
       "overview_item_title": "My Learning Goals",
       "overview_item_data": {
         "overview_item_data_type": "list",
-        "overview_item_content_type": "html",
         "overview_item_data_items": [
           "I can work independently on my MATHia playlist and engage in activities to support my individual learning goals."
         ]
@@ -34,11 +33,10 @@
       "overview_item_title": "Lesson Structure and Pacing Guide",
       "overview_item_data": {
         "overview_item_data_type": "session_list",
-        "overview_item_content_type": "text",
         "overview_item_data_groups": [
           {
             "overview_item_data_group_title": "Session 1",
-            "overview_item_data_groups": [
+            "overview_item_data_group_items": [
               {
                 "overview_item_data_group_title": "Activate",
                 "overview_item_data_group_items": [
@@ -46,10 +44,7 @@
                     "overview_item_data_group_item_type": "presentation",
                     "overview_item_data_group_item_title": "Student-Led Debrief",
                     "overview_item_data_group_item_description": "Students analyze their progress on their MATHia playlist and identify areas of strength and areas for growth.",
-                    "overview_item_data_group_item_pacing": {
-                      "pacing_type": "minutes",
-                      "pacing_amount": 5
-                    }
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
                   }
                 ]
               },
@@ -60,10 +55,7 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_title": "Independent and Collaborative Work",
                     "overview_item_data_group_item_description": "### MATHia Playlist\n\nStudents work individually on their assigned workspaces.\n\n### Clarify\n\nStudents work in pairs or small groups to collaboratively solve problems and discuss concepts from the previous lesson on common factors and multiples.\n\n### Re-Teach\n\nThe teacher may pull a small group for a mini-lesson on determining the greatest common factor or least common multiple.",
-                    "overview_item_data_group_item_pacing": {
-                      "pacing_type": "minutes",
-                      "pacing_amount": 30
-                    }
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 30 }
                   }
                 ]
               },
@@ -74,10 +66,7 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_title": "Look Both Ways",
                     "overview_item_data_group_item_description": "Students reflect on their progress and set goals for their next work session.",
-                    "overview_item_data_group_item_pacing": {
-                      "pacing_type": "minutes",
-                      "pacing_amount": 10
-                    }
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
                   }
                 ]
               }
@@ -91,7 +80,6 @@
       "overview_item_title": "Materials Needed",
       "overview_item_data": {
         "overview_item_data_type": "list",
-        "overview_item_content_type": "text",
         "overview_item_data_items": [
           "If facilitating this lesson without student devices, no additional materials are needed.",
           "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."

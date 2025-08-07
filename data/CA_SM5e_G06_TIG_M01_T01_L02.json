@@ -23,7 +23,6 @@
       "overview_item_title": "My Learning Goals",
       "overview_item_data": {
         "overview_item_data_type": "list",
-        "overview_item_content_type": "html",
         "overview_item_data_items": [
           "I can work independently on my MATHia playlist and engage in activities to support my individual learning goals."
         ]
@@ -34,11 +33,10 @@
       "overview_item_title": "Lesson Structure and Pacing Guide",
       "overview_item_data": {
         "overview_item_data_type": "session_list",
-        "overview_item_content_type": "text",
         "overview_item_data_groups": [
           {
             "overview_item_data_group_title": "Session 1",
-            "overview_item_data_groups": [
+            "overview_item_data_group_items": [
               {
                 "overview_item_data_group_title": "Activate",
                 "overview_item_data_group_items": [
@@ -46,10 +44,7 @@
                     "overview_item_data_group_item_type": "presentation",
                     "overview_item_data_group_item_title": "Number Comparison",
                     "overview_item_data_group_item_description": "Students compare two whole numbers by describing their similarities and differences.",
-                    "overview_item_data_group_item_pacing": {
-                      "pacing_type": "minutes",
-                      "pacing_amount": 5
-                    }
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
                   }
                 ]
               },
@@ -60,10 +55,7 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_title": "Personalized Learning and Intervention",
                     "overview_item_data_group_item_description": "### MATHia Playlist\n\nStudents work individually on their assigned workspaces.\n\n### Clarify\n\nStudents work in pairs or small groups to collaboratively solve problems and discuss concepts from the previous lesson on the Distributive Property.\n\n### Re-Teach\n\nThe teacher may pull a small group for a mini-lesson on writing equivalent expressions using the Distributive Property.",
-                    "overview_item_data_group_item_pacing": {
-                      "pacing_type": "minutes",
-                      "pacing_amount": 35
-                    }
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 35 }
                   }
                 ]
               },
@@ -74,10 +66,7 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_title": "Learning Reflection",
                     "overview_item_data_group_item_description": "Students reflect on the learning goals and MATHia workspaces they have engaged with in this topic.",
-                    "overview_item_data_group_item_pacing": {
-                      "pacing_type": "minutes",
-                      "pacing_amount": 5
-                    }
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
                   }
                 ]
               }
@@ -91,7 +80,6 @@
       "overview_item_title": "Materials Needed",
       "overview_item_data": {
         "overview_item_data_type": "list",
-        "overview_item_content_type": "text",
         "overview_item_data_items": [
           "If facilitating this lesson without student devices, no additional materials are needed.",
           "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
