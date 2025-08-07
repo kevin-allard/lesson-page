@@ -107,7 +107,6 @@
 
         function clearLessonDisplay() { titleEl.innerHTML = 'No Lesson Selected'; pacingEl.innerHTML = ''; descriptionEl.innerHTML = ''; contentArea.style.display = 'none'; }
         
-        // --- UPDATED: Main Render Function for v7 ---
         function renderLesson(lessonData) {
             const metadata = lessonData.overview_metadata;
             const subtitle = metadata.overview_subtitle ? `<span class="subtitle">${metadata.overview_subtitle}</span>` : '';
@@ -118,7 +117,6 @@
             setupTabInteraction();
         }
 
-        // --- UPDATED: Tab and Panel Rendering for v7 ---
         function renderTabsAndPanels(lessonData) {
             const tabDefinitions = {
                 learning_goals: { title: 'Learning Goals', icon: icons.learning_goals, renderer: renderList },
@@ -140,7 +138,7 @@
             
             availableItems.forEach((item, index) => {
                 const tabDef = tabDefinitions[item.overview_item_type];
-                if (!tabDef) return; // Skip if type is unknown
+                if (!tabDef) return;
 
                 const isActive = index === 0;
                 const tabId = item.overview_item_type.replace(/_/g, '-');
@@ -159,15 +157,15 @@
             panelsContainer.innerHTML = panelsHTML;
         }
 
-        // --- UPDATED: Renderer for Simple Lists for v7 ---
         function renderList(itemData) {
             const items = itemData.overview_item_data_items || [];
             return `<ul>${items.map(item => `<li>${item}</li>`).join('')}</ul>`;
         }
 
-        // --- UPDATED: Renderer for Grouped Key Terms for v7 ---
+        // --- CORRECTED: Renderer for Grouped Key Terms ---
         function renderKeyTerms(itemData) {
-            const groups = itemData.overview_item_data_groups || [];
+            // The groups are now nested inside the first element of overview_item_data_items
+            const groups = itemData.overview_item_data_items?.[0]?.overview_item_data_groups || [];
             if (groups.length === 0) return '<p class="content-placeholder">No key terms available.</p>';
             
             return groups.map(group => {
@@ -183,14 +181,17 @@
             }).join('');
         }
 
-        // --- UPDATED: Renderer for Pacing Guide for v7 ---
+        // --- CORRECTED: Renderer for Pacing Guide ---
         function renderPacingGuide(itemData) {
-            const sessions = itemData.overview_item_data_groups || [];
+            // The sessions are now nested inside the first element of overview_item_data_items
+            const sessions = itemData.overview_item_data_items?.[0]?.overview_item_data_groups || [];
             if (!sessions.length) return '<p class="content-placeholder">No pacing guide available.</p>';
 
             return sessions.map(session => {
                 const sessionTitle = session.overview_item_data_group_title;
-                const blocks = session.overview_item_data_groups || [];
+                // Note: The schema has groups within groups here, which is a bit unusual.
+                // We access the blocks from the 'overview_item_data_group_items' of the session.
+                const blocks = session.overview_item_data_group_items || [];
                 
                 const blocksHtml = blocks.map(block => {
                     const blockTitle = block.overview_item_data_group_title;
@@ -221,41 +222,33 @@
             }).join('');
         }
 
-        // --- UPDATED: Rich Text Parser for v7 (more robust) ---
         function parseRichText(text) {
             if (!text || typeof text !== 'string') return '';
-
-            // This parser handles the specific markdown-like format for re-engagement lessons
             if (text.includes('### ')) {
                 const blocks = text.trim().split(/(?=###\s)/g);
                 let html = '';
                 blocks.forEach(blockText => {
                     if (!blockText.trim()) return;
-
                     const lines = blockText.trim().split('\n');
                     const firstLine = lines.shift().trim();
                     let blockContent = lines.map(line => line.trim()).filter(line => line).map(line => {
                         if (line.startsWith('#### ')) { return `<h4>${line.substring(5)}</h4>`; }
                         return `<p>${line}</p>`;
                     }).join('');
-
                     if (firstLine.startsWith('### ')) {
                         const title = firstLine.substring(4);
                         if (title === 'MATHia Playlist') {
                             html += `<div class="md-playlist"><h3>${title}</h3>${blockContent}</div>`;
-                        } else { // Clarify, Re-Teach
+                        } else {
                             html += `<div class="md-center-block"><span class="md-center-title">${title}</span>${blockContent}</div>`;
                         }
                     } else { html += `<p>${firstLine}</p>${blockContent}`; }
                 });
                 return `<div class="md-content">${html}</div>`;
             }
-            
-            // For regular text, just wrap it in a p tag
             return `<div class="md-content"><p>${text}</p></div>`;
         }
         
-        // --- UNCHANGED: Core Logic and Event Handlers ---
         function setupTabInteraction() { tabsContainer.addEventListener('click', (e) => { const clickedTab = e.target.closest('.tab-button'); if (!clickedTab) return; tabsContainer.querySelectorAll('.tab-button').forEach(tab => { tab.classList.remove('active'); tab.setAttribute('aria-selected', 'false'); }); panelsContainer.querySelectorAll('.tab-panel').forEach(panel => { panel.classList.remove('active'); }); clickedTab.classList.add('active'); clickedTab.setAttribute('aria-selected', 'true'); document.getElementById(clickedTab.getAttribute('aria-controls')).classList.add('active'); }); }
         initializeApp();
     });
