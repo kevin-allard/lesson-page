@@ -164,10 +164,7 @@
 
         // --- CORRECTED: Renderer for Grouped Key Terms ---
         function renderKeyTerms(itemData) {
-            const dataContainer = itemData.overview_item_data_items?.[0];
-            if (!dataContainer) return '<p class="content-placeholder">No key terms available.</p>';
-            
-            const groups = dataContainer.overview_item_data_groups || [];
+            const groups = itemData.overview_item_data_groups || [];
             if (groups.length === 0) return '<p class="content-placeholder">No key terms available.</p>';
             
             return groups.map(group => {
@@ -185,10 +182,7 @@
 
         // --- CORRECTED: Renderer for Pacing Guide ---
         function renderPacingGuide(itemData) {
-            const dataContainer = itemData.overview_item_data_items?.[0];
-            if (!dataContainer) return '<p class="content-placeholder">No pacing guide available.</p>';
-            
-            const sessions = dataContainer.overview_item_data_groups || [];
+            const sessions = itemData.overview_item_data_groups || [];
             if (!sessions.length) return '<p class="content-placeholder">No pacing guide available.</p>';
 
             return sessions.map(session => {
