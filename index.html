@@ -164,8 +164,10 @@
 
         // --- CORRECTED: Renderer for Grouped Key Terms ---
         function renderKeyTerms(itemData) {
-            // The groups are now nested inside the first element of overview_item_data_items
-            const groups = itemData.overview_item_data_items?.[0]?.overview_item_data_groups || [];
+            const dataContainer = itemData.overview_item_data_items?.[0];
+            if (!dataContainer) return '<p class="content-placeholder">No key terms available.</p>';
+            
+            const groups = dataContainer.overview_item_data_groups || [];
             if (groups.length === 0) return '<p class="content-placeholder">No key terms available.</p>';
             
             return groups.map(group => {
@@ -183,14 +185,14 @@
 
         // --- CORRECTED: Renderer for Pacing Guide ---
         function renderPacingGuide(itemData) {
-            // The sessions are now nested inside the first element of overview_item_data_items
-            const sessions = itemData.overview_item_data_items?.[0]?.overview_item_data_groups || [];
+            const dataContainer = itemData.overview_item_data_items?.[0];
+            if (!dataContainer) return '<p class="content-placeholder">No pacing guide available.</p>';
+            
+            const sessions = dataContainer.overview_item_data_groups || [];
             if (!sessions.length) return '<p class="content-placeholder">No pacing guide available.</p>';
 
             return sessions.map(session => {
                 const sessionTitle = session.overview_item_data_group_title;
-                // Note: The schema has groups within groups here, which is a bit unusual.
-                // We access the blocks from the 'overview_item_data_group_items' of the session.
                 const blocks = session.overview_item_data_group_items || [];
                 
                 const blocksHtml = blocks.map(block => {
@@ -198,7 +200,7 @@
                     const activities = block.overview_item_data_group_items || [];
                     
                     const activitiesHtml = activities.map(activity => {
-                        const prefix = activity.overview_item_data_group_item_prefix ? `${activity.overview_item_data_group_item_prefix}: ` : '';
+                        const prefix = activity.overview_item_data_group_item_prefix ? `<strong>${activity.overview_item_data_group_item_prefix}:</strong> ` : '';
                         const title = activity.overview_item_data_group_item_title || '';
                         const description = activity.overview_item_data_group_item_description || '';
                         const pacing = activity.overview_item_data_group_item_pacing?.pacing_amount;
@@ -229,9 +231,9 @@
                 let html = '';
                 blocks.forEach(blockText => {
                     if (!blockText.trim()) return;
-                    const lines = blockText.trim().split('\n');
-                    const firstLine = lines.shift().trim();
-                    let blockContent = lines.map(line => line.trim()).filter(line => line).map(line => {
+                    const lines = blockText.trim().split('\n').filter(line => line.trim());
+                    const firstLine = lines.shift()?.trim() || '';
+                    let blockContent = lines.map(line => {
                         if (line.startsWith('#### ')) { return `<h4>${line.substring(5)}</h4>`; }
                         return `<p>${line}</p>`;
                     }).join('');
