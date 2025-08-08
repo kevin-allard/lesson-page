@@ -20,6 +20,7 @@
   "overview_items": [
     {
       "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
       "overview_item_title": "My Learning Goal",
       "overview_item_data": {
         "overview_item_data_type": "list",
@@ -30,6 +31,7 @@
     },
     {
       "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
       "overview_item_title": "Big Idea",
       "overview_item_data": {
         "overview_item_data_type": "list",
@@ -40,6 +42,7 @@
     },
     {
       "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
       "overview_item_title": "Essential Idea",
       "overview_item_data": {
         "overview_item_data_type": "list",
@@ -50,13 +53,14 @@
     },
     {
       "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
       "overview_item_title": "Lesson Structure and Pacing Guide",
       "overview_item_data": {
         "overview_item_data_type": "session_list",
-        "overview_item_data_groups": [
+        "overview_item_data_items": [
           {
             "overview_item_data_group_title": "Session 1",
-            "overview_item_data_group_items": [
+            "overview_item_data_groups": [
               {
                 "overview_item_data_group_title": "Activate",
                 "overview_item_data_group_items": [
@@ -98,6 +102,7 @@
     },
     {
       "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
       "overview_item_title": "Materials Needed",
       "overview_item_data": {
         "overview_item_data_type": "list",
