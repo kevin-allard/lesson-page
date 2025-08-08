@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "overview_type": { "type": "string", "enum": ["concept", "re_engagement"], "default": "concept" },
+    "overview_pacing": {
+      "type": "object",
+      "properties": {
+        "pacing_type": { "type": "string", "enum": ["hours", "minutes", "days"], "default": "minutes" },
+        "pacing_amount": { "type": "integer" }
+      },
+      "required": ["pacing_amount"]
+    },
+    "overview_labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "overview_label_type": { "type": "string", "enum": ["basic", "session"], "default": "basic" },
+          "overview_label_prefix": { "type": "string" },
+          "overview_label_title": { "type": "string" }
+        },
+        "required": ["overview_label_title"]
+      }
+    },
+    "overview_metadata": {
+      "type": "object",
+      "properties": {
+        "overview_title": { "type": "string" },
+        "overview_subtitle": { "type": "string" },
+        "overview_description": { "type": "string" },
+        "overview_number": { "type": "integer" }
+      },
+      "additionalProperties": true
+    },
+    "overview_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "overview_item_type": { "type": "string", "enum": ["basic", "big_ideas", "learning_goals", "essential_ideas", "key_terms", "pacing_guide", "materials_needed"], "default": "basic" },
+          "overview_item_title": { "type": "string" },
+          "overview_item_data": {
+            "type": "object",
+            "properties": {
+              "overview_item_data_type": { "type": "string", "enum": ["list", "group_list", "session_list"], "default": "list" },
+              "overview_item_data_items": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "overview_item_data_groups": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/dataGroup"
+                }
+              }
+            }
+          }
+        },
+        "required": ["overview_item_data"]
+      }
+    }
+  },
+  "required": ["overview_pacing", "overview_items"],
+  "definitions": {
+    "dataGroup": {
+      "type": "object",
+      "properties": {
+        "overview_item_data_group_title": { "type": "string" },
+        "overview_item_data_group_items": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              { "type": "string" },
+              { "$ref": "#/definitions/dataGroup" },
+              { "$ref": "#/definitions/pacingActivity" }
+            ]
+          }
+        }
+      },
+      "required": ["overview_item_data_group_title", "overview_item_data_group_items"]
+    },
+    "pacingActivity": {
+      "type": "object",
+      "properties": {
+        "overview_item_data_group_item_type": { "type": "string", "enum": ["none", "book", "online", "presentation"], "default": "none" },
+        "overview_item_data_group_item_prefix": { "type": "string" },
+        "overview_item_data_group_item_title": { "type": "string" },
+        "overview_item_data_group_item_description": { "type": "string" },
+        "overview_item_data_group_item_pacing": {
+          "type": "object",
+          "properties": {
+            "pacing_type": { "type": "string", "enum": ["hours", "minutes", "days"], "default": "minutes" },
+            "pacing_amount": { "type": "integer" }
+          },
+          "required": ["pacing_amount"]
+        }
+      },
+      "required": ["overview_item_data_group_item_title", "overview_item_data_group_item_description"]
+    }
+  }
+}
