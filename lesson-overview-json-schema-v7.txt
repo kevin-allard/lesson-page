@@ -1,16 +1,15 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Lesson Overview v7",
-  "description": "Schema for concept and re-engagement lesson overview files, aligned with engineering requirements.",
+  "title": "Lesson Overview v10",
+  "description": "Final schema for concept and re-engagement lesson overview files, aligned with engineering requirements.",
   "type": "object",
   "properties": {
     "overview_type": {
       "description": "The type of lesson.",
       "type": "string",
-      "enum": ["concept", "re_engagement"]
+      "enum": ["concept", "re-engagement"]
     },
     "overview_pacing": {
-      "description": "Overall pacing for the entire lesson.",
       "type": "object",
       "properties": {
         "pacing_type": { "type": "string", "enum": ["minutes"], "default": "minutes" },
@@ -19,7 +18,6 @@
       "required": ["pacing_amount"]
     },
     "overview_labels": {
-      "description": "Display labels for the lesson header.",
       "type": "array",
       "items": {
         "type": "object",
@@ -32,18 +30,16 @@
       }
     },
     "overview_metadata": {
-      "description": "Core descriptive information about the lesson.",
       "type": "object",
       "properties": {
         "overview_number": { "type": "integer" },
         "overview_title": { "type": "string" },
-        "overview_subtitle": { "type": ["string", "null"] },
+        "overview_subtitle": { "type": "string" },
         "overview_description": { "type": "string" }
       },
       "required": ["overview_number", "overview_title", "overview_description"]
     },
     "overview_items": {
-      "description": "An array of content blocks to be displayed in tabs.",
       "type": "array",
       "items": {
         "$ref": "#/definitions/overviewItem"
@@ -87,23 +83,18 @@
       "type": "object",
       "properties": {
         "overview_item_data_group_title": { "type": "string" },
-        "overview_item_data_groups": {
-            "type": "array",
-            "items": { "$ref": "#/definitions/blockGroup" }
-        },
-        "overview_item_data_group_items": {
-            "type": "array",
-            "items": { "type": "string" }
-        }
-      }
-    },
-    "blockGroup": {
-      "type": "object",
-      "properties": {
-        "overview_item_data_group_title": { "type": "string" },
         "overview_item_data_group_items": {
           "type": "array",
-          "items": { "$ref": "#/definitions/pacingActivity" }
+          "items": {
+             "anyOf": [
+                { "type": "string" },
+                { "$ref": "#/definitions/pacingActivity" }
+             ]
+          }
+        },
+        "overview_item_data_groups": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/dataGroup" }
         }
       }
     },
