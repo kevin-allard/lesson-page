@@ -1,5 +1,406 @@
 [
   {
+    "courseName": "Algebra I",
+    "lessons": [
+      {
+        "name": "M01 T01 L01 A Picture Is Worth a Thousand Words",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T01_L01.json"
+      },
+      {
+        "name": "M01 T01 L02 A Sort of Sorts",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T01_L02.json"
+      },
+      {
+        "name": "M01 T01 L03 F of X",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T01_L03.json"
+      },
+      {
+        "name": "M01 T01 L04 Re-Engaging with Domain and Range",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T01_L04.json"
+      },
+      {
+        "name": "M01 T01 L05 Function Families for 200, Alex",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T01_L05.json"
+      },
+      {
+        "name": "M01 T01 L06 Re-Engaging with Key Features of Graphs",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T01_L06.json"
+      },
+      {
+        "name": "M01 T02 L01 Is There a Pattern Here?",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T02_L01.json"
+      },
+      {
+        "name": "M01 T02 L02 The Password Is . . . Operations!",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T02_L02.json"
+      },
+      {
+        "name": "M01 T02 L03 Re-Engaging with Recursive Formulas for Sequences",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T02_L03.json"
+      },
+      {
+        "name": "M01 T02 L04 Did You Mean: Recursion?",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T02_L04.json"
+      },
+      {
+        "name": "M01 T02 L05 Re-Engaging with Explicit Formulas for Sequences",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T02_L05.json"
+      },
+      {
+        "name": "M01 T03 L01 Like a Glove",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T03_L01.json"
+      },
+      {
+        "name": "M01 T03 L02 Re-Engaging with Exploring Linear Regressions",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T03_L02.json"
+      },
+      {
+        "name": "M01 T03 L03 Gotta Keep It Correlatin'",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T03_L03.json"
+      },
+      {
+        "name": "M01 T03 L04 The Residual Effect",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T03_L04.json"
+      },
+      {
+        "name": "M01 T03 L05 To Fit or Not to Fit? That Is the Question!",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T03_L05.json"
+      },
+      {
+        "name": "M01 T03 L06 Re-Engaging with Interpreting Linear Regression",
+        "path": "/data/CA_SM5e_A1_TIG_M01_T03_L06.json"
+      },
+      {
+        "name": "M02 T04 L01 Connecting the Dots",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L01.json"
+      },
+      {
+        "name": "M02 T04 L02 Re-Engaging with Arithmetic Sequences as Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L02.json"
+      },
+      {
+        "name": "M02 T04 L03 Fun with Functions, Linear Ones",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L03.json"
+      },
+      {
+        "name": "M02 T04 L04 Re-Engaging with Representations of Linear Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L04.json"
+      },
+      {
+        "name": "M02 T04 L05 Get Your Move On",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L05.json"
+      },
+      {
+        "name": "M02 T04 L06 Re-Engaging with Linear Function Transformations",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L06.json"
+      },
+      {
+        "name": "M02 T04 L07 Connect Four",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L07.json"
+      },
+      {
+        "name": "M02 T04 L08 Re-Engaging with Comparing Linear Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T04_L08.json"
+      },
+      {
+        "name": "M02 T05 L01 Strike a Balance",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T05_L01.json"
+      },
+      {
+        "name": "M02 T05 L02 It's Literally About Literal Equations",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T05_L02.json"
+      },
+      {
+        "name": "M02 T05 L03 Re-Engaging with Solving Literal Equations",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T05_L03.json"
+      },
+      {
+        "name": "M02 T05 L04 Not All Statements Are Made Equal",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T05_L04.json"
+      },
+      {
+        "name": "M02 T05 L05 Don't Confound Your Compounds",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T05_L05.json"
+      },
+      {
+        "name": "M02 T05 L06 Re-Engaging with Solving Inequalities",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T05_L06.json"
+      },
+      {
+        "name": "M02 T06 L01 Double the Fun",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L01.json"
+      },
+      {
+        "name": "M02 T06 L02 Re-Engaging with Systems of Linear Equations",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L02.json"
+      },
+      {
+        "name": "M02 T06 L03 The Elimination Round",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L03.json"
+      },
+      {
+        "name": "M02 T06 L04 Re-Engaging with Solving Systems Using Linear Combinations",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L04.json"
+      },
+      {
+        "name": "M02 T06 L05 Throwing Shade",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L05.json"
+      },
+      {
+        "name": "M02 T06 L06 Re-Engaging with Graphs of Linear Inequalities",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L06.json"
+      },
+      {
+        "name": "M02 T06 L07 Working with Constraints",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L07.json"
+      },
+      {
+        "name": "M02 T06 L08 Re-Engaging with Systems of Linear Inequalities",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L08.json"
+      },
+      {
+        "name": "M02 T06 L09 Working the System",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L09.json"
+      },
+      {
+        "name": "M02 T06 L10 Re-Engaging with Problem Solving Using Linear Systems",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T06_L10.json"
+      },
+      {
+        "name": "M02 T07 L01 Putting the V in Absolute Value",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L01.json"
+      },
+      {
+        "name": "M02 T07 L02 Re-Engaging with Transforming Absolute Value Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L02.json"
+      },
+      {
+        "name": "M02 T07 L03 Play Ball!",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L03.json"
+      },
+      {
+        "name": "M02 T07 L04 Re-Engaging with Absolute Value Equations and Inequalities",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L04.json"
+      },
+      {
+        "name": "M02 T07 L05 I Graph in Pieces",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L05.json"
+      },
+      {
+        "name": "M02 T07 L06 Re-Engaging with Graphs of Linear Piecewise Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L06.json"
+      },
+      {
+        "name": "M02 T07 L07 Step by Step",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L07.json"
+      },
+      {
+        "name": "M02 T07 L08 A Riddle Wrapped in a Mystery",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L08.json"
+      },
+      {
+        "name": "M02 T07 L09 Re-Engaging with Inverse Linear Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M02_T07_L09.json"
+      },
+      {
+        "name": "M03 T08 L01 A Constant Ratio",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T08_L01.json"
+      },
+      {
+        "name": "M03 T08 L02 Re-Engaging with Exponential Functions and Geometric Sequences",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T08_L02.json"
+      },
+      {
+        "name": "M03 T08 L03 The Power Within",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T08_L03.json"
+      },
+      {
+        "name": "M03 T08 L04 Re-Engaging with Exponential Functions and Graphs",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T08_L04.json"
+      },
+      {
+        "name": "M03 T08 L05 Now I Know My A, B, C, Ds",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T08_L05.json"
+      },
+      {
+        "name": "M03 T08 L06 Re-Engaging with Transforming Exponential Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T08_L06.json"
+      },
+      {
+        "name": "M03 T09 L01 Uptown and Downtown",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L01.json"
+      },
+      {
+        "name": "M03 T09 L02 Re-Engaging with Exponential Growth and Decay",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L02.json"
+      },
+      {
+        "name": "M03 T09 L03 Powers and the Horizontal Line",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L03.json"
+      },
+      {
+        "name": "M03 T09 L04 Re-Engaging with Interpreting Exponential Equations",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L04.json"
+      },
+      {
+        "name": "M03 T09 L05 Savings, Tea, and Carbon Dioxide",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L05.json"
+      },
+      {
+        "name": "M03 T09 L06 Re-Engaging with Modeling with Exponential Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L06.json"
+      },
+      {
+        "name": "M03 T09 L07 3 Pegs, N Discs",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L07.json"
+      },
+      {
+        "name": "M03 T09 L08 Re-Engaging with Exponential Regressions",
+        "path": "/data/CA_SM5e_A1_TIG_M03_T09_L08.json"
+      },
+      {
+        "name": "M04 T10 L01 Way to Represent!",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T10_L01.json"
+      },
+      {
+        "name": "M04 T10 L02 Re-Engaging with Data Displays",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T10_L02.json"
+      },
+      {
+        "name": "M04 T10 L03 An Unskewed Reality",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T10_L03.json"
+      },
+      {
+        "name": "M04 T10 L04 Re-Engaging with Measures of Center and Variation",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T10_L04.json"
+      },
+      {
+        "name": "M04 T10 L05 Dare to Compare",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T10_L05.json"
+      },
+      {
+        "name": "M04 T10 L06 Re-Engaging with Data Set Comparisons",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T10_L06.json"
+      },
+      {
+        "name": "M04 T11 L01 It Takes Two",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T11_L01.json"
+      },
+      {
+        "name": "M04 T11 L02 Relatively Speaking",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T11_L02.json"
+      },
+      {
+        "name": "M04 T11 L03 Re-Engaging with Representing Two-Variable Categorical Data",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T11_L03.json"
+      },
+      {
+        "name": "M04 T11 L04 On One Condition . . . or More",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T11_L04.json"
+      },
+      {
+        "name": "M04 T11 L05 Data Jam",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T11_L05.json"
+      },
+      {
+        "name": "M04 T11 L06 Re-Engaging with Frequency Distributions and Conclusions",
+        "path": "/data/CA_SM5e_A1_TIG_M04_T11_L06.json"
+      },
+      {
+        "name": "M05 T12 L01 Up and Down or Down and Up",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L01.json"
+      },
+      {
+        "name": "M05 T12 L02 Re-Engaging with Quadratic Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L02.json"
+      },
+      {
+        "name": "M05 T12 L03 Endless Forms Most Beautiful",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L03.json"
+      },
+      {
+        "name": "M05 T12 L04 Re-Engaging with Characteristics of Quadratic Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L04.json"
+      },
+      {
+        "name": "M05 T12 L05 More Than Meets the Eye",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L05.json"
+      },
+      {
+        "name": "M05 T12 L06 Re-Engaging with Graphs of Quadratic Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L06.json"
+      },
+      {
+        "name": "M05 T12 L07 You Lose Some, You Lose Some",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L07.json"
+      },
+      {
+        "name": "M05 T12 L08 Re-Engaging with Comparing Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T12_L08.json"
+      },
+      {
+        "name": "M05 T13 L01 This Time, with Polynomials",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L01.json"
+      },
+      {
+        "name": "M05 T13 L02 Re-Engaging with Operations with Polynomials",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L02.json"
+      },
+      {
+        "name": "M05 T13 L03 Solutions, More or Less",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L03.json"
+      },
+      {
+        "name": "M05 T13 L04 Re-Engaging with Solutions to Quadratic Equations",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L04.json"
+      },
+      {
+        "name": "M05 T13 L05 Transforming Solutions",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L05.json"
+      },
+      {
+        "name": "M05 T13 L06 Re-Engaging with Solving Quadratic Equations Using Square Roots",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L06.json"
+      },
+      {
+        "name": "M05 T13 L07 The Missing Link",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L07.json"
+      },
+      {
+        "name": "M05 T13 L08 Re-Engaging with Completing the Square and Factoring",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L08.json"
+      },
+      {
+        "name": "M05 T13 L09 One Fabulous Formula",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L09.json"
+      },
+      {
+        "name": "M05 T13 L10 Re-Engaging with the Quadratic Formula",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T13_L10.json"
+      },
+      {
+        "name": "M05 T14 L01 Model Behavior",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T14_L01.json"
+      },
+      {
+        "name": "M05 T14 L02 Re-Engaging with Modeling with Quadratic Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T14_L02.json"
+      },
+      {
+        "name": "M05 T14 L03 Ahead of the Curve",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T14_L03.json"
+      },
+      {
+        "name": "M05 T14 L04 All Systems Are Go!",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T14_L04.json"
+      },
+      {
+        "name": "M05 T14 L05 Re-Engaging with Systems with Quadratic Functions",
+        "path": "/data/CA_SM5e_A1_TIG_M05_T14_L05.json"
+      }
+    ]
+  },
+  {
     "courseName": "Grade 6",
     "lessons": [
       {
