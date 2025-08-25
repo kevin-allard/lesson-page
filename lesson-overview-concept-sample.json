@@ -1,7 +1,16 @@
 {
   "overview_type": "concept",
-  "overview_pacing": { "pacing_type": "minutes", "pacing_amount": 45 },
-  "overview_labels": [{ "overview_label_type": "session", "overview_label_prefix": "1", "overview_label_title": "Session" }],
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
   "overview_metadata": {
     "overview_number": 1,
     "overview_title": "Taking Apart Numbers and Shapes",
@@ -15,7 +24,35 @@
       "overview_item_title": "My Learning Goals",
       "overview_item_data": {
         "overview_item_data_type": "list",
-        "overview_item_data_items": ["I can recognize parts of an expression as a single entity.", "I can apply the Distributive Property to rewrite the product of two factors."]
+        "overview_item_data_items": [
+          "I can recognize parts of an expression as a single entity.",
+          "I can apply the Distributive Property to rewrite the product of two factors."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Generalizing with Multiple Representations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The area of a rectangle is the product of its length and width.",
+          "You can illustrate the Distributive Property using an area model of a rectangle with side lengths <math><mi>a</mi></math> and <math><mo stretchy=\"false\">(</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo stretchy=\"false\">)</mo></math>.",
+          "The Distributive Property of Multiplication over Addition states that for any numbers <math><mi>a</mi></math>, <math><mi>b</mi></math>, and <math><mi>c</mi></math>, <math><mi>a</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mi>b</mi><mo>+</mo><mi>a</mi><mi>c</mi></math>.",
+          "You can rewrite equivalent expressions using properties."
+        ]
       }
     },
     {
@@ -27,7 +64,11 @@
         "overview_item_data_items": [
           {
             "overview_item_data_group_title": "Activity 1",
-            "overview_item_data_group_items": ["numeric expression", "equation", "Distributive Property of Multiplication over Addition"]
+            "overview_item_data_group_items": [
+              "numeric expression",
+              "equation",
+              "Distributive Property of Multiplication over Addition"
+            ]
           }
         ]
       }
@@ -52,9 +93,44 @@
                     "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
                   }
                 ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Connecting Area Models and the Distributive Property",
+                    "overview_item_data_group_item_description": "Students rewrite products to formalize the Distributive Property.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 25 }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "The Floor Is Yours",
+                    "overview_item_data_group_item_description": "Students use the Distributive Property to design a gym floor plan.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                  }
+                ]
               }
             ]
           }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
         ]
       }
     }

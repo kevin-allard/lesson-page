@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Lesson Overview v10",
-  "description": "Final schema for concept and re-engagement lesson overview files, aligned with engineering requirements.",
+  "title": "Lesson Overview v13 - Final",
+  "description": "Final schema for concept and re-engagement lesson overview files, aligned with engineer-provided valid samples.",
   "type": "object",
   "properties": {
     "overview_type": {
@@ -10,6 +10,7 @@
       "enum": ["concept", "re-engagement"]
     },
     "overview_pacing": {
+      "description": "Overall pacing for the entire lesson.",
       "type": "object",
       "properties": {
         "pacing_type": { "type": "string", "enum": ["minutes"], "default": "minutes" },
@@ -18,6 +19,7 @@
       "required": ["pacing_amount"]
     },
     "overview_labels": {
+      "description": "Display labels for the lesson header.",
       "type": "array",
       "items": {
         "type": "object",
@@ -30,6 +32,7 @@
       }
     },
     "overview_metadata": {
+      "description": "Core descriptive information about the lesson.",
       "type": "object",
       "properties": {
         "overview_number": { "type": "integer" },
@@ -40,6 +43,7 @@
       "required": ["overview_number", "overview_title", "overview_description"]
     },
     "overview_items": {
+      "description": "An array of content blocks to be displayed in tabs.",
       "type": "array",
       "items": {
         "$ref": "#/definitions/overviewItem"
@@ -84,6 +88,7 @@
       "properties": {
         "overview_item_data_group_title": { "type": "string" },
         "overview_item_data_group_items": {
+          "description": "Used for the final level of nesting, like a list of term strings or a list of activity objects.",
           "type": "array",
           "items": {
              "anyOf": [
@@ -93,6 +98,7 @@
           }
         },
         "overview_item_data_groups": {
+          "description": "Used for recursive nesting, like a Session containing a list of Blocks.",
           "type": "array",
           "items": { "$ref": "#/definitions/dataGroup" }
         }
@@ -113,7 +119,8 @@
           },
           "required": ["pacing_amount"]
         }
-      }
+      },
+      "required": ["overview_item_data_group_item_type", "overview_item_data_group_item_title", "overview_item_data_group_item_description"]
     }
   }
 }
