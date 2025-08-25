@@ -1,0 +1,177 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "Like a Glove",
+    "overview_subtitle": "Investigating Linear Regressions",
+    "overview_description": "In this lesson, students create a scatter plot and determine a line of best fit graphically. They then use technology to determine the regression equation. They interpret the contextual and mathematical meanings of the equation's components and address the reasonableness of predictions from interpolation and extrapolation."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can create and analyze scatter plots with appropriate accuracy, describing how the variables are related.",
+          "I can determine and analyze a linear regression equation using technology.",
+          "I can make predictions about data using linear regression equations.",
+          "I can interpret the rate of change and y-intercept of a linear regression equation in the context of data."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Modeling",
+          "Variability"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Interpolation is the process of using a regression equation to make predictions within the data set.",
+          "Extrapolation is the process of using a regression equation to make predictions beyond the data set."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "interpolation",
+              "extrapolation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Seeing Spots",
+                    "overview_item_data_group_item_description": "Students consider a scatter plot and share what they notice and wonder about the data.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "A Line of Best Fit",
+                    "overview_item_data_group_item_description": "Students determine a regression equation and use it to make predictions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Making Predictions",
+                    "overview_item_data_group_item_description": "Students generate a regression equation for data in a real-world situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Making Predictions Within and Outside a Data Set",
+                    "overview_item_data_group_item_description": "Students generate a regression equation and interpret its meaning in context.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Tell Me Ev-ery-thing",
+                    "overview_item_data_group_item_description": "Students explain why they need technology for an accurate regression line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Thin uncooked pasta",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

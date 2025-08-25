@@ -1,0 +1,208 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "Mathematics Gymnastics",
+    "overview_subtitle": "Rewriting Expressions Using the Distributive Property",
+    "overview_description": "In this lesson, students focus on expressions written as the product of two factors. They combine like terms with a common variable expression and use the Distributive Property to rewrite complex expressions. Students rewrite linear expressions by factoring out the GCF or the coefficient of the variable. They apply the Distributive Property to solve equations."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can apply the Distributive Property to expand expressions with rational coefficients.",
+          "I can apply the Distributive Property to factor linear expressions with rational coefficients.",
+          "I can write and use the Distributive Property as a strategy to solve equations."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Generalizing with Multiple Representations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can combine like terms that are a single variable or a variable expression.",
+          "You can use the Distributive Property with subtraction: <math><mi>a</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo>−</mo><mi>c</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mi>b</mi><mo>−</mo><mi>a</mi><mi>c</mi></math>.",
+          "Rewriting an algebraic expression in a different equivalent form, such as factoring out a common term, may reveal the expression’s structure.",
+          "You can rewrite algebraic expressions by factoring out the greatest common factor (GCF).",
+          "You can use the Distributive Property to solve equations."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "common factor",
+              "greatest common factor"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Where Are They?",
+                    "overview_item_data_group_item_description": "Students plot four related algebraic expressions on a number line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Analyzing Structures of Algebraic Expressions",
+                    "overview_item_data_group_item_description": "Students use the Distributive Property to rewrite the algebraic expressions as the product of two factors.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Combining Like Terms in Linear Expressions",
+                    "overview_item_data_group_item_description": "Students combine like terms to determine distances between expressions on the number line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Expanding Linear Expressions",
+                    "overview_item_data_group_item_description": "Students rewrite expressions using distribution with multiplication or division.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Factoring Linear Expressions",
+                    "overview_item_data_group_item_description": "Students factor linear expressions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Applying the Distributive Property to Solve Equations",
+                    "overview_item_data_group_item_description": "Students use the Distributive Property to solve equations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Flexible Expressions",
+                    "overview_item_data_group_item_description": "Students correct common distribution errors.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Slippery Slopes",
+    "overview_subtitle": "Exploring Non-Proportional Linear Relationships",
+    "overview_description": "In this lesson, students use patty paper to translate a line through the origin and <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi></math> to graph a parallel line not through the origin. They then derive the equation <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> representing a non-proportional linear relationship. Students use similar triangles to show that the slope is the same between any two points on a line in a coordinate plane. They use the slope formula and two points to calculate the slope."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can derive the equation <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi></math> for a line through the origin using transformations.",
+          "I can use the slope formula to calculate the rate of change from two coordinate pairs.",
+          "I can use similar triangles to show that the slope is the same between any two points on a non-vertical line on a coordinate plane."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Multiple Representations of Functions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "An equation for a non-proportional linear relationship is <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, where <math><mi>m</mi></math> is the slope and <math><mi>b</mi></math> is the y-coordinate of the point where the graph crosses the y-axis.",
+          "The equation <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> represents every point <math><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo></math> on the graph of the line.",
+          "The slope of a line describes steepness and direction.",
+          "The slope of a line that decreases from left to right is negative.",
+          "You can use the properties of similar triangles constructed on a line to explain why the slope is the same for any two points on a line.",
+          "The slope formula is <math><mi>m</mi><mo>=</mo><mfrac><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></mfrac></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": []
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Steep Grade",
+                    "overview_item_data_group_item_description": "Students consider three street signs and say what they notice and wonder about each sign.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Writing an Equation for a Line Not Through the Origin",
+                    "overview_item_data_group_item_description": "Students generalize that an equation in the form <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math> is a non-proportional linear relationship.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "A Negative Unit Rate",
+                    "overview_item_data_group_item_description": "Students conclude the steepness of two lines is the same, but the direction of the second graph decreases as the independent values increase.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Triangles, Slope, and the Equation <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>",
+                    "overview_item_data_group_item_description": "Students use similar right triangles to determine the slope of a line graphed on a coordinate plane.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Describing Linear Equations",
+                    "overview_item_data_group_item_description": "Students consider graphs of proportional and non-proportional relationships and write equations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Draw the Line",
+                    "overview_item_data_group_item_description": "Students draw graphs of proportional and non-proportional representations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Patty paper",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

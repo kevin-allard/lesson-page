@@ -1,0 +1,229 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 4,
+    "overview_title": "Different but the Same",
+    "overview_subtitle": "Determining Equivalent Ratios Using Various Tools",
+    "overview_description": "In this lesson, students use multiple strategies to determine the relationship between two quantities: drawing models, building tape diagrams, completing tables, scaling up and scaling down with proportions, and constructing double number lines. They use these strategies to write equivalent ratios, convert between measurements, and solve real-world problems."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can create and use a model or tape diagram to represent and determine equivalent ratios.",
+          "I can determine equivalent ratios by scaling up and scaling down.",
+          "I can use double number lines to represent and determine equivalent ratios."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Fraction Relationships",
+          "Generalizing with Multiple Representations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Equivalent ratios represent the same part-to-part or part-to-whole relationship.",
+          "You can use several strategies to write equivalent ratios, such as drawing models, building tape diagrams, completing tables, scaling up and scaling down with proportions, and constructing double number lines.",
+          "A proportion contains two equal ratios.",
+          "You can write an equivalent ratio by setting up a proportion and scaling up or scaling down.",
+          "A double number line consists of two number lines with intervals on each number line maintaining the same ratio."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "equivalent ratios"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "tape diagram"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "rate",
+              "proportion",
+              "scaling up",
+              "scaling down"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 5",
+            "overview_item_data_group_items": [
+              "double number line"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Which Has More?",
+                    "overview_item_data_group_item_description": "Students compare groups of objects to determine which has more of a particular object.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Using Pictures to Model Equivalent Ratios",
+                    "overview_item_data_group_item_description": "Students use models to represent equivalent ratios and solve real-world problems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Tape Diagrams",
+                    "overview_item_data_group_item_description": "Students use tape diagrams to represent equivalent ratios and solve real-world problems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Rates and Proportions",
+                    "overview_item_data_group_item_description": "Students use proportions and scaling up or scaling down to solve problems involving rates.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Scaling Up and Scaling Down",
+                    "overview_item_data_group_item_description": "Students set up proportions and use scaling to solve problems related to real-world situations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Double Number Lines",
+                    "overview_item_data_group_item_description": "Students use double number lines to analyze and solve ratio problems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Make a Choice",
+                    "overview_item_data_group_item_description": "Students solve real-world ratio problems using a drawing, tape diagram, or double number line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

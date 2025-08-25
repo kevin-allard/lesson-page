@@ -1,0 +1,218 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "We Are Family!",
+    "overview_subtitle": "Percent, Fraction, and Decimal Equivalence",
+    "overview_description": "In this lesson, students consider a percent as a part-to-whole ratio with a whole of 100. They estimate the percent of a figure that is shaded. Students represent a number as a fraction, decimal, and percent, and label common fraction decimal-percent equivalents on a number line."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can estimate the percent of a quantity that is shaded in a model.",
+          "I can write equivalent fractions, decimals, and percents.",
+          "I can explain similarities and differences among percents, fractions, and decimals."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Fraction Relationships",
+          "Model the World"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A percent is a part-to-whole relationship with a whole of 100.",
+          "To convert a decimal to a percent, multiply the decimal by 100. To convert a percent to a decimal, divide the percent by 100.",
+          "When the denominator of a fraction is a factor of 100, scale up the fraction to write it as a percent. Otherwise, rewrite the fraction as a decimal and then write that number as a percent.",
+          "You can interpret part-to-whole ratio relationships as percents."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "percent"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Putting It All in Perspective",
+                    "overview_item_data_group_item_description": "Students interpret famous quotes involving percents.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Estimating Percents from Pictures",
+                    "overview_item_data_group_item_description": "Students describe the shaded portion of a figure using percents.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Determining Equivalences",
+                    "overview_item_data_group_item_description": "Students represent numbers as a fraction, decimal, and percent.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "We Have That in Common",
+                    "overview_item_data_group_item_description": "Students generalize about percent, decimal, and fraction representations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "launch",
+                    "overview_item_data_group_item_title": "Launch",
+                    "overview_item_data_group_item_description": "Go online for Session Launch recommendations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Reasoning with Ratios and Percents",
+                    "overview_item_data_group_item_description": "Students analyze strategies for adding ratios to determine the percent of a number.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Concentration: Percents, Decimals, and Fractions",
+                    "overview_item_data_group_item_description": "Students play a game to identify equivalent percents, decimals, and fractions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "We Have That in Common",
+                    "overview_item_data_group_item_description": "Use the chart to answer each question.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Student whiteboards",
+          "Concentration: Percents, Decimals, and Fractions",
+          "Instructions for Concentration: Percents, Decimals, and Fractions",
+          "Concentration: Percents, Decimals, and Fractions, scissors",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

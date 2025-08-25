@@ -1,0 +1,157 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "The Horizontal Line and Powers",
+    "overview_subtitle": "Interpreting Parameters in Context",
+    "overview_description": "In this lesson, students match exponential equations to their graphs. For exponential growth and decay situations, students complete tables of values, graph the functions, and write exponential functions using function notation. They use graphs to estimate the solutions to equations. Students use the properties of exponents to rewrite the <math><mi>b</mi></math>- and <math><mi>D</mi></math>-values of exponential functions in equivalent forms."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can use tables to solve problems involving exponential functions.",
+          "I can graph and interpret exponential growth and decay functions.",
+          "I can use graphs to estimate solutions to exponential equations.",
+          "I can describe how adding a constant function to an exponential function affects its graph."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Function Representations",
+          "Reasoning with Equations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Given an exponential function, <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>A</mi><mo>⋅</mo><msup><mi>b</mi><mrow><mi>x</mi></mrow></msup><mo>+</mo><mi>D</mi></math>, you can always represent the horizontal asymptote by the equation <math><mi>y</mi><mo>=</mo><mi>D</mi></math> and the <math><mi>y</mi></math>-intercept by the <math><mi>A</mi></math>-value plus any vertical translation.",
+          "You can use multiple representations, such as tables, equations, and graphs, to represent and compare exponential evaluations.",
+          "You can use graphs to solve exponential equations by graphing both sides of the equation and estimating the point of intersection.",
+          "A quantity increasing exponentially will eventually exceed a quantity increasing linearly.",
+          "The sum of an exponential function and a constant function is a third function, represented with a graph that is a vertical translation of the original exponential function."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": []
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Match Game",
+                    "overview_item_data_group_item_description": "Students match exponential functions to their graphs.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Solving Exponential Equations by Graphing",
+                    "overview_item_data_group_item_description": "Students estimate solutions by observing the intersection point of a constant function with an exponential function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Adding Functions",
+                    "overview_item_data_group_item_description": "Students investigate the result of adding an exponential function and a constant function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Is This Uptown or Downtown?",
+                    "overview_item_data_group_item_description": "Students use characteristics of exponential functions that model growth and decay to identify appropriate exponential models.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 2,
+    "overview_title": "Relatively Speaking",
+    "overview_subtitle": "Relative Frequency Distribution",
+    "overview_description": "In this lesson, students construct a relative frequency distribution and marginal relative frequency distribution using data for a situation and analyze the distributions. They compare stacked bar graphs that represent the relative frequency distribution in two different ways to the tables. Students analyze and interpret the data represented by the stacked bar graphs in terms of the situation."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can construct and interpret relative frequency distribution and marginal relative frequency distributions displayed in two-way tables for categorical data.",
+          "I can analyze and use marginal relative frequency distributions to make decisions for a problem situation."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Variability"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A relative frequency distribution provides the ratio of occurrences for each category to the total number of occurrences.",
+          "A marginal relative frequency distribution includes the ratio of total occurrences for each category to the total number of occurrences.",
+          "In a stacked bar graph, you stack the bars instead of sitting them next to each other."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "relative frequency distribution",
+              "marginal relative frequency distribution"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Survey Statements",
+                    "overview_item_data_group_item_description": "Students explain why statements made comparing joint frequencies are incorrect.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Relative Frequency Distribution",
+                    "overview_item_data_group_item_description": "Students construct a marginal relative frequency distribution given data.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Analyzing and Interpreting Data Ratios",
+                    "overview_item_data_group_item_description": "Students analyze and interpret stacked bar graphs, each representing the marginal relative frequency distribution.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "A Hot Topic",
+                    "overview_item_data_group_item_description": "Students interpret the marginal relative frequency distribution in terms of the situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

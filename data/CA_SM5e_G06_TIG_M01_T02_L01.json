@@ -1,0 +1,197 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "All About That Base . . . and Height",
+    "overview_subtitle": "Area of Triangles and Quadrilaterals",
+    "overview_description": "In this lesson, students progressively derive the formulas for the area of a parallelogram, a triangle, and a trapezoid by using composition and decomposition of polygons with known area formulas. They use their formulas to calculate the area of parallelograms, triangles, and trapezoids. They also generalize that triangles with congruent bases and congruent heights have the same area."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can derive the formulas for the areas of triangles, parallelograms, and trapezoids by composing or decomposing the various figures into rectangles and triangles.",
+          "I can solve real-world and mathematical problems by composing and decomposing figures."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Nets and Surface Area",
+          "Distance and Direction",
+          "Grade 6 Standard Geometry"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The formula for the area of a parallelogram is <math><mi>A</mi><mo>=</mo><mi>b</mi><mi>h</mi></math>, where <math><mi>A</mi></math> is the area of the parallelogram, <math><mi>b</mi></math> is the length of the base of the parallelogram, and <math><mi>h</mi></math> is the height of the parallelogram.",
+          "The formula for the area of a triangle is <math><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mi>h</mi></math>, where <math><mi>A</mi></math> is the area of the triangle, <math><mi>b</mi></math> is the length of the base of the triangle, and <math><mi>h</mi></math> is the height of the triangle.",
+          "The formula for the area of a trapezoid is <math><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>h</mi><mo>(</mo><msub><mi>b</mi><mn>1</mn></msub><mo>+</mo><msub><mi>b</mi><mn>2</mn></msub><mo>)</mo></math>, where <math><mi>A</mi></math> is the area of the trapezoid, <math><mi>h</mi></math> is the height of the trapezoid, and <math><msub><mi>b</mi><mn>1</mn></msub></math> and <math><msub><mi>b</mi><mn>2</mn></msub></math> are the bases."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "parallelogram",
+              "variable"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "trapezoid"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Explaining Their Thinking In the 20s",
+                    "overview_item_data_group_item_description": "Students explain how to know that various triangles and quadrilaterals drawn on a grid have the same area.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Investigating the Area of a Parallelogram",
+                    "overview_item_data_group_item_description": "Students derive the formula for the area of a parallelogram.\nMaterials: Glue sticks or tape, Parallelogram Cutouts, scissors",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Investigating the Area of a Triangle",
+                    "overview_item_data_group_item_description": "Students derive the formula for the area of a triangle.\nMaterial: Patty paper",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Investigating the Area of a Trapezoid",
+                    "overview_item_data_group_item_description": "Students describe how to calculate the area of a trapezoid.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Calculating Areas of Figures",
+                    "overview_item_data_group_item_description": "Students use the formulas for the area of parallelograms, triangles, and trapezoids to solve problems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Figure ‘Em Out!",
+                    "overview_item_data_group_item_description": "Students relate dimensions and formulas.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Glue sticks or tape",
+          "Parallelogram Cutouts",
+          "scissors",
+          "Patty paper",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

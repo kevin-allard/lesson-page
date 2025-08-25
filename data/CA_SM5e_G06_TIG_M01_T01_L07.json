@@ -49,7 +49,7 @@
         "overview_item_data_type": "list",
         "overview_item_data_items": [
           "You can use area models and fact families to illustrate the quotients of fractions.",
-          "The reciprocal or multiplicative inverse of a number <math><mfrac><mi>a</mi><mi>b</mi></mfrac></math> is the number <math><mfrac><mi>b</mi><mi>a</mi></mfrac></math>, where <math><mi>a</mi></math> and <math><mi>b</mi></math> are nonzero numbers.",
+          "The reciprocal or multiplicative inverse of a number <math><mfrac><mi>a</mi><mi>b</mi></mfrac></math> is the number <math><mfrac><mi>b</mi><mi>a</mi></mfrac></math> where <math><mi>a</mi></math> and <math><mi>b</mi></math> are nonzero numbers.",
           "To calculate the quotient of two fractions, multiply the dividend by the reciprocal of the divisor."
         ]
       }
@@ -88,7 +88,10 @@
                     "overview_item_data_group_item_type": "presentation",
                     "overview_item_data_group_item_title": "All in the Fact Family",
                     "overview_item_data_group_item_description": "Students identify an equation that is part of a multiplication-division fact family given an area model.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               },
@@ -98,9 +101,12 @@
                   {
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 1",
-                    "overview_item_data_group_item_title": "Whole Number ÷ Fraction",
+                    "overview_item_data_group_item_title": "Whole Number \u00f7 Fraction",
                     "overview_item_data_group_item_description": "Students investigate the division of whole numbers by fractions.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 35 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
                   }
                 ]
               }
@@ -115,16 +121,22 @@
                   {
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 2",
-                    "overview_item_data_group_item_title": "Fraction ÷ Fraction",
+                    "overview_item_data_group_item_title": "Fraction \u00f7 Fraction",
                     "overview_item_data_group_item_description": "Students investigate the division of fractions by fractions.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
                   },
                   {
-                    "overview_item_data_group_item_type": "online",
+                    "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 3",
                     "overview_item_data_group_item_title": "Moving from the Model to a Procedure",
                     "overview_item_data_group_item_description": "Students develop an algorithm to rewrite division sentences as multiplication sentences.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
                   }
                 ]
               },
@@ -135,7 +147,10 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_title": "A Vision of Division",
                     "overview_item_data_group_item_description": "Students apply the fraction division algorithm to solve real-world situations.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               }

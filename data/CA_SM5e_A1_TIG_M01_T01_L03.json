@@ -1,0 +1,225 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "F of X",
+    "overview_subtitle": "Recognizing Functions and Function Families",
+    "overview_description": "In this lesson, students determine whether relations are functions. They identify increasing, decreasing, or constant graphs as linear or exponential functions, graphs with an absolute maximum or minimum as quadratic or linear absolute value functions, and graphs with equation changes for different domain parts as linear piecewise functions. They match each graph with its equation."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can define a function.",
+          "I can identify a function, in function notation, for a given graph.",
+          "I can determine and recognize characteristics of functions and function families."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Function Investigations",
+          "Features of Functions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A relation is the mapping between a set of input values called the domain and a set of output values called the range.",
+          "A function is a relation that assigns exactly one element of the range to each element of the domain.",
+          "Function families have distinctive forms, where <math><mi>a</mi></math>, <math><mi>b</mi></math>, and <math><mi>c</mi></math> are real numbers.",
+          "Linear functions: <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>",
+          "Exponential functions: <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mo>&#x22C5;</mo><msup><mi>b</mi><mi>x</mi></msup><mo>+</mo><mi>c</mi></math>, where <math><mi>b</mi></math> is greater than 0 but is not equal to 1",
+          "Quadratic functions: <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi></math>, where <math><mi>a</mi><mo>&#x2260;</mo><mn>0</mn></math>",
+          "Linear absolute value functions: <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mrow><mo>|</mo><mi>x</mi><mo>+</mo><mi>b</mi><mo>|</mo></mrow><mo>+</mo><mi>c</mi></math>, where <math><mi>a</mi><mo>&#x2260;</mo><mn>0</mn></math>",
+          "Linear piecewise functions have different equations for different pieces of the domain."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "relation",
+              "domain",
+              "range",
+              "function",
+              "vertical line test",
+              "discrete graph",
+              "continuous graph",
+              "function notation"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "increasing function",
+              "decreasing function",
+              "constant function",
+              "function family",
+              "linear functions",
+              "exponential functions"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "absolute minimum",
+              "absolute maximum",
+              "x-intercept",
+              "y-intercept",
+              "quadratic functions",
+              "linear absolute value functions"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "linear piecewise functions"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Odd One Out: Graphs",
+                    "overview_item_data_group_item_description": "Students determine which graph does not belong from a set and explain their reasoning.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Functions and Non-Functions",
+                    "overview_item_data_group_item_description": "Students determine whether various representations of relations are functions.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 35 }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Linear and Exponential Functions",
+                    "overview_item_data_group_item_description": "Students identify increasing, decreasing, or constant graphs as linear or exponential functions.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Quadratic and Absolute Value Functions",
+                    "overview_item_data_group_item_description": "Students identify graphs with an absolute maximum or minimum as quadratic or linear absolute value functions.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "online",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Linear Piecewise Functions",
+                    "overview_item_data_group_item_description": "Students identify graphs with equation changes for different domain parts as linear piecewise functions.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Groups of Functions",
+                    "overview_item_data_group_item_description": "Students create graphic organizers for five function families.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 25 }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Sketchy Graphs",
+                    "overview_item_data_group_item_description": "Students recognize x-intercepts and y-intercepts as characteristics of a graph.",
+                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Graph Sort Cutouts from Activity 1, Lesson 2, A Sort of Sorts",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

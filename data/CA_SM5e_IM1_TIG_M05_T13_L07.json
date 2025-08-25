@@ -1,0 +1,169 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 7,
+    "overview_title": "OKEECHOBEE",
+    "overview_subtitle": "Reflectonal and Rotational Symmetry",
+    "overview_description": "In this lesson, students learn the meaning of reflectonal symmetry and rotational symmetry. They identify the lines of symmetry in figures and specify figures that have rotational symmetry. Students further explore rotational symmetry by considering the relationship between the rotational angles and interior angle measures of an equilateral triangle, square, and regular hexagon."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can describe reflections that carry a figure onto itself.",
+          "I can identify geometric figures with line symmetry and rotational symmetry.",
+          "I can identify lines of symmetry for different geometric figures."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Transformations and Congruence"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A plane figure has reflectonal symmetry if you can draw a line so that the figure to one side of the line reflects the figure on the other side.",
+          "A plane figure has rotational symmetry when you can rotate the figure more than <math><mn>0</mn></math>° and less than <math><mn>360</mn></math>° and the resulting figure is the same as the original figure.",
+          "A figure may have horizontal symmetry, vertical symmetry, and rotational symmetry.",
+          "A regular polygon of <math><mi>n</mi></math> sides has <math><mi>n</mi></math> lines of symmetry.",
+          "A regular polygon with <math><mi>n</mi></math> sides has a rotation angle of <math><mfrac><mn>360</mn><mi>n</mi></mfrac></math>°. This angle measure is the supplement of its interior angle measure."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "reflectonal symmetry",
+              "rotational symmetry"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Symmetry Scavenger Hunt",
+                    "overview_item_data_group_item_description": "Students search their environment for examples of symmetry and explain how they know the objects are symmetrical.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Reflectonal and Rotational Symmetries",
+                    "overview_item_data_group_item_description": "Students learn about reflectonal and rotational symmetry and identify the lines of symmetry in figures.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Check",
+                    "overview_item_data_group_item_description": "Students consider the rotational symmetry of an equilateral triangle, square, and regular hexagon while relating the angle of rotation and the interior angle measures of these figures.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Identifying Symmetry",
+                    "overview_item_data_group_item_description": "Students identify letters of the alphabet that have horizontal and vertical lines of symmetry and letters that have rotational symmetry.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Patty paper",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

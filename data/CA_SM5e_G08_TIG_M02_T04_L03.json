@@ -1,0 +1,186 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "Jack and Jill Went Up the Hill",
+    "overview_subtitle": "Using Similar Triangles to Understand the Steepness of a Line",
+    "overview_description": "In this lesson, students derive the equation for a proportional linear relationship, <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi></math>. They use similar right triangles to explain why the steepness and direction (slope) of any line is the same between any two distinct points on a non-vertical line."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can analyze the rate of change between any two points on a line.",
+          "I can graph proportional relationships, interpreting the unit rate as the slope of the graph.",
+          "I can derive the equation <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi></math> for a line through the origin.",
+          "I can use similar triangles to explore the steepness of a line."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Linear Equations",
+          "Slopes and Intercepts"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can use a rate of change to describe the rate of increase or decrease of one quantity relative to another.",
+          "A unit rate compares two measurements in which the denominator has a value of 1 unit.",
+          "The slope of a line describes its steepness and direction.",
+          "The slope of a line is the same between any two distinct points on a line.",
+          "An increasing line has a positive slope. A decreasing line has a negative slope."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "rate of change"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "slope"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Let It Steep",
+                    "overview_item_data_group_item_description": "Students consider a situation and triangles to determine which triangle has the steepest slope.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Constant of Proportionality as Rate of Change",
+                    "overview_item_data_group_item_description": "Students write an equation, complete a table, identify the unit rate, and graph a situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Slope of a Line",
+                    "overview_item_data_group_item_description": "Students connect the concepts of slope, unit rate, rate of change, and the constant of proportionality.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Triangles and the Equation <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi></math>",
+                    "overview_item_data_group_item_description": "Students create similar right triangles to verify that the slope is the same between any two points on a line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "A Web of Connections",
+                    "overview_item_data_group_item_description": "Students complete a graphic organizer to summarize their understanding of the steepness of a line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Patty paper",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

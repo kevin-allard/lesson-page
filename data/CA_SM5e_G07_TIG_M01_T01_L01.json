@@ -1,0 +1,199 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "Pi: The Ultimate Ratio",
+    "overview_subtitle": "Exploring the Ratio of Circle Circumference to Diameter",
+    "overview_description": "In this investigate the lesson, students investigate the ratio between the circumference and diameter, concluding it is a constant that is about 3.14. Students use the relationship <math><mfrac><mtext>circumference</mtext><mtext>diameter</mtext></mfrac><mo>=</mo><mi>π</mi></math> to write the circumference formula. They calculate circumference using <math><mi>π</mi></math>, 3.14, and <math><mfrac><mn>22</mn><mn>7</mn></mfrac></math>."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can identify <math><mi>π</mi></math> as the ratio of the circumference of a circle to its diameter.",
+          "I can use formulas for the circumference of a circle to solve problems."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Shapes in the World"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A circle is a collection of points on the same plane equidistant from the same point.",
+          "The circumference of a circle is the distance around the circle.",
+          "In every circle, the ratio of the circumference to the diameter is the constant pi, or approximately 3.14.",
+          "The formula for the circumference of a circle is <math><mi>C</mi><mo>=</mo><mi>π</mi><mi>d</mi></math> or <math><mi>C</mi><mo>=</mo><mn>2</mn><mi>π</mi><mi>r</mi></math>, where <math><mi>C</mi></math> is the circumference, <math><mi>d</mi></math> is the length of the diameter, and <math><mi>r</mi></math> is the length of the radius.",
+          "When you double the length of the radius of a circle, you double its circumference."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "circle",
+              "radius",
+              "diameter",
+              "circumference",
+              "pi"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "diameter",
+              "circumference"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "circle",
+              "radius",
+              "diameter",
+              "circumference",
+              "pi"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Estimate It!",
+                    "overview_item_data_group_item_description": "Students provide a distance estimate.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Analyzing the Parts of a Circle",
+                    "overview_item_data_group_item_description": "Students measure parts of a circle.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Measuring the Distance Around a Circle",
+                    "overview_item_data_group_item_description": "Students investigate the ratio between the circumference and diameter of a circle.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "The Circumference Formula",
+                    "overview_item_data_group_item_description": "Students use the ratio for <math><mi>π</mi></math> to write the formula for the circumference of a circle.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Twice",
+                    "overview_item_data_group_item_description": "Students compare two circles by their characteristics.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Centimeter rulers, string",
+          "Centimeter rulers, string",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

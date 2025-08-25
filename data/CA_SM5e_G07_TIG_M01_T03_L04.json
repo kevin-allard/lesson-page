@@ -1,0 +1,147 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 4,
+    "overview_title": "No Taxation Without Calculation",
+    "overview_subtitle": "Sales Tax and Fees",
+    "overview_description": "In this lesson, students compare the percent relationships in markups and markdowns, tips, discounts, commissions, fees, and taxes. They identify sales tax rates from a table, a graph, and an equation and represent a percent situation using these representations. They make sense of the formula <math><mi>t</mi><mo>=</mo><mtext>list price</mtext><mo stretchy=\"false\">(</mo><mn>1</mn><mo>+</mo><mtext> tax rate</mtext><mo stretchy=\"false\">)</mo></math> to calculate the total amount paid in percent situations."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can use proportional reasoning to calculate sales tax amounts.",
+          "I can solve sales tax problems by determining the tax amount, the percent, or the amount taxes.",
+          "I can use proportionality to solve multistep ratio and percent problems involving taxes and fees by writing equations."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Proportional Relationships",
+          "Unit Rates in the World"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "When calculating the total cost of a good or service that includes sales tax, <math><mi>x</mi><mi>%</mi></math>, multiplying the list price by <math><mo stretchy=\"false\">(</mo><mn>1</mn><mo>+</mo><mi>x</mi><mi>%</mi><mo stretchy=\"false\">)</mo></math> is the same as adding the sales tax, <math><mi>x</mi><mi>%</mi></math>, to the list price.",
+          "The relationship between an order amount and the total amount, including a percent fee, is proportional and represented by the equation <math><mi>y</mi><mo>=</mo><mi>k</mi><mi>x</mi></math>.",
+          "Markups, tips, commissions, fees, and taxes represent increases over an original amount.",
+          "Discounts and markdowns represent decreases from an original amount."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "sales tax"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Pay the Piper",
+                    "overview_item_data_group_item_description": "Students determine patterns in a number string involving percents.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Sales Tax",
+                    "overview_item_data_group_item_description": "Students learn about state sales tax, identifying it as a rate from an equation, a table, or a graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Life and Taxes",
+                    "overview_item_data_group_item_description": "Students compare percent relationships in markups, markdowns, tips, discounts, fees, and taxes.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

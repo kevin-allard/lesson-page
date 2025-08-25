@@ -1,0 +1,200 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "Into the Unknown",
+    "overview_subtitle": "Introduction to Algebraic Expressions",
+    "overview_description": "In this lesson, students translate mathematical phrases into numeric expressions with mathematical symbols. They use arithmetic to solve a series of problems and generalize the pattern to write an algebraic expression for the situation. Students substitute a given value for a variable and then evaluate a mathematical expression. They use vocabulary such as coefficient, term, and evaluate."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can write algebraic expressions to represent real-world and mathematical situations.",
+          "I can use mathematical terms to identify parts of expressions.",
+          "I can evaluate algebraic expressions at specific values of their variables."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Generalizing with Multiple Representations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "An algebraic expression is an expression that has at least one variable.",
+          "A number that is multiplied by a variable in an algebraic expression is a coefficient. When a variable does not show a coefficient, then it is understood to be 1.",
+          "Algebraic expressions can have one or more terms. A term of an algebraic expression is a number, variable, or product of numbers and variables. A term that consists of a number only is a constant; its value never changes.",
+          "Evaluating an algebraic expression means determining the value of the expression for a given value of each variable.",
+          "You can construct algebraic expressions to represent real-world situations and evaluate them to solve problems."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "algebraic expression",
+              "coefficient"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "term"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "evaluate an algebraic expression"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Do You Speak Math?",
+                    "overview_item_data_group_item_description": "Students translate verbal phrases to numeric expressions using mathematical symbols.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Writing Expressions with Variables",
+                    "overview_item_data_group_item_description": "Students use arithmetic to solve problems and write an algebraic expression to represent the situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Concentration: Writing Algebraic Expressions",
+                    "overview_item_data_group_item_description": "Students play a matching game with written expressions and algebraic expressions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Parts of Algebraic Expressions",
+                    "overview_item_data_group_item_description": "Students learn the definition of <term> in the context of an algebraic expression.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Evaluating Algebraic Expressions",
+                    "overview_item_data_group_item_description": "Students evaluate an algebraic expression for given values.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Expression Construction",
+                    "overview_item_data_group_item_description": "Students solve a problem in a context that requires repetitive operations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Concentration: Writing Algebraic Expressions Cards (1 set per pair), Instructions for Concentration: Writing Algebraic Expressions (1 per pair), scissors (1 per pair)",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

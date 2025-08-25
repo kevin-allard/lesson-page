@@ -1,0 +1,204 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Now I Know My A, B, C, Ds",
+    "overview_subtitle": "Transformations of Exponential Functions",
+    "overview_description": "In this lesson, students explore transformations of exponential functions. They investigate graphs of the transformation, compare characteristics of the transformed graph with the graph of the basic function, including the horizontal asymptote when appropriate, and write the transformations using coordinate notation. Students consider different ways to rewrite and interpret equations of function transformations."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can graph exponential functions and their transformations, identifying intercepts and asymptotes.",
+          "I can identify the values that define the transformations of an exponential function's graph.",
+          "I can describe and apply transformations to exponential functions, including translations, reflections, and dilations.",
+          "I can write equations for transformed exponential functions given a graph or verbal description."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Transformations and Congruence"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A reflection of a graph is a mirror image of the graph about a line.",
+          "You reflect a graph across a line of reflection.",
+          "You can express reflections across the <math><mi>x</mi></math>-axis using the notation <math><mo stretchy=\"false\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo>&#x2192;</mo><mo stretchy=\"false\">(</mo><mi>x</mi><mo>,</mo><mo>&#x2212;</mo><mi>y</mi><mo stretchy=\"false\">)</mo></math>. It affects the <math><mi>y</mi></math>-coordinate of each point on the graph.",
+          "You can express reflections across the <math><mi>y</mi></math>-axis using the notation <math><mo stretchy=\"false\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\">)</mo><mo>&#x2192;</mo><mo stretchy=\"false\">(</mo><mo>&#x2212;</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\">)</mo></math>. It affects the <math><mi>x</mi></math>-coordinate of each point on the graph."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": []
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "H, I, J...",
+                    "overview_item_data_group_item_description": "Students identify the domain, the range, and the horizontal asymptote of the graph <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><msup><mn>2</mn><mi>x</mi></msup></math>.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Vertical Translations of Exponential Functions",
+                    "overview_item_data_group_item_description": "Students generalize the effects of vertical translations on the domain, the range, and the asymptotes of exponential functions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Horizontal Translations of Exponential Functions",
+                    "overview_item_data_group_item_description": "Students generalize the effects of horizontal translations on the domain, the range, and the asymptotes of exponential functions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Reflections and Dilations of Exponential Functions",
+                    "overview_item_data_group_item_description": "Students generalize the effects of horizontal and vertical reflections on the domain, the range, and the asymptotes of exponential functions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Interpreting and Graphing Exponential Functions",
+                    "overview_item_data_group_item_description": "Students consider different methods of performing transformations that result in the same graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Writing Exponential Functions Given Graphs and Descriptions",
+                    "overview_item_data_group_item_description": "Students use transformation descriptions to write the transformed function of <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>, analyze the graphs of <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> and <math><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>, describe the transformations from <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> to <math><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>, and write an equation for <math><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> in terms of <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "graphic_organizer",
+                    "overview_item_data_group_item_title": "Next Time, Won't You Sing with Me?",
+                    "overview_item_data_group_item_description": "Students summarize the effects of <math><mi>A</mi></math>-, <math><mi>B</mi></math>-, <math><mi>C</mi></math>-, and <math><mi>D</mi></math>-values on the graph of a basic exponential function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Close",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "quick_check",
+                    "overview_item_data_group_item_title": "Quick Check",
+                    "overview_item_data_group_item_description": "",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

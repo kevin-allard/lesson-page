@@ -53,7 +53,7 @@
           "The greatest common factor (GCF) of two numbers is the largest factor shared by the two numbers.",
           "The least common multiple (LCM) of two numbers is the smallest nonzero multiple shared by the two numbers.",
           "You can use the Commutative and Distributive Properties to generate equivalent expressions.",
-          "If two numbers <math><mi>a</mi></math> and <math><mi>b</mi></math> are relatively prime, then the <math><mi>GCF</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mn>1</mn></math> and the <math><mi>LCM</mi><mo stretchy=\"false\">(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mi>b</mi></math>."
+          "If two numbers <math><mi>a</mi></math> and <math><mi>b</mi></math> are relatively prime, then the <math><mi>GCF</mi><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>1</mn></math> and the <math><mi>LCM</mi><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>b</mi></math>."
         ]
       }
     },
@@ -103,7 +103,10 @@
                     "overview_item_data_group_item_type": "presentation",
                     "overview_item_data_group_item_title": "The \"It\" Factor",
                     "overview_item_data_group_item_description": "Students use a situation to determine how to share items equally.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               },
@@ -114,15 +117,35 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 1",
                     "overview_item_data_group_item_title": "Understanding Common Factors",
-                    "overview_item_data_group_item_description": "Students create rectangular arrays to explore factors.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
+                    "overview_item_data_group_item_description": "Students create rectangular arrays to explore factors. Materials: Grid paper, scissors",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
                   },
                   {
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 2",
                     "overview_item_data_group_item_title": "Prime Factors and Common Factors",
                     "overview_item_data_group_item_description": "Students write prime factorizations and use them to determine the GCF of two numbers.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Bringing It Back Around",
+                    "overview_item_data_group_item_description": "Students rewrite the sum of two numbers using the Distributive Property and generalize about least common multiples.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
                   }
                 ]
               }
@@ -138,26 +161,21 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 3",
                     "overview_item_data_group_item_title": "Common Multiples",
-                    "overview_item_data_group_item_description": "Students use a rectangular array to generate lists of common multiples of two numbers.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 20 }
+                    "overview_item_data_group_item_description": "Students use a rectangular array to generate lists of common multiples.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
                   },
                   {
-                    "overview_item_data_group_item_type": "online",
+                    "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 4",
                     "overview_item_data_group_item_title": "Determining GCF and LCM",
                     "overview_item_data_group_item_description": "Students practice determining the GCF and LCM of pairs of numbers.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
-                  }
-                ]
-              },
-              {
-                "overview_item_data_group_title": "Reflect",
-                "overview_item_data_group_items": [
-                  {
-                    "overview_item_data_group_item_type": "book",
-                    "overview_item_data_group_item_title": "Bringing It Back Around",
-                    "overview_item_data_group_item_description": "Students rewrite the sum of two numbers using the Distributive Property and generalize about least common multiples.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
                   }
                 ]
               }
@@ -173,7 +191,7 @@
       "overview_item_data": {
         "overview_item_data_type": "list",
         "overview_item_data_items": [
-          "Grid Paper",
+          "Grid paper",
           "scissors",
           "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
         ]

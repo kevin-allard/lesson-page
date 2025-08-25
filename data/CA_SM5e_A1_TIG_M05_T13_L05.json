@@ -1,0 +1,183 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Transforming Solutions",
+    "overview_subtitle": "Solutions to Quadratic Equations in Vertex Form",
+    "overview_description": "In this lesson, students use the Properties of Equality and square roots to solve quadratic equations of the form <math><mi>y</mi><mo>=</mo><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><mi>c</mi><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></math>, <math><mi>y</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><mi>c</mi><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup><mo>&#x2212;</mo><mi>d</mi></math> and determine how the translations affect the solutions. Students learn that a quadratic function can have one unique real zero, two real zeros, or no real zeros, and how the number of real zeros relates to the graph of the function."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can solve quadratic equations in vertex form by taking square roots and explain the meaning of the solutions.",
+          "I can solve quadratic equations in different forms and use structure to choose an appropriate solving method.",
+          "I can use graphs to interpret the solutions of a quadratic equation and explain how they relate to the equation.",
+          "I can explain how the number of solutions to a quadratic equation relates to the graph of the function."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Systems of Equations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The solutions to a quadratic equation of the form <math><mi>y</mi><mo>=</mo><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><mi>c</mi><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></math> are <math><mi>x</mi><mo>=</mo><mi>c</mi><mo>&#x00B1;</mo><msqrt><mi>y</mi></msqrt></math>.",
+          "The solutions to a quadratic equation of the form <math><mi>y</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><mi>c</mi><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup><mo>+</mo><mi>d</mi></math> are <math><mi>x</mi><mo>=</mo><mi>c</mi><mo>&#x00B1;</mo><msqrt><mfrac><mrow><mi>y</mi><mo>&#x2212;</mo><mi>d</mi></mrow><mi>a</mi></mfrac></msqrt></math>.",
+          "The solutions to a quadratic equation of the form <math><mi>y</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><mi>c</mi><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup><mo>&#x2212;</mo><mi>d</mi></math> are <math><mi>x</mi><mo>=</mo><mi>c</mi><mo>&#x00B1;</mo><msqrt><mfrac><mi>d</mi><mi>a</mi></mfrac></msqrt></math>.",
+          "A quadratic equation has one unique, two, or no real roots. The number of real roots corresponds to the number of x-intercepts."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": []
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Slide, Slide, Slippity Slide",
+                    "overview_item_data_group_item_description": "Students describe transformations of quadratic functions by connecting graphical representations to algebraic equations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Solutions for Horizontal Translations",
+                    "overview_item_data_group_item_description": "Students analyze solutions from graphical representations to the solutions determined algebraically.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Spell It Out",
+                    "overview_item_data_group_item_description": "Students generalize their understandings about the solutions to quadratic equations in vertex form",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Solutions for Vertical Dilations",
+                    "overview_item_data_group_item_description": "Students solve quadratic equations of the form <math><mi>y</mi><mo>=</mo><mi>a</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><mi>c</mi><msup><mo stretchy=\"false\">)</mo><mn>2</mn></msup></math>, where a ≠ 1.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Solutions for Vertical Translations",
+                    "overview_item_data_group_item_description": "Students write the general solutions to a quadratic equation expressed in vertex form.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

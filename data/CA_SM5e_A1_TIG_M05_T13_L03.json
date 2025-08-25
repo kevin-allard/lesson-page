@@ -1,0 +1,177 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "Solutions, More or Less",
+    "overview_subtitle": "Representing Solutions to Quadratic Equations",
+    "overview_description": "In this lesson, students use the Properties of Equality and square roots to solve simple quadratic equations. They express solutions in terms of the distance from the axis of symmetry to the parabola. Students identify double roots, estimate square roots, and extract perfect roots. They use the Zero Product Property to explain that the zeros of a quadratic function are the same as the zeros of its linear factors."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can solve quadratic equations by taking square roots and explain the meaning of the solutions.",
+          "I can represent the solutions of a quadratic equation in terms of their distances from the axis of symmetry.",
+          "I can rewrite quadratic equations using the difference of squares and use the Zero Product Property to solve them.",
+          "I can identify the zeros of a quadratic function, the roots of a quadratic equation, and the x-intercepts of a parabola using the equation of a quadratic function."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Structure of Equations",
+          "Number and Quantity Standard The Real Number System",
+          "Extending understanding of radicals and rational exponents using the properties of exponents."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A quadratic function is a polynomial of degree 2. It has two zeros or two solutions at <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></math>. When both solutions are the same, the quadratic function has a double zero.",
+          "The zeros are the roots of the quadratic equation.",
+          "You can represent the solutions to the quadratic equation <math><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi></math>, where <math><mi>d</mi></math> is a value of the axis of symmetry.",
+          "The Zero Product Property states that when the product of two or more factors is equal to zero, then at least one factor must be equal to zero. Therefore, the zeros of a quadratic function are the same as the zeros of its linear factors.",
+          "You can solve a quadratic equation of the <math><mi>y</mi><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi></math> by isolating <math><mi>x</mi></math>, using factored form, or using the difference of two squares and the Zero Product Property."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "principal square root",
+              "double root"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "Zero Product Property"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Plus or Minus",
+                    "overview_item_data_group_item_description": "Students generate solutions for an absolute value graph and discuss how to write solutions in terms of the axis of symmetry.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Solutions of a Quadratic Function",
+                    "overview_item_data_group_item_description": "Students use zeros of quadratic functions to identify solutions and rewrite them in terms of their distances from the axis of symmetry.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Solutions from Standard Form to Factored Form",
+                    "overview_item_data_group_item_description": "Students rewrite quadratic equations in the form <math><mi>y</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi></math> into factored form and define the Zero Product Property.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "The Difference of Squares",
+                    "overview_item_data_group_item_description": "Students solve equations written in the form <math><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi><mo>=</mo><mn>0</mn></math>.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

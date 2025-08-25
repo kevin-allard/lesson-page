@@ -1,0 +1,233 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "Construction Ahead",
+    "overview_subtitle": "Constructing a Square",
+    "overview_description": "In this lesson, students distinguish constructions from sketches and drawings. They construct segments, rays, lines, and circles, as well as perpendicular lines using patty paper and a compass and straightedge. Students then construct a square inscribed in a circle using both rotations of a right triangle on the plane and a compass and straightedge construction."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can construct the perpendicular bisector of a segment and describe its properties.",
+          "I can use construction tools to duplicate a line segment and construct a segment bisector.",
+          "I can construct a perpendicular line through a point on a line and through a point not on a line.",
+          "I can construct a square inscribed in a circle using construction tools and geometric reasoning."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Transformations and Congruence"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "When you construct geometric figures, you create exact figures using only a compass, patty paper and a straightedge.",
+          "A segment bisector is a line, line segment, or ray that divides a line segment into two line segments of equal length.",
+          "A perpendicular bisector is a line, line segment, or ray that bisects a line segment and is also perpendicular to the line segment.",
+          "Any point on a perpendicular bisector is equidistant to the endpoints of the original segment it bisects."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "sketch",
+              "draw",
+              "construct",
+              "center",
+              "radius",
+              "chord",
+              "diameter",
+              "central angle",
+              "inscribed angle",
+              "secant",
+              "arc"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "segment bisector",
+              "perpendicular bisector",
+              "conjecture"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "duplicate"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "A Rising Artist!",
+                    "overview_item_data_group_item_description": "Students compare drawings with various levels of detail.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Tools of Geometry",
+                    "overview_item_data_group_item_description": "Students use measuring tools to draw various figures and learn the difference between the terms sketch, draw, and construct.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Constructing a Segment Bisector",
+                    "overview_item_data_group_item_description": "Students construct segment bisectors and use construction tools to locate the midpoint of several line segments.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Constructing Perpendicular Lines and Bisectors",
+                    "overview_item_data_group_item_description": "Students construct perpendicular bisectors through given points on the line or not on the line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Duplicating a Line Segment",
+                    "overview_item_data_group_item_description": "Students duplicate line segments and construct a segment that is twice the length of a given line segment.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Constructing an Inscribed Square",
+                    "overview_item_data_group_item_description": "Students inscribe a square in a circle using patty paper and rigid motion transformations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Work Your Chords",
+                    "overview_item_data_group_item_description": "Students use relationships among squares inscribed in circles and circles inscribed in squares to solve problems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Compass, straightedge",
+          "Compass, patty paper, straightedge",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

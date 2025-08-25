@@ -1,0 +1,175 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 2,
+    "overview_title": "Rising, Running, Stepping, Scaling",
+    "overview_subtitle": "Dilating Figures on the Coordinate Plane",
+    "overview_description": "In this lesson, students dilate figures, scaling up and down on the coordinate plane with the origin as the dilation's center. They explain how the vertices' coordinates are affected and how the figures are similar by describing the relationship between the figures' corresponding angles and side lengths. Students then dilate figures using a point other than the origin as the center of dilation."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can describe how a dilation of a figure on a coordinate plane affects the coordinates of the figure.",
+          "I can distinguish between a dilation centered at the origin and a dilation not centered at the origin.",
+          "I can describe how a dilation of a figure on a coordinate plane affects the coordinates of the figure.",
+          "I can use symbols to write similarity statements."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Transformational Geometry"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "When you dilate a figure on the coordinate plane, the resulting image is similar to the original figure.",
+          "You can use repeated horizontal and vertical translations on the coordinate plane to dilate figures.",
+          "To dilate a figure using the origin as the center of dilation, you can multiply the figure's <math><mi>x</mi></math>- and <math><mi>y</mi></math>-coordinates by the scale factor.",
+          "The dilation of the points <math><mo stretchy=\"false\">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy=\"false\">)</mo></math> of an original figure is <math><mo stretchy=\"false\">(</mo><mi>s</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><mi>c</mi><mo stretchy=\"false\">)</mo><mo>,</mo><mi>s</mi><mo stretchy=\"false\">(</mo><mi>y</mi><mo>&#x2212;</mo><mi>d</mi><mo stretchy=\"false\">)</mo><mo stretchy=\"false\">)</mo></math>, where the center of dilation is <math><mo stretchy=\"false\">(</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo stretchy=\"false\">)</mo></math> and the scale factor is <math><mi>s</mi></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": []
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Moving On Up",
+                    "overview_item_data_group_item_description": "Students consider a situation and graph and share observations about the graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Scaling Up and Down on the Coordinate Plane",
+                    "overview_item_data_group_item_description": "Students analyze Worked Examples about dilating a figure using repeated translations from the origin.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Using the Origin as the Center of Dilation",
+                    "overview_item_data_group_item_description": "Students dilate various figures on the coordinate plane using the origin as the center of dilation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Using a Point Not at the Origin as a Center of Dilation",
+                    "overview_item_data_group_item_description": "Students practice graphing and dilating triangles on coordinate planes when the center of dilation is not the origin.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Location, Location, Location",
+                    "overview_item_data_group_item_description": "Students describe different strategies for dilating figures on and off the coordinate plane.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 2,
+    "overview_title": "Rational Decisions",
+    "overview_subtitle": "Rewriting Rational Numbers",
+    "overview_description": "In this lesson, students review the sets of natural numbers, whole numbers, integers, and rational numbers. They identify which sets have an additive identity and inverse and a multiplicative identity and inverse. Students learn that a decimal that terminates is a rational number, and they convert repeating decimals to fractions and vice versa. Students solve equations with rational numbers."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can rewrite rational numbers as either terminating or repeating decimals.",
+          "I can write repeating decimals as fractions.",
+          "I can identify numbers that are not rational as irrational numbers.",
+          "I can solve equations with rational numbers."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Big and Small Numbers",
+          "Shape, Number, and Expressions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "New number systems arise out of a need to create new types of numbers.",
+          "A rational number is a number you can write in the form <math><mfrac><mi>a</mi><mi>b</mi></mfrac></math>, where <math><mi>a</mi></math> and <math><mi>b</mi></math> are both integers, and <math><mi>b</mi></math> is not equal to zero.",
+          "You can write every rational number as a terminating or repeating decimal.",
+          "A decimal that does not terminate or repeat is not a rational number.",
+          "You can convert a fraction to a decimal and convert a repeating decimal to a fraction.",
+          "You can solve equations with rational number coefficients and constants using the same strategies to solve equations with integers."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "rational numbers",
+              "terminating decimal",
+              "repeating decimal",
+              "bar notation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Sorry, Wrong Number",
+                    "overview_item_data_group_item_description": "Students sort numbers into natural numbers, whole numbers, integers, and rational numbers.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Converting Repeating Decimals to Fractions",
+                    "overview_item_data_group_item_description": "Students learn that a rational number can be written as a terminating or repeating decimal.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Solving Equations with Rational Numbers",
+                    "overview_item_data_group_item_description": "Students solve equations with a rational number as a coefficient or constant.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "It Ain't Over 'Til It's Over!",
+                    "overview_item_data_group_item_description": "Students express numbers as terminating or repeating decimals.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

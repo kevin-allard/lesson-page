@@ -1,0 +1,199 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 4,
+    "overview_title": "What Are Those?!",
+    "overview_subtitle": "The Real Number System",
+    "overview_description": "In this lesson, students calculate the areas of squares and volumes of cubes with integer side lengths. They recognize that the square roots of perfect squares are integers, and the square roots of other numbers are rational or irrational. Students estimate square roots and cube roots to the nearest tenth and plot them on a number line. They use a Venn diagram to show how number sets are related."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can determine the approximate locations of irrational numbers on a number line and estimate their values.",
+          "I can approximate irrational numbers using rational numbers and compare their sizes.",
+          "I can evaluate square roots of perfect squares and cube roots of perfect cubes.",
+          "I can determine the approximate locations of irrational numbers on a number line and estimate their values."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Big and Small Numbers",
+          "Shape, Number, and Expressions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A decimal that does not terminate or repeat is an irrational number.",
+          "Square roots and cube roots may be rational or irrational numbers.",
+          "The square root of a perfect square and the cube root of a perfect cube are rational numbers.",
+          "You can estimate an irrational square root with a decimal value by locating it between two perfect squares’ square roots.",
+          "You can estimate an irrational cube root with a decimal value by locating it between the cube roots of two perfect cubes.",
+          "Real numbers include rational and irrational numbers."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "irrational numbers",
+              "cube root",
+              "radical",
+              "perfect cube"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "real numbers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "1D, 2D, 3D",
+                    "overview_item_data_group_item_description": "Students determine the area of squares and volumes of cubes with integer side lengths.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Understanding Square Roots",
+                    "overview_item_data_group_item_description": "Students recognize that the square roots of perfect squares are integers.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Estimating with Square Roots",
+                    "overview_item_data_group_item_description": "Students estimate a square root to the nearest tenth and plot it on a number line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Cubes and Cube Roots",
+                    "overview_item_data_group_item_description": "Students estimate a cube root to the nearest tenth and plot it on a number line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Venn Diagrams and Real Numbers",
+                    "overview_item_data_group_item_description": "Students use a Venn diagram to show relationships between sets within the real numbers.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Square Roots and Cube Roots",
+                    "overview_item_data_group_item_description": "Students determine the side length of a square given its area and a cube given its volume.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

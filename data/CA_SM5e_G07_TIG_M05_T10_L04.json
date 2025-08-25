@@ -1,0 +1,180 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 4,
+    "overview_title": "Toss the Cup",
+    "overview_subtitle": "Determining Experimental Probability of Simple Events",
+    "overview_description": "In this lesson, students flip a coin, toss a cup, and spin a spinner to calculate experimental probabilities. They observe how more trials bring experimental probability closer to theoretical probability, use percent error for comparison, and apply proportional reasoning to predict outcomes."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can predict the experimental probability of a chance event by collecting data in a probability experiment.",
+          "I can construct a probability model using frequencies in data generated from a probability experiment.",
+          "I can use proportional reasoning to determine the theoretical probability of random events."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Visualize Populations",
+          "Simulating Models"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Experimental probability is the ratio of the number of times an event occurs to the total number of trials performed: <math><msub><mi>P</mi><mi>e</mi></msub><mo>=</mo><mfrac><mrow><mi>number</mi><mspace width=\"0.2em\"></mspace><mi>of</mi><mspace width=\"0.2em\"></mspace><mi>times</mi><mspace width=\"0.2em\"></mspace><mi>the</mi><mspace width=\"0.2em\"></mspace><mi>event</mi><mspace width=\"0.2em\"></mspace><mi>occurs</mi></mrow><mrow><mi>total</mi><mspace width=\"0.2em\"></mspace><mi>number</mi><mspace width=\"0.2em\"></mspace><mi>of</mi><mspace width=\"0.2em\"></mspace><mi>trials</mi><mspace width=\"0.2em\"></mspace><mi>performed</mi></mrow></mfrac></math>.",
+          "Theoretical probability is the ratio of the number of desired outcomes to the total possible outcomes: <math><msub><mi>P</mi><mi>t</mi></msub><mo>=</mo><mfrac><mrow><mi>number</mi><mspace width=\"0.2em\"></mspace><mi>of</mi><mspace width=\"0.2em\"></mspace><mi>desired</mi><mspace width=\"0.2em\"></mspace><mi>outcomes</mi></mrow><mrow><mi>total</mi><mspace width=\"0.2em\"></mspace><mi>possible</mi><mspace width=\"0.2em\"></mspace><mi>outcomes</mi></mrow></mfrac></math>.",
+          "Percent error, <math><mfrac><mrow><msub><mi>P</mi><mi>e</mi></msub><mo>-</mo><msub><mi>P</mi><mi>t</mi></msub></mrow><msub><mi>P</mi><mi>t</mi></msub></mfrac><mo>⋅</mo><mn>100</mn></math>, is one way to measure the difference between experimental and theoretical probabilities.",
+          "You cannot calculate the experimental or theoretical probability for some situations."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "theoretical probability",
+              "experimental probability"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Flip It!",
+                    "overview_item_data_group_item_description": "Students calculate the probability of each outcome and compare the calculated and actual probabilities.\nMaterials: Coins (1 per pair)",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Determining Experimental Probability",
+                    "overview_item_data_group_item_description": "Students determine the experimental and theoretical probability.\nMaterials: Cups (1 per pair)",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Predicting Theoretical Probability Using Experimental Probability",
+                    "overview_item_data_group_item_description": "Students calculate the experimental probability for outcomes on a spinner to predict the theoretical probability.\nMaterials: Paper clips (1 per pair)",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Comparing Probabilities Using Proportional Reasoning",
+                    "overview_item_data_group_item_description": "Students analyze the percent error of theoretical and experimental probabilities.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Theoretical or Experimental?",
+                    "overview_item_data_group_item_description": "Students determine whether they can calculate each probability experimentally, theoretically, or both.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Coins (1 per pair)",
+          "Cups (1 per pair)",
+          "Paper clips (1 per pair)",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

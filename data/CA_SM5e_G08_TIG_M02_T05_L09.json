@@ -1,0 +1,206 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 9,
+    "overview_title": "What's the Point?",
+    "overview_subtitle": "Writing and Graphing Linear Equations",
+    "overview_description": "In this lesson, students learn how to create the slope-intercept and point-slope forms of a line from the slope formula. They write equations in each form from tables, graphs, situations, two points, or a slope and a point. Students graph lines using a slope and the <math><mi>y</mi></math>-intercept or a slope and a point. They make sense of the graphs of horizontal and vertical lines by relating them to their slopes, tables, and equations."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can write equations of lines in slope-intercept and point-slope form.",
+          "I can write equations for vertical and horizontal lines.",
+          "I can graph lines using the slope-intercept or point-slope form of a linear equation."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Linear Equations",
+          "Functions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The slope-intercept form of a linear equation is <math><mi>y</mi><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, where <math><mi>m</mi></math> is the slope of the line and <math><mo stretchy=\"false\">(</mo><mn>0</mn><mo>,</mo><mi>b</mi><mo stretchy=\"false\">)</mo></math> is the <math><mi>y</mi></math>-intercept of the line.",
+          "You can graph a line in slope-intercept form by plotting the <math><mi>y</mi></math>-intercept, then applying the slope to locate points on each side of the <math><mi>y</mi></math>-intercept.",
+          "The point-slope form of a linear equation is <math><mi>y</mi><mo>=</mo><mi>m</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>&#x2212;</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy=\"false\">)</mo></math>, where <math><mi>m</mi></math> is the slope of the line and <math><mo stretchy=\"false\">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo stretchy=\"false\">)</mo></math> is a point on the line.",
+          "You can graph a line in point-slope form by plotting a known point, then applying the slope to locate points on each side of the known point.",
+          "The equation <math><mi>y</mi><mo>=</mo><mi>b</mi></math> is a horizontal line that passes through <math><mo stretchy=\"false\">(</mo><mn>0</mn><mo>,</mo><mi>b</mi><mo stretchy=\"false\">)</mo></math>.",
+          "The equation <math><mi>x</mi><mo>=</mo><mi>a</mi></math> is a vertical line that passes through <math><mo stretchy=\"false\">(</mo><mi>a</mi><mo>,</mo><mn>0</mn><mo stretchy=\"false\">)</mo></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "slope-intercept form"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "point-slope form"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Which Has More?",
+                    "overview_item_data_group_item_description": "Students compare areas. Prepare to share your equations with your classmates.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Using Slope-Intercept Form",
+                    "overview_item_data_group_item_description": "Students connect the slope formula to the slope-intercept form of a line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Say What?",
+                    "overview_item_data_group_item_description": "Students compute slope-intercept and point-slope forms of a linear equation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Using Point-Slope Form",
+                    "overview_item_data_group_item_description": "Students learn the connection between the slope formula and the point-slope form of a line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Writing Equations of Lines",
+                    "overview_item_data_group_item_description": "Students write equations from situations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Horizontal and Vertical Lines",
+                    "overview_item_data_group_item_description": "Students write equations for horizontal and vertical lines to model a table of values.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Straightedges",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

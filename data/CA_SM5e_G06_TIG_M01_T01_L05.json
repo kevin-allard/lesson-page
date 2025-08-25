@@ -55,6 +55,20 @@
       }
     },
     {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": []
+          }
+        ]
+      }
+    },
+    {
       "overview_item_type": "pacing_guide",
       "overview_item_content_type": "text",
       "overview_item_title": "Lesson Structure and Pacing Guide",
@@ -69,9 +83,12 @@
                 "overview_item_data_group_items": [
                   {
                     "overview_item_data_group_item_type": "presentation",
-                    "overview_item_data_group_item_title": "We Have That in Common",
+                    "overview_item_data_group_item_title": "We Have That In Common",
                     "overview_item_data_group_item_description": "Students analyze word problems to determine whether they need to use the GCF or the LCM to solve them.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
                   }
                 ]
               },
@@ -83,14 +100,20 @@
                     "overview_item_data_group_item_prefix": "Activity 1",
                     "overview_item_data_group_item_title": "Using GCF and LCM to Solve Problems",
                     "overview_item_data_group_item_description": "Students apply GCF or LCM to solve problems related to real-world situations.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
                   },
                   {
-                    "overview_item_data_group_item_type": "online",
+                    "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 2",
                     "overview_item_data_group_item_title": "LCM and GCF Number Search",
-                    "overview_item_data_group_item_description": "Students play a game to identify chains of numbers that end with their GCF or LCM.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                    "overview_item_data_group_item_description": "Students play a game to identify chains of numbers that end with their GCF or LCM.\n\nMaterials: Instructions for LCM and GCF Number Search (1 per pair), LCM and GCF Number Search Gameboard (1 per pair)",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
                   }
                 ]
               },
@@ -101,7 +124,10 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_title": "Finishing Where We Started",
                     "overview_item_data_group_item_description": "Students apply strategies to calculate the GCF or LCM to solve problems.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
                   }
                 ]
               }

@@ -1,0 +1,214 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Get Your Move On",
+    "overview_subtitle": "Transforming Linear Functions",
+    "overview_description": "In this lesson, students identify key characteristics of linear functions. They use graphs to investigate <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>D</mi></math>, <math><mi>A</mi><mo>⋅</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−<!-- − --></mo><mi>C</mi><mo stretchy=\"false\">)</mo></math>, and <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo>⋅</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>. Given a function <math><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> in terms of <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>, students graph <math><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> and describe each transformation on <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> to produce <math><mi>g</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>. Finally, students test a game that uses transformations of linear functions to hit targets."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can connect the domain of a function to the context it represents using quantities.",
+          "I can graph a linear function transformation expressed symbolically.",
+          "I can generalize the effects of replacing <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> by <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>D</mi></math>, <math><mi>A</mi><mo>⋅</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−<!-- − --></mo><mi>C</mi><mo stretchy=\"false\">)</mo></math>, or <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo>⋅</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> for a linear function."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Function Investigations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The function <math><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>D</mi></math> is a vertical translation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mi>D</mi><mo>&gt;</mo><mn>0</mn></math>, the graph vertically shifts up, and when <math><mi>D</mi><mo>&lt;</mo><mn>0</mn></math>, the graph vertically shifts down. The amount of shift is given by <math><mrow><mo>|</mo></mrow><mi>D</mi><mrow><mo>|</mo></mrow></math>.",
+          "The function <math><mi>y</mi><mo>=</mo><mi>A</mi><mo>⋅</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> is a vertical dilation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mrow><mo>|</mo></mrow><mi>A</mi><mrow><mo>|</mo></mrow><mo>&gt;</mo><mn>1</mn></math>, the graph stretches vertically by a factor of <math><mrow><mo>|</mo></mrow><mi>A</mi><mrow><mo>|</mo></mrow></math>, and when <math><mn>0</mn><mo>&lt;</mo><mrow><mo>|</mo></mrow><mi>A</mi><mrow><mo>|</mo></mrow><mo>&lt;</mo><mn>1</mn></math>, the graph compresses vertically by a factor of <math><mi>A</mi></math>. When <math><mi>A</mi><mo>&lt;</mo><mn>0</mn></math>, the graph reflects across the x-axis.",
+          "The function <math><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−<!-- − --></mo><mi>C</mi><mo stretchy=\"false\">)</mo></math> is a horizontal translation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mi>C</mi><mo>&gt;</mo><mn>0</mn></math>, the graph horizontally shifts right, and when <math><mi>C</mi><mo>&lt;</mo><mn>0</mn></math>, the graph horizontally shifts left. The amount of shift is given by <math><mrow><mo>|</mo></mrow><mi>C</mi><mrow><mo>|</mo></mrow></math>.",
+          "The function <math><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo>⋅</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> is a horizontal dilation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mrow><mo>|</mo></mrow><mi>B</mi><mrow><mo>|</mo></mrow><mo>&gt;</mo><mn>1</mn></math>, the graph compresses horizontally by a factor of <math><mfrac><mn>1</mn><mrow><mo>|</mo><mi>B</mi><mo>|</mo></mrow></mfrac></math>. When <math><mn>0</mn><mo>&lt;</mo><mrow><mo>|</mo></mrow><mi>B</mi><mrow><mo>|</mo></mrow><mo>&lt;</mo><mn>1</mn></math>, the graph stretches horizontally by a factor of <math><mfrac><mn>1</mn><mrow><mo>|</mo><mi>B</mi><mo>|</mo></mrow></mfrac></math>. When <math><mi>B</mi><mo>&lt;</mo><mn>0</mn></math>, the graph reflects across the y-axis."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "basic function"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Returning to Transformation Station",
+                    "overview_item_data_group_item_description": "Students graph translations and dilations of a given line segment.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Investigating Vertical Translations and Vertical Dilations",
+                    "overview_item_data_group_item_description": "Students generalize that the <math><mi>D</mi></math>-value in the function transformation form, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>D</mi></math>, vertically translates the graph, and that the <math><mi>A</mi></math>-value in the function transformation form, <math><mi>A</mi><mo>⋅</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>, horizontally dilates the graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Vertical Translations and Vertical Dilations of Functions",
+                    "overview_item_data_group_item_description": "Students generalize that the <math><mi>A</mi></math>-value affects the slope of the function, while the <math><mi>D</mi></math>-value affects the y-intercept.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "exit_ticket",
+                    "overview_item_data_group_item_title": "Function Matching",
+                    "overview_item_data_group_item_description": "Students match graphs of transformations with their functions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Launch",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Session Launch",
+                    "overview_item_data_group_item_description": "Go online for Session Launch recommendations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Horizontal Translations and Horizontal Dilations of Functions",
+                    "overview_item_data_group_item_description": "Students generalize that the <math><mi>C</mi></math>-value in the function transformation form, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−<!-- − --></mo><mi>C</mi><mo stretchy=\"false\">)</mo></math>, horizontally translates the graph, and that the <math><mi>B</mi></math>-value in the function transformation form, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mi>x</mi><mo stretchy=\"false\">)</mo></math>, horizontally dilates the graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Applying Linear Function Transformations",
+                    "overview_item_data_group_item_description": "Students write equations for transformed functions in the context of a problem situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "quick_check",
+                    "overview_item_data_group_item_title": "Function Matching",
+                    "overview_item_data_group_item_description": "Consider the graph of the linear function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math> and four transformations of <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math>.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

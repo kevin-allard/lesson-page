@@ -1,0 +1,187 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "Rolling, Rolling, Rolling . . .",
+    "overview_subtitle": "Defining and Representing Probability",
+    "overview_description": "In this lesson, students learn vocabulary related to probability. They calculate the probability of simple events and their complements and express the results as fractions, decimals, and percents. Students also estimate probabilities using the benchmarks 0, <math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, and 1 on a number line. They realize that the sum of the probabilities for all outcomes of any experiment will always be 1."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can differentiate between an outcome and an event and list the sample space for an experiment.",
+          "I can determine the probability of an event, its complement, and understand that the sum of all probabilities in an experiment is 1.",
+          "I can express the probability of an event as a fraction, decimal, or percent, recognizing it as a value between 0 and 1."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Probability Models"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Probability is a measure of the likelihood that an event will occur. <math><mtext>probability of an event</mtext><mo>=</mo><mfrac><mtext>number of ways an event will occur</mtext><mtext>total number of outcomes</mtext></mfrac></math>.",
+          "The probability of an event is always the ratio <math><mfrac><mtext>number of ways an event can occur</mtext><mtext>number of possible outcomes</mtext></mfrac></math>.",
+          "Complementary events are events that together contain all of the outcomes in the sample space. The sum of their probabilities is 1.",
+          "You can calculate the probability of a complementary event, <math><mi>P</mi><mo stretchy="false">(</mo><mtext>not event</mtext><mo stretchy="false">)</mo></math>, using the probability formula or calculating <math><mn>1</mn><mo>−</mo><mi>P</mi><mo stretchy="false">(</mo><mtext>event</mtext><mo stretchy="false">)</mo></math>.",
+          "The sum of the probabilities for all outcomes of any experiment is always 1.",
+          "Probability values range from 0 to 1. The probability of an impossible event is 0. The probability of an event certain to happen is 1."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "outcome",
+              "experiment",
+              "sample space",
+              "event",
+              "simple event",
+              "probability",
+              "complementary events",
+              "equally likely"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "What Are the Chances?",
+                    "overview_item_data_group_item_description": "Students explain the meaning of common probability statements and rewrite each as a percent or a fraction.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Calculating Simple Probabilities",
+                    "overview_item_data_group_item_description": "Students learn about and calculate the probabilities of complementary events.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Simple Probability and Spinners",
+                    "overview_item_data_group_item_description": "Students identify and compare outcomes of complementary events.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Probabilities from 0 to 1",
+                    "overview_item_data_group_item_description": "Students estimate probabilities using the benchmarks 0, <math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, and 1 on a number line.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Absolutely/Never",
+                    "overview_item_data_group_item_description": "Students respond to probability statements relating complementary events and their sum of 1.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "dice",
+          "probability cards",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

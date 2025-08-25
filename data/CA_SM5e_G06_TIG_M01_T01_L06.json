@@ -1,5 +1,5 @@
 {
-  "overview_type": "re_engagement",
+  "overview_type": "re-engagement",
   "overview_pacing": {
     "pacing_type": "minutes",
     "pacing_amount": 45
@@ -14,7 +14,6 @@
   "overview_metadata": {
     "overview_number": 6,
     "overview_title": "Re-Engaging with Greatest Common Factors",
-    "overview_subtitle": null,
     "overview_description": "Reinforce learning by connecting classroom instruction to individual problem solving and practice. MATHia serves as the primary instructional tool in these lessons."
   },
   "overview_items": [
@@ -44,9 +43,12 @@
                 "overview_item_data_group_items": [
                   {
                     "overview_item_data_group_item_type": "presentation",
-                    "overview_item_data_group_item_title": "Student-Led Debrief",
-                    "overview_item_data_group_item_description": "Students analyze their progress on their MATHia playlist and identify areas of strength and areas for growth.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                    "overview_item_data_group_item_title": "Sharing is Caring",
+                    "overview_item_data_group_item_description": "Students analyze a real-world division situation and generate relevant questions about the situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               },
@@ -55,9 +57,12 @@
                 "overview_item_data_group_items": [
                   {
                     "overview_item_data_group_item_type": "book",
-                    "overview_item_data_group_item_title": "Independent and Collaborative Work",
-                    "overview_item_data_group_item_description": "### MATHia Playlist\n\nStudents work individually on their assigned workspaces.\n\n### Clarify\n\nStudents work in pairs or small groups to collaboratively solve problems and discuss concepts from the previous lesson on solving problems with greatest common factors and least common multiples.\n\n### Re-Teach\n\nThe teacher may pull a small group for a mini-lesson on applying strategies to calculate GCF or LCM to solve problems.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 30 }
+                    "overview_item_data_group_item_title": "Personalized Learning and Intervention",
+                    "overview_item_data_group_item_description": "### MATHia Playlist\n\nStudents work individually on their assigned workspaces.\n\n### Clarify\n\nCenter A: Students complete the Greatest Common Factor MATHstream Interactive video to review examples for determining the greatest common factor of two numbers less than or equal to 100.\n\n### Re-Teach\n\nCenter B: Students complete a MATHstream video based on the instruction they missed.\n\n\n",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
                   }
                 ]
               },
@@ -66,9 +71,12 @@
                 "overview_item_data_group_items": [
                   {
                     "overview_item_data_group_item_type": "book",
-                    "overview_item_data_group_item_title": "Look Both Ways",
-                    "overview_item_data_group_item_description": "Students reflect on their progress and set goals for their next work session.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                    "overview_item_data_group_item_title": "Learning Reflection",
+                    "overview_item_data_group_item_description": "Students reflect on the learning goals and MATHia workspaces they have engaged with in this topic.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               }

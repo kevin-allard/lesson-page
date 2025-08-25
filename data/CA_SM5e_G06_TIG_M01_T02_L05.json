@@ -1,0 +1,167 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Length, Width, and Depth",
+    "overview_subtitle": "Deepening Understanding of Volume",
+    "overview_description": "In this lesson, students recall that they can calculate the volume of rectangular prisms using <math><mi>V</mi><mo>=</mo><mi>l</mi><mi>w</mi><mi>h</mi></math> and <math><mi>V</mi><mo>=</mo><mi>B</mi><mi>h</mi></math>. They pack prisms with fractional side lengths using fractional unit cubes and then multiply the number of cubes by the volume of each unit cube. Students then practice solving real-world problems, including a packing problem where the given container is only partially filled."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can use the volume formula to solve real-world and mathematical problems involving rectangular prisms with fractional edge lengths.",
+          "I can determine the number of unit cubes with fractional dimensions that can pack a rectangular prism with fractional edge lengths."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Nets and Surface Area",
+          "Distance and Direction",
+          "Geometry"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Volume is the amount of space occupied by an object. You measure the volume of an object in cubic units.",
+          "The formula for the volume of a rectangular prism is <math><mi>V</mi><mo>=</mo><mi>l</mi><mi>w</mi><mi>h</mi></math>, where <math><mi>l</mi></math> is the length, <math><mi>w</mi></math> is the width, and <math><mi>h</mi></math> is the height, or <math><mi>V</mi><mo>=</mo><mi>B</mi><mi>h</mi></math>, where <math><mi>B</mi></math> is the area of the base and <math><mi>h</mi></math> is the height.",
+          "You can calculate the volume of a right rectangular prism with fractional edge lengths by packing it with appropriate fractional cubes and show that it is the same as when you multiply the edge lengths of the prisms."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "unit cube",
+              "volume"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Measuring Water",
+                    "overview_item_data_group_item_description": "Students solve a brain teaser using volume constraints by adding and subtracting volumes.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Volume of Prisms",
+                    "overview_item_data_group_item_description": "Students relate the volume formula <math><mi>V</mi><mo>=</mo><mi>l</mi><mo>&#x22C5;</mo><mi>w</mi><mo>&#x22C5;</mo><mi>h</mi></math> to <math><mi>V</mi><mo>=</mo><mi>B</mi><mo>&#x22C5;</mo><mi>h</mi></math>, where <math><mi>B</mi></math> represents the area of the base.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Solving Volume Problems",
+                    "overview_item_data_group_item_description": "Students calculate the volume of right rectangular prisms with fractional side lengths to solve real-world and mathematical problems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Fractionally Full",
+                    "overview_item_data_group_item_description": "Students pack rectangular prisms with fractional cubes to solve real-world problems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

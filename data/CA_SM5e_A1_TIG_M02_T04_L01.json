@@ -26,20 +26,19 @@
         "overview_item_data_type": "list",
         "overview_item_data_items": [
           "I can relate the defining characteristics of an arithmetic sequence, the first term and common difference, and the defining characteristics of a linear function, the y-intercept and slope.",
-          "I can use algebraic properties to prove that the explicit formula for an arithmetic sequence is equivalent to the equation of a linear function.",
-          "I can connect the slope of a line to the average rate of change of a function."
+          "I can use arithmetic sequences to prove that the explicit formula for an arithmetic sequence is equivalent to the equation of a linear function.",
+          "I can connect the slope to the average rate of change of a function."
         ]
       }
     },
     {
       "overview_item_type": "big_ideas",
       "overview_item_content_type": "text",
-      "overview_item_title": "Big Ideas",
+      "overview_item_title": "Big Idea",
       "overview_item_data": {
         "overview_item_data_type": "list",
         "overview_item_data_items": [
-          "Function Investigations",
-          "Growth and Decay"
+          "Exploring Quantities"
         ]
       }
     },
@@ -50,11 +49,11 @@
       "overview_item_data": {
         "overview_item_data_type": "list",
         "overview_item_data_items": [
-          "You can write the explicit formula of an arithmetic sequence in slope-intercept form.",
-          "The explicit formula of an arithmetic sequence, <math><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mi>d</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo>&#x2212;</mo><mn>1</mn><mo stretchy=\"false\">)</mo></math>, includes the first term of the sequence, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mn>1</mn><mo stretchy=\"false\">)</mo></math>, and the common difference. The slope-intercept form of a linear function, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, includes <math><mi>f</mi><mo stretchy=\"false\">(</mo><mn>0</mn><mo stretchy=\"false\">)</mo></math> and the slope.",
+          "You can write an explicit formula of an arithmetic sequence in slope-intercept form.",
+          "The explicit formula of an arithmetic sequence, <math><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mi>d</mi><mo stretchy="false">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></math>, includes the first term of the sequence, f(1), and the common difference. The slope-intercept form of a linear function, <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, includes f(0) and the slope.",
           "You can use the average rate of change formula to calculate the unit rate over a given interval.",
           "You can calculate the first differences of a table by subtracting consecutive output values when the input values have an interval of 1. When the first differences are constant, you can model the table of values with a linear function.",
-          "The arithmetic sequence's domain includes the counting numbers, while the linear function's domain includes all real numbers."
+          "The arithmetic sequence’s domain includes the counting numbers, while the linear function’s domain includes all real numbers."
         ]
       }
     },
@@ -97,7 +96,10 @@
                     "overview_item_data_group_item_type": "presentation",
                     "overview_item_data_group_item_title": "Explicitly Matched",
                     "overview_item_data_group_item_description": "Students investigate the relationship between an explicit formula for an arithmetic sequence and its graph.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               },
@@ -109,7 +111,24 @@
                     "overview_item_data_group_item_prefix": "Activity 1",
                     "overview_item_data_group_item_title": "Connecting Forms",
                     "overview_item_data_group_item_description": "Students discover that the common difference of an arithmetic sequence is the slope of the linear function.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 35 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Line Up in Sequential Order",
+                    "overview_item_data_group_item_description": "Students analyze two sequences and create a table of values to determine which graph represents a linear function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
                   }
                 ]
               }
@@ -126,25 +145,34 @@
                     "overview_item_data_group_item_prefix": "Activity 2",
                     "overview_item_data_group_item_title": "Verifying that Slope Is Constant",
                     "overview_item_data_group_item_description": "Students generalize about the connection between slope and average rate of change.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
                   },
                   {
-                    "overview_item_data_group_item_type": "online",
+                    "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_prefix": "Activity 3",
                     "overview_item_data_group_item_title": "Analyzing Tables of Values",
                     "overview_item_data_group_item_description": "Students use first differences to determine whether a table of values represents a linear function.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 15 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
                   }
                 ]
               },
               {
-                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_title": "Close",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_item_type": "book",
-                    "overview_item_data_group_item_title": "Line Up in Sequential Order",
-                    "overview_item_data_group_item_description": "Students analyze two sequences and create a table of values to determine which graph represents a linear function.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                    "overview_item_data_group_item_type": "quick_check",
+                    "overview_item_data_group_item_title": "Quick Check",
+                    "overview_item_data_group_item_description": "Students go online to access the quick check.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               }

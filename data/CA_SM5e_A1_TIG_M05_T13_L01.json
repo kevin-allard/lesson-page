@@ -1,0 +1,244 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "This Time, with Polynomials",
+    "overview_subtitle": "Adding, Subtracting, and Multiplying Polynomials",
+    "overview_description": "In this lesson, students sort polynomials by common characteristics. They identify the terms and coefficients of polynomials and identify the degree. Students add and subtract polynomial functions and then determine that polynomials are closed under addition and subtraction. They use area models and the Distributive Property to determine the product of binomials."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can classify polynomials based on their terms and degree.",
+          "I can recognize and use special products when multiplying binomials.",
+          "I can add, subtract, and multiply polynomials using algebraic properties.",
+          "I can explain why polynomials are closed under addition, subtraction, and multiplication."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Modeling with Functions",
+          "Systems of Equations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A polynomial is a mathematical expression involving the sum of powers in one or more variables multiplied by coefficients.",
+          "A polynomial in one variable is the sum of the form <math><mi>a</mi><msup><mi>x</mi><mi>k</mi></msup></math>, where <math><mi>a</mi></math> is any real number and <math><mi>k</mi></math> is a non-negative integer.",
+          "Polynomials with only one terms are monomials, exactly two terms are binomials, and exactly three terms are trinomials.",
+          "The algorithms to add, subtract, and multiply polynomials are extensions of combining like terms and applying the Distributive Property.",
+          "Polynomials are closed under addition, subtraction, and multiplication.",
+          "The difference of two squares and perfect square trinomials are special products when multiplying two binomials."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "monomial",
+              "binomial",
+              "trinomial"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "closed",
+              "closure"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 5",
+            "overview_item_data_group_items": [
+              "difference of two squares",
+              "perfect square trinomial"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Sorting It Out",
+                    "overview_item_data_group_item_description": "Students sort algebraic expressions by identifying common characteristics in the expressions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Categorizing Polynomials",
+                    "overview_item_data_group_item_description": "Students learn terms used to categorize polynomials and determine whether expressions are polynomials.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Interpreting the Graphs of Polynomial Functions",
+                    "overview_item_data_group_item_description": "Students interpret graphs to make comparisons, interpret the minimum values, and reflect on the information's usefulness.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Adding and Subtracting Polynomial Functions",
+                    "overview_item_data_group_item_description": "Students analyze situations that include one linear and one quadratic function to determine the sum and difference of polynomials.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Putting It into Practice",
+                    "overview_item_data_group_item_description": "Students match expressions involving the sum, difference, and product of binomials with the equivalent polynomial.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Combining Functions and Addressing Closure",
+                    "overview_item_data_group_item_description": "Students calculate the sums and differences of various expressions and determine that polynomials are closed under addition and subtraction.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Multiplying Polynomial Functions",
+                    "overview_item_data_group_item_description": "Students use an area model and the Distributive Property to multiply polynomials.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Putting It into Practice",
+                    "overview_item_data_group_item_description": "Students match expressions involving the sum, difference, and product of binomials with the equivalent polynomial.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Close",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "quick_check",
+                    "overview_item_data_group_item_title": "Quick Check: This Time, with Polynomials",
+                    "overview_item_data_group_item_description": null,
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "Gotta Keep It Correlatin'",
+    "overview_subtitle": "Correlation",
+    "overview_description": "In this lesson, students learn the meaning of a correlation coefficient, <math><mi>r</mi></math>, and a coefficient of determination, <math><msup><mi>r</mi><mn>2</mn></msup></math>. They create scatter plots and use technology to determine a linear regression equation and <math><msup><mi>r</mi></msup></math>. Students interpret the results to determine whether a line is an appropriate model for a data set. They learn that a correlation is a necessary, but not sufficient, condition for causation."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can choose a level of accuracy appropriate when reporting quantities.",
+          "I can fit a linear function to a data set with a linear association and use it to solve problems.",
+          "I can use technology to determine the correlation coefficient of a linear regression equation for a data set.",
+          "I can differentiate between causation and correlation."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Comparing Models",
+          "Reasoning with Data"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A correlation is a measure of how well a regression model fits a data set.",
+          "The correlation coefficient is a numeric summary of bivariate data that measures the strength of the relationship between two variables.",
+          "The <math><mi>r</mi></math>-value falls between (-1) and 0 when the data show a negative association or between 0 and 1 when the data show a positive association.",
+          "The closer the correlation coefficient is to 1 or (-1), the stronger the relationship is between the two variables.",
+          "Causation is when one event causes a second event. A correlation is a necessary, but not sufficient, condition for causation.",
+          "When some other reason may cause the same result or when there are other unknown or unobserved variables, correlation is often mistaken for causation."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "correlation",
+              "correlation coefficient"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "coefficient of determination"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "causation",
+              "common response",
+              "confounding variable"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Associate, Formulate, Correlate!",
+                    "overview_item_data_group_item_description": "Students describe the association between independent and dependent variables.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "The Correlation Coefficient",
+                    "overview_item_data_group_item_description": "Students learn the meaning and range of the correlation coefficient, <math><mi>r</mi></math>.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Is It Linear?",
+                    "overview_item_data_group_item_description": "Students determine whether a line of best fit is appropriate for a data set.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Using the Correlation Coefficient to Assess a Line of Best Fit",
+                    "overview_item_data_group_item_description": "Students determine a line of best fit and calculate <math><mi>r</mi></math> and <math><msup><mi>r</mi><mn>2</mn></msup></math> for a data set.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Correlation vs. Causation",
+                    "overview_item_data_group_item_description": "Students learn that correlation is a necessary, but not sufficient, condition for causation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Causations R Us",
+                    "overview_item_data_group_item_description": "Students consider how a common response and confounding variable are mistaken for causation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

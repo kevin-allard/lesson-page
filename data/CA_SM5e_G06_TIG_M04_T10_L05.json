@@ -1,0 +1,155 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "What's in a Name?",
+    "overview_subtitle": "Rational Number System",
+    "overview_description": "In this lesson, students complete a number sort. They learn the definitions of integers and rational numbers. Students analyze a diagram that shows how some sets of numbers are subsets of others as classify numbers as natural numbers, whole numbers, integers, or rational numbers."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can classify numbers according to their number systems."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Distance and Direction"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The set of integers includes the set of whole numbers with their opposites. You can represent the set of integers as <math><mo stretchy=\"false\">(</mo><mo>...</mo><mo>&#x2212;</mo><mn>3</mn><mo>, </mo><mo>&#x2212;</mo><mn>2</mn><mo>, </mo><mo>&#x2212;</mo><mn>1</mn><mo>, </mo><mn>0</mn><mo>, </mo><mn>1</mn><mo>, </mo><mn>2</mn><mo>, </mo><mn>3</mn><mo>...</mo><mo stretchy=\"false\">)</mo></math>.",
+          "The set of rational numbers is the set of numbers you can write as <math><mfrac><mi>a</mi><mi>b</mi></mfrac></math>, where <math><mi>a</mi></math> and <math><mi>b</mi></math> are integers and <math><mi>b</mi><mo>&#x2260;</mo><mn>0</mn></math>.",
+          "Natural numbers are a subset of whole numbers. Whole numbers are a subset of integers. Integers are a subset of rational numbers."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "integer",
+              "ellipse",
+              "rational numbers"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Sort It Out!",
+                    "overview_item_data_group_item_description": "Students sort numbers into different groups.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Analyzing Number Sorts",
+                    "overview_item_data_group_item_description": "Students analyze strategies to sort numbers and show relationships among number types.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Number Categories",
+                    "overview_item_data_group_item_description": "Students identify the number sets to which given values on a number line belong.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Do They Always Belong?",
+                    "overview_item_data_group_item_description": "Students plot a point on a number line that satisfies the given relationship.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 11,
+    "overview_title": "Minding Your Ps and Qs",
+    "overview_subtitle": "Constant of Proportionality in Multiple Representations",
+    "overview_description": "In this lesson, students recognize and represent proportional relationships between quantities. They determine and interpret the constant of proportionality for quantities that are proportional and represented in words, tables, equations, and graphs."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can determine whether relationships represented in words, tables, equations, or graphs are proportional.",
+          "I can interpret the meaning of proportional relationships and explain the significance of specific points on their graphs.",
+          "I can determine and interpret the constant of proportionality in various representations of proportional relationships."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Proportional Relationships",
+          "Graphing Standards"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The graph of two variables that are proportional is a line that passes through the origin, (0, 0).",
+          "When analyzing the table of two variables in proportion, the ratios of the <math><mi>y</mi></math>-value to the <math><mi>x</mi></math>-value for any pair are equivalent.",
+          "The equation used to represent a proportional relationship between two variables is <math><mi>y</mi><mo>=</mo><mi>k</mi><mi>x</mi></math>, where <math><mi>k</mi></math> is the constant of proportionality.",
+          "You can create a table of equivalent ratios, a graph of a straight line through the origin, and an equation of the form <math><mi>y</mi><mo>=</mo><mi>k</mi><mi>x</mi></math> to represent a situation describing quantities in a proportional relationship."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": []
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Comparing Reps",
+                    "overview_item_data_group_item_description": "Students compare two graphs, two equations, and two tables.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Analyzing Relationships in Multiple Representations",
+                    "overview_item_data_group_item_description": "Students determine whether situations represent proportional relationships and create a new representation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Penny's Nickels Are a Quarter of Her Dimes",
+                    "overview_item_data_group_item_description": "Students interpret a diagram to write equations representing proportional relationships.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Every Which Way",
+                    "overview_item_data_group_item_description": "Students write a situation and create a table, a graph, and an equation representing a proportional relationship.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "glue stick (1 per group)",
+          "Proportional Relationship Representations Cutouts (1 set per student)",
+          "scissors (1 per group)",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -21,7 +21,7 @@
     {
       "overview_item_type": "learning_goals",
       "overview_item_content_type": "html",
-      "overview_item_title": "My Learning Goal",
+      "overview_item_title": "My Learning Goals",
       "overview_item_data": {
         "overview_item_data_type": "list",
         "overview_item_data_items": [
@@ -47,7 +47,21 @@
       "overview_item_data": {
         "overview_item_data_type": "list",
         "overview_item_data_items": [
-          "There are other algorithms to divide fractions, such as dividing across and using complex fractions as a form of <math><mn>1</mn></math>."
+          "There are other algorithms to divide fractions, such as dividing across and using complex fractions as a form of 1."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": []
+          }
         ]
       }
     },
@@ -68,7 +82,10 @@
                     "overview_item_data_group_item_type": "presentation",
                     "overview_item_data_group_item_title": "A Pattern of Fractions",
                     "overview_item_data_group_item_description": "Students analyze and identify patterns in two groups of division sentences.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 5 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
                   }
                 ]
               },
@@ -80,7 +97,10 @@
                     "overview_item_data_group_item_prefix": "Activity 1",
                     "overview_item_data_group_item_title": "Different Strategies to Divide Numbers",
                     "overview_item_data_group_item_description": "Students consider additional strategies to divide fractions.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 30 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
                   }
                 ]
               },
@@ -91,7 +111,10 @@
                     "overview_item_data_group_item_type": "book",
                     "overview_item_data_group_item_title": "Going (Almost) Numberless",
                     "overview_item_data_group_item_description": "Students generalize about dividing fractions.",
-                    "overview_item_data_group_item_pacing": { "pacing_type": "minutes", "pacing_amount": 10 }
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
                   }
                 ]
               }

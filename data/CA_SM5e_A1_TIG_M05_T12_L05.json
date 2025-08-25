@@ -1,0 +1,241 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "More Than Meets the Eye",
+    "overview_subtitle": "Transformations of Quadratic Functions",
+    "overview_description": "In this lesson, students sketch graphs of transformed quadratic functions, compare characteristics of the transformed graphs with those of the graph of the basic function and write the transformations using coordinate notation. Students write quadratic equations in vertex form using the coordinates of the vertex and another point on the graph and in factored form using the zeros and another point on the graph."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can recognize the key characteristics revealed by different forms of a quadratic function.",
+          "I can write the equation of a transformed quadratic function based on a graph or a description of its features.",
+          "I can translate, reflect, and dilate quadratic functions horizontally and vertically.",
+          "I can describe how changes to a quadratic function's equation affect its graph.",
+          "I can use coordinate notation to describe transformations.",
+          "I can identify the values in a quadratic equation that determine how the graph is transformed."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Features of Functions",
+          "Algebra Standards",
+          "Seeing Structure in Expressions",
+          "Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.",
+          "Factor a quadratic expression to reveal the zeros of the function it defines.",
+          "Creating Equations",
+          "Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations. For example, rearrange Ohm's law <math><mi>V</mi><mo>=</mo><mi>I</mi><mi>R</mi></math> to highlight resistance <math><mi>R</mi></math>.",
+          "Functions Standard",
+          "Building Functions",
+          "Identify the effect on the graph of replacing <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> by <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>+</mo><mi>k</mi></math>, <math><mi>k</mi><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math>, <math><mi>f</mi><mo stretchy="false">(</mo><mi>k</mi><mi>x</mi><mo stretchy="false">)</mo></math>, and <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo>+</mo><mi>k</mi><mo stretchy="false">)</mo></math> for specific values of <math><mi>k</mi></math> (both positive and negative); find the value of <math><mi>k</mi></math> given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology. Include recognizing even and odd functions from their graphs and algebraic expressions for them."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Given <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> as the basic quadratic function, you can use reference points to graph <math><mi>g</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>A</mi><mi>f</mi><mo stretchy="false">(</mo><mi>B</mi><mi>x</mi><mo>+</mo><mi>C</mi><mo stretchy="false">)</mo><mo>+</mo><mi>D</mi></math> such that any point <math><mo stretchy="false">(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo stretchy="false">)</mo></math> on <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> maps to the point <math><mrow><mo>(</mo><mfrac><mrow><mi>x</mi></mrow><mrow><mi>B</mi></mrow></mfrac><mo>+</mo><mi>C</mi><mo>,</mo><mi>A</mi><mi>y</mi><mo>+</mo><mi>D</mi><mo>)</mo></mrow></math>.",
+          "The vertex form for a quadratic function is <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>a</mi><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>h</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mi>k</mi></math>, where <math><mo stretchy="false">(</mo><mi>h</mi><mo>,</mo><mi>k</mi><mo stretchy="false">)</mo></math> is the location of the vertex and the sign of <math><mi>a</mi></math> indicates whether the parabola opens upward or downward.",
+          "A function written in equivalent forms can reveal different characteristics of the function it defines.",
+          "You can write a quadratic function in vertex form when you know the coordinates of the vertex and another point on the graph.",
+          "You can write a quadratic function in factored form when you know the zeros and another point on the graph."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "vertex form"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Quadratics and Absolutes",
+                    "overview_item_data_group_item_description": "Students compare the graph of an absolute value function and a quadratic function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Translations and Reflections of Quadratic Functions",
+                    "overview_item_data_group_item_description": "Students investigate vertical and horizontal translations and reflections of the basic quadratic function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Vertical and Horizontal Dilations of Quadratic Functions",
+                    "overview_item_data_group_item_description": "Students investigate vertical or horizontal dilations of the basic quadratic function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Show What You Know",
+                    "overview_item_data_group_item_description": "Students describe how the graph of each transformed function compares to the graph of <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math>.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Launch",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Launch",
+                    "overview_item_data_group_item_description": "Go online for Session launch recommendations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Using Reference Points to Graph Quadratic Functions",
+                    "overview_item_data_group_item_description": "Students use reference points and transformations to graph quadratic functions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Vertex Form of a Quadratic Function",
+                    "overview_item_data_group_item_description": "Students investigate the vertex form of quadratic equations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Show What You Know",
+                    "overview_item_data_group_item_description": "Use what you know about the transformation function form to answer each question.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Close",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Close",
+                    "overview_item_data_group_item_description": "Go online to access the Quick Check.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Turn Yourself Around",
+    "overview_subtitle": "Rotations as Functions",
+    "overview_description": "In this lesson, students rotate a figure on the coordinate plane. They use a protractor and ruler to rotate a shape given a center of rotation and rotation angle. Students then reverse the process and use function notation to identify the center of rotation and rotation angle given a pre-image and image. They also sketch a sequence of isometries to show that two figures are congruent."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can express rotation transformations as functions that take points as inputs and output rotated points.",
+          "I can specify a sequence of translations, reflections, and rotations that will carry a figure onto a congruent figure."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Transformations and Congruence"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A rotation is an isometry.",
+          "A rotation is a function defined by a center of rotation and a rotation angle.",
+          "A rotation is a function, <math><msub><mi>R</mi><mrow><mi>c</mi><mo>,</mo><mi>t</mi></mrow></msub><mo>(</mo><mi>P</mi><mo>)</mo><mo>=</mo><mi>P</mi><mo>’</mo></math>, that maps its input, a point <math><mi>P</mi></math>, to another location, <math><mi>P</mi><mo>’</mo></math>. A center of rotation, <math><mi>c</mi></math>, and a rotation angle, <math><mi>t</mi></math>, define this movement to a new location.",
+          "The center of rotation of a pre-image and image is the intersection of the perpendicular bisectors of segments connecting corresponding vertices."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "rotation",
+              "arc",
+              "central angle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Which Way Will It Turn?",
+                    "overview_item_data_group_item_description": "Students analyze rotational direction and angle to determine how an object’s orientation changes in response to movement.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Rotation Functions",
+                    "overview_item_data_group_item_description": "Students use a protractor and ruler to rotate a figure given a center of rotation and the angle of rotation.\nMaterials: Compass, protractor, ruler",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Sequences of Isometries",
+                    "overview_item_data_group_item_description": "Students describe a sequence of isometries to show that two figures are congruent and sketch their immediate steps to validate their thinking.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Determining the Center of Rotation",
+                    "overview_item_data_group_item_description": "Students identify the center of rotation and angle of rotation given a pre-image and image and write each rotation as a function.\nMaterials: Compass, ruler",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 40
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "That's What It's All About!",
+                    "overview_item_data_group_item_description": "Students summarize what they have learned about translations, reflections, and rotations by describing each transformation, using function notation, and providing an example.\nMaterials: Ruler",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Close",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "quick_check",
+                    "overview_item_data_group_item_title": "Turn Yourself Around",
+                    "overview_item_data_group_item_description": null,
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Compass",
+          "protractor",
+          "ruler",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

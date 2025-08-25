@@ -1,0 +1,185 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "The Power Within",
+    "overview_subtitle": "Rational Exponents and Graphs of Exponential Functions",
+    "overview_description": "In this lesson, students determine output values for <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mn>2</mn><mi>x</mi></msup></math> when the input values are non-integers. They connect expressions with rational exponents to those in radical notation. Students explore horizontal asymptotes on different graphs, analyzing end behavior, particularly as the x-values approach negative infinity. They convert between expressions with rational exponents and those in radical notation."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can explain how rational exponents extend the properties of integer exponents and how they relate to radicals.",
+          "I can rewrite radical expressions using rational exponents, and rational exponents using radicals.",
+          "I can apply exponent properties to rewrite expressions involving rational exponents and radicals.",
+          "I can write and solve exponential equations using rational exponents and common bases."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Patterns of Equations",
+          "Transformations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can use multiple representations such as tables, equations, and graphs to represent exponential situations.",
+          "You can use Properties of Powers to rewrite numeric and algebraic expressions involving integer and rational exponents.",
+          "The Properties of Powers also apply to radical expressions because you can rewrite radical expressions as rational exponents.",
+          "You can rewrite a rational expression of the form <math><msup><mi>a</mi><mrow><mi>m</mi><mrow><mo>/</mo></mrow><mi>n</mi></mrow></msup></math> as a radical expression, <math><mroot><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></mroot></math> or <math><msup><mrow><mo>(</mo><mroot><mi>a</mi><mi>n</mi></mroot><mo>)</mo></mrow><mi>m</mi></msup></math>.",
+          "Use common bases and properties of exponents to solve simple exponential equations."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "extracting square roots"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "horizontal asymptote"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Squares and Cubes",
+                    "overview_item_data_group_item_description": "Students determine the side lengths of squares and cubes given the area or volume.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "The Square Root Constant Ratio of an Exponential Function",
+                    "overview_item_data_group_item_description": "Students examine how changing the input interval affects the constant multiplier in an exponential function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Negative Exponents and Asymptotes",
+                    "overview_item_data_group_item_description": "Students explore the graphs of exponential functions for input values less than 0.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Rational Exponents and Common Bases",
+                    "overview_item_data_group_item_description": "Students practice writing radicals as powers and writing powers as radicals.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Did We Mention Constant Ratio?",
+                    "overview_item_data_group_item_description": "Students use rational exponents and radical notation to rewrite expressions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Play It In Reverse",
+    "overview_subtitle": "Solving One-Step Multiplication Equations",
+    "overview_description": "In this lesson, students use double number lines and inverse operations to solve equations in the form <math><mi>p</mi><mi>x</mi><mo>=</mo><mi>q</mi></math>, where <math><mi>p</mi></math> and <math><mi>q</mi></math> are non-negative rational numbers. They use two inverse operation strategies to solve these equations: multiplying by the reciprocal of the coefficient of the variable or dividing. They also rewrite equations of the form <math><mfrac><mi>x</mi><mi>p</mi></mfrac><mo>=</mo><mi>b</mi></math> as <math><mfrac><mn>1</mn><mi>p</mi></mfrac><mi>x</mi><mo>=</mo><mi>b</mi></math>."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can use double number lines to represent one-step multiplication equations.",
+          "I can use inverse operations to solve one-step multiplication equations.",
+          "I can use double number lines to represent one-step multiplication equations."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Generalizing with Multiple Representations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can also a double number line to represent and solve a one-step multiplication equation.",
+          "To solve a one-step multiplication equation, you can divide both sides of the equation by the coefficient of the variable or multiply both sides by the reciprocal of the coefficient of the variable."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": []
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Play It Again, Sam",
+                    "overview_item_data_group_item_description": "Students consider the double number lines and determine the value of <math><mi>x</mi></math> for each equation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Making Sense of Multiplication Equations",
+                    "overview_item_data_group_item_description": "Students use double number lines to reason about equations of the form <math><mi>p</mi><mi>x</mi><mo>=</mo><mi>q</mi></math>, where <math><mi>p</mi></math> is a fractional coefficient and <math><mi>q</mi></math> is a whole number.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Reasoning with Fractional Coefficients to Solve Equations",
+                    "overview_item_data_group_item_description": "Students use double number lines to reason about equations of the form <math><mi>p</mi><mi>x</mi><mo>=</mo><mi>q</mi></math>, where <math><mi>p</mi></math> and <math><mi>q</mi></math> are non-negative rational numbers.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Solving Multiplication Equations Without Models",
+                    "overview_item_data_group_item_description": "Students use inverse operations to solve one-step multiplication equations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "What's Your Strategy?",
+                    "overview_item_data_group_item_description": "Students identify the solution strategy they would use to solve equations of the form <math><mi>p</mi><mi>x</mi><mo>=</mo><mi>q</mi></math>.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

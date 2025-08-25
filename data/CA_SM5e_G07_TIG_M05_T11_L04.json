@@ -1,0 +1,156 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 4,
+    "overview_title": "Pet Probability",
+    "overview_subtitle": "Determining Compound Probability",
+    "overview_description": "In this lesson, students learn that a compound event combines two or more events using the word and or or. They identify the outcomes that make up an <math><mi>a</mi><mi>n</mi><mi>d</mi></math> or <math><mi>o</mi><mi>r</mi></math> event and calculate the probability. Students rewrite a probability question with an <math><mi>o</mi><mi>r</mi></math> statement as the sum of each event’s probability without counting an outcome twice when it pertains to both events. They apply their understanding in a game context."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can calculate probabilities of compound events using tables.",
+          "I can represent the sample space for compound events and calculate probabilities of compound events using tree diagrams."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Using Probability Models"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "A compound event combines two or more events, using the word <math><mi>a</mi><mi>n</mi><mi>d</mi></math> or the word <math><mi>o</mi><mi>r</mi></math>.",
+          "An <math><mi>a</mi><mi>n</mi><mi>d</mi></math> statement means that both outcomes must occur. An <math><mi>o</mi><mi>r</mi></math> statement means that that one, the other, or both outcomes must occur.",
+          "The probability of a compound event with the word <math><mi>a</mi><mi>n</mi><mi>d</mi></math> is the probability of two or more simultaneous events.",
+          "The probability of a compound event with the word <math><mi>o</mi><mi>r</mi></math> is the probability of one or more simple events occurring.",
+          "When solving a probability question with <math><mi>o</mi><mi>r</mi></math>, be sure to list outcomes that apply to both events only one time."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "compound event"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "And Or What?!",
+                    "overview_item_data_group_item_description": "Students sort items into a Venn diagram to compare and categorize them based on their characteristics.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Compound Events",
+                    "overview_item_data_group_item_description": "Students analyze strategies for calculating probability with an <math><mi>a</mi><mi>n</mi><mi>d</mi></math> or statement.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Organizing Outcomes for Compound Events",
+                    "overview_item_data_group_item_description": "Students identify the successes that make up an <math><mi>a</mi><mi>n</mi><mi>d</mi></math> or <math><mi>o</mi><mi>r</mi></math> event and calculate the probability.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Evens and Odds",
+                    "overview_item_data_group_item_description": "Students analyze the rules of a game to determine who is more likely to win.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "Playing with Planes",
+    "overview_subtitle": "Graphing Geometric Figures",
+    "overview_description": "In this lesson, students solve geometry problems using the coordinate plane. They conjecture about graphed polygons and prove their conjectures. Students graph triangles and quadrilaterals using given criteria and calculate distances to solve perimeter, area, and volume problems. They then laean a parallelogram's coordinates without a coordinate grid and write an algebraic expression to solve for its area."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can solve real-world and mathematical problems with geometric shapes in all four quadrants on the coordinate plane.",
+          "I can draw polygons on the coordinate plane given coordinates for the vertices.",
+          "I can use coordinates with the same x-coordinate or y-coordinate to determine the length of a side of a polygon."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Distance and Direction",
+          "Graphing Shapes"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can use the structure of the coordinate plane and properties of polygons to classify polygons.",
+          "You can use the structure of the coordinate plane and solve perimeter, area, and real-world problems.",
+          "You can use the coordinate plane structure without the grid with lattice points to represent and solve problems."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": []
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Odd One Out: Polygons",
+                    "overview_item_data_group_item_description": "Students determine which graph does not belong from the set and explain their reasoning.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Shape Up!",
+                    "overview_item_data_group_item_description": "Students plot points based on criteria provided by the teacher in all four quadrants on the coordinate plane. Materials: Colored pencils, masking tape (1 roll per teacher)",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Polygons on the Plane",
+                    "overview_item_data_group_item_description": "Students plot points to create shapes and apply polygon properties to complete partially graphed figures.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Outfitting a Playground",
+                    "overview_item_data_group_item_description": "Students solve a real-world volume problem requiring them to use dimensions specified by coordinates.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "game",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Polygon Play Place",
+                    "overview_item_data_group_item_description": "Students play a game combining geometry concepts and the coordinate plane. Materials: Grid paper, Instructions for Polygon Play Place (1 per pair), Polygon Play Place Cards (1 set per pair), scissors (1 set per pair)",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "exit_tickets",
+                    "overview_item_data_group_item_title": "X-Ray Vision",
+                    "overview_item_data_group_item_description": "Students analyze a parallelogram with unknown coordinates.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Colored pencils",
+          "masking tape (1 roll per teacher)",
+          "Grid paper",
+          "Instructions for Polygon Play Place (1 per pair)",
+          "Polygon Play Place Cards (1 set per pair)",
+          "scissors (1 set per pair)",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

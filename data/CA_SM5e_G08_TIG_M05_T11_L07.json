@@ -1,0 +1,194 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 7,
+    "overview_title": "The Big and Small of It",
+    "overview_subtitle": "Scientific Notation",
+    "overview_description": "In this lesson, students use real-world data with large quantities as an introduction to scientific notation. They examine different ways technology displays large numbers. Students convert large and small numbers between scientific notation and standard form. They also compare numbers expressed in scientific notation."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can express numbers in scientific notation.",
+          "I can express numbers in standard form.",
+          "I can compare numbers written in scientific notation.",
+          "I can interpret scientific notation that you generate using technology."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Data Explorations",
+          "Large and Small Numbers",
+          "Expressions and Equations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can use scientific notation to express very large and very small numbers.",
+          "The general form for scientific notation is <math><mi>a</mi><mo>&#x00D7;</mo><msup><mrow><mn>10</mn></mrow><mrow><mi>n</mi></mrow></msup></math>. The variable <math><mi>a</mi></math>, with <math><mn>1</mn><mo>&#x2264;</mo><mi>a</mi><mo>&lt;</mo><mn>10</mn></math>, is the mantissa. The variable <math><mi>n</mi></math>, the exponent of 10, is the characteristic.",
+          "You can write, order, and operate with numbers using scientific notation.",
+          "Technology sometimes expresses values in scientific notation.",
+          "A number greater than 1 has a positive characteristic, and a number between 0 and 1 has a negative characteristic.",
+          "When comparing two numbers written in scientific notation, first compare the characteristics. The number with the larger characteristic is the larger number. If the characteristics are equal, then compare the mantissas. The number with the larger mantissa is the larger number."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "scientific notation",
+              "mantissa",
+              "characteristic",
+              "order of magnitude"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "In a Lifetime . . .",
+                    "overview_item_data_group_item_description": "Students calculate how many times they've blinked their eyes in their lifetime.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Introduction to Scientific Notation",
+                    "overview_item_data_group_item_description": "Students explore the different ways technology displays large numbers. \nMaterials: scientific calculators",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Scientific Notation and Large Numbers",
+                    "overview_item_data_group_item_description": "Students convert large numbers between scientific notation and standard form.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Scientific Notation and Small Numbers",
+                    "overview_item_data_group_item_description": "Students convert small numbers between scientific notation and standard form.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Comparing and Converting Numbers in Scientific Notation",
+                    "overview_item_data_group_item_description": "Students compare large or small numbers expressed in scientific notation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "A Rose by Any Other Name . . .",
+                    "overview_item_data_group_item_description": "Students write definitions for scientific and standard notation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "scientific calculators",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

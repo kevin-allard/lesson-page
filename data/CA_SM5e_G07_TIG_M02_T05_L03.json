@@ -1,0 +1,198 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "Be Rational!",
+    "overview_subtitle": "Quotients of Integers",
+    "overview_description": "In this lesson, students divide integers and classify the quotients; they learn that the terminating and repeating decimal results are rational numbers. Students perform operations with positive and negative rational numbers as they calculate percent error and solve real-world problems. Students express rational numbers written as negative fractions in equivalent forms by changing the negative sign's position."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can determine that every quotient of integers is a rational number, provided the divisor is not 0, and use long division to represent those quotients as terminating or repeating decimals.",
+          "I can write equivalent forms of signed rational numbers including the decimal form as terminating or eventually repeating.",
+          "I can solve real-world and mathematical problems using operations with signed numbers."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Scale Drawings",
+          "Proportional Relationships"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Rational numbers are numbers you can write as <math><mfrac><mi>a</mi><mi>b</mi></mfrac></math> where <math><mi>a</mi></math> and <math><mi>b</mi></math> are integers, and <math><mi>b</mi></math> does not equal 0. You can express any rational number as a decimal.",
+          "Terminating and repeating decimals are rational numbers.",
+          "Decimals that do not terminate or repeat are not rational numbers.",
+          "You can express a negative fraction with the negative sign in the numerator, the denominator, or in front of the fraction.",
+          "The formula for percent error is <math><mfrac><mrow><mo>|</mo><mtext>observed value</mtext><mo>-</mo><mtext>target value</mtext><mo>|</mo></mrow><mtext>target value</mtext></mfrac><mo>⋅</mo><mn>100</mn></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "terminating decimal",
+              "non-terminating decimal",
+              "repeating decimal",
+              "bar notation",
+              "non-repeating decimal"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "percent error"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Divide and Classify",
+                    "overview_item_data_group_item_description": "Students determine quotients of division problems and classify each quotient as a natural number, whole number, integer, or rational number.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Classifying Decimals",
+                    "overview_item_data_group_item_description": "Students classify decimals as terminating and non-terminating.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Equivalent Rational Numbers",
+                    "overview_item_data_group_item_description": "Students rewrite fractions as terminating or repeating decimals.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Calculating Percent Error",
+                    "overview_item_data_group_item_description": "Students calculate percent error in a real-world situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Problem Solving with Products and Quotients",
+                    "overview_item_data_group_item_description": "Students solve real-world problems with products and quotients of rational numbers.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Rational Thinking",
+                    "overview_item_data_group_item_description": "Students extend their understanding of integer operations to rational numbers.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

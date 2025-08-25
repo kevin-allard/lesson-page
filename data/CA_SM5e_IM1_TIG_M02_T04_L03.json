@@ -1,0 +1,193 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 3,
+    "overview_title": "Fun with Functions, Linear Ones",
+    "overview_subtitle": "Making Sense of Different Representations of a Linear Function",
+    "overview_description": "In this lesson, students determine whether functions in different representations are linear functions. They analyze tables with input values that are not consecutive integers. Students then analyze situations and graphs represented with functions in the form <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi></math>, <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>c</mi><mo>)</mo></math>, and <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>c</mi><mo>)</mo><mo>+</mo><mi>d</mi></math>. They analyze the meaning of the shifts in the graph in terms of the context and compare the structure to <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can interpret expressions that represent different quantities in terms of a context and a graph.",
+          "I can calculate the average rate of change of, and write, linear functions given a table of values.",
+          "I can determine whether a situation, equation, table, or graph represents a linear relationship.",
+          "I can compare different equation representations of linear functions.",
+          "I can evaluate functions given in function notation."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Working with Functions",
+          "Structure of Equations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "When a table represents a linear function, the slope, or average rate of change, is constant between all given points.",
+          "Using an equation to solve for the independent value given the dependent value always results in an exact answer. Using a graph or a table sometimes results in an inexact answer.",
+          "The general form of a linear function is <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, where <math><mi>a</mi></math> and <math><mi>b</mi></math> are real numbers and <math><mi>a</mi><mo>≠</mo><mn>0</mn></math>. The <math><mi>a</mi></math>-value is the leading coefficient and describes the line’s steepness and direction. The <math><mi>b</mi></math>-value identifies the <math><mi>y</mi></math>-intercept.",
+          "The factored form of a linear function is <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>c</mi><mo>)</mo></math>, where <math><mi>a</mi></math> and <math><mi>c</mi></math> are real numbers and <math><mi>a</mi><mo>≠</mo><mn>0</math>. In this form, the value of <math><mi>x</mi></math> that makes the factor equal to zero is the <math><mi>x</mi></math>-intercept and zero of the function.",
+          "A linear function is a polynomial with a degree of one."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "polynomial",
+              "degree",
+              "leading coefficient",
+              "zero of a function"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Well, Are Ya or Aren't Ya?",
+                    "overview_item_data_group_item_description": "Students analyze situations, equations, tables, and graphs to determine whether they model linear or nonlinear functions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Interpreting Graphs of Linear Functions",
+                    "overview_item_data_group_item_description": "Students interpret a graph with reference to a situation and write a function to model the graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Interpreting Changes to the Graph of a Linear Function",
+                    "overview_item_data_group_item_description": "Students explore general form and factored form of a linear function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Interpreting More Changes to the Graph of a Linear Function",
+                    "overview_item_data_group_item_description": "Students use a situation to write linear equations in general and factored form.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Equations in Different Forms",
+                    "overview_item_data_group_item_description": "Students consider which form of a linear equation is most effective for determining the slope, <math><mi>x</mi></math>-intercept, and <math><mi>y</mi></math>-intercept.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Reading Between the Lines",
+                    "overview_item_data_group_item_description": "Students use a graphic organizer to summarize four representations of a linear function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

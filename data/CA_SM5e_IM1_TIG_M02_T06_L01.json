@@ -1,0 +1,180 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "Double the Fun",
+    "overview_subtitle": "Introduction to Systems of Equations",
+    "overview_description": "In this lesson, students explore a situation modeled with a system of linear equations in standard form. They determine the intersection of the lines graphically and algebraically using substitution. Students write a system of equations for given situations. They solve each system graphically and algebraically concluding that for any system, there is no solution, one solution, or infinitely many solutions."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can write equations in standard form.",
+          "I can write and interpret the solution to a system of equations in terms of a problem situation.",
+          "I can determine and use the intercepts of an equation in standard form.",
+          "I can solve systems of linear equations exactly and approximately.",
+          "I can determine whether the system of two linear equations has one solution, no solution, or infinitely many."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Equating with Functions",
+          "Systems of Equations",
+          "Algebra Standards",
+          "Representations",
+          "Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.",
+          "Reasoning with Equations and Inequalities",
+          "Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.",
+          "Solve simple rational and radical equations in one variable, and give examples showing how extraneous solutions may arise.",
+          "Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or nonviable options in a modeling context.",
+          "Explain why the <math><mi>x</mi></math>-coordinates of the points where the graphs of the equations <math><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> and <math><mi>y</mi><mo>=</mo><mi>g</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> intersect are the solutions of the equation <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>g</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math>; find the solutions approximately, e.g., using technology to graph the functions, make tables of values, or find successive approximations. Include cases where <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> and/or <math><mi>g</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></math> are linear, polynomial, rational, absolute value, exponential, and logarithmic functions.",
+          "Functions Standards",
+          "Interpreting Functions",
+          "Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.",
+          "Graph linear and quadratic functions and show intercepts, maxima, and minima."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can solve for the <math><mi>x</mi></math>- and <math><mi>y</mi></math>-intercepts to graph linear functions written in standard form.",
+          "The graph of an equation in two variables is the set of all its solutions plotted on the coordinate plane.",
+          "A linear system of equations is two or more linear equations that define relationship between quantities.",
+          "The solution of a linear system is an ordered pair that makes both equations in the system true.",
+          "Consistent systems of equations have one or many solutions.",
+          "Inconsistent systems of equations have no solutions."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "system of linear equations"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "consistent system",
+              "inconsistent system"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "A Tale of Two Graphs",
+                    "overview_item_data_group_item_description": "Students analyze two linear graphs from a given situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Determining the Solution to a System of Linear Equations",
+                    "overview_item_data_group_item_description": "Students approximate the solution to a system of equations using a graph and the Desmos tool.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Systems with No Solution, One Solution, or Infinitely Many Solutions",
+                    "overview_item_data_group_item_description": "Students write and solve systems of equations graphically and algebraically using the substitution method.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Beating the System",
+                    "overview_item_data_group_item_description": "Students contrast consistent and inconsistent systems of linear equations.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

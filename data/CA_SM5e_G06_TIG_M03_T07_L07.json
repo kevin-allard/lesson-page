@@ -1,0 +1,167 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 7,
+    "overview_title": "Second Verse, Same as the First",
+    "overview_subtitle": "Rewriting Algebraic Expressions",
+    "overview_description": "In this lesson, students use models to make sense of applying the Distributive Property with multiplication and division and then rewrite algebraic expressions. They use the Distributive Property to factor expressions so that the coefficient of the variable is one. Students write algebraic expressions based on different perspectives in real-world situations."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can identify when expressions are equivalent.",
+          "I can rewrite algebraic expressions using the Distributive Property."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Generalizing with Multiple Representations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The Distributive Property states that if <math><mi>a</mi></math>, <math><mi>b</mi></math>, and <math><mi>c</mi></math> are any real numbers, then <math><mi>a</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mi>b</mi><mo>+</mo><mi>a</mi><mi>c</mi></math>.",
+          "You can also apply the Distributive Property with subtraction and division expressions: <math><mi>a</mi><mo stretchy=\"false\">(</mo><mi>b</mi><mo>&#x2212;</mo><mi>c</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>a</mi><mi>b</mi><mo>&#x2212;</mo><mi>a</mi><mi>c</mi></math> and <math><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mi>c</mi></mfrac><mo>=</mo><mfrac><mi>a</mi><mi>c</mi></mfrac><mo>+</mo><mfrac><mi>b</mi><mi>c</mi></mfrac></math> and <math><mfrac><mrow><mi>a</mi><mo>&#x2212;</mo><mi>b</mi></mrow><mi>c</mi></mfrac><mo>=</mo><mfrac><mi>a</mi><mi>c</mi></mfrac><mo>&#x2212;</mo><mfrac><mi>b</mi><mi>c</mi></mfrac></math>.",
+          "You can use the Distributive Property to factor an expression not only when the terms have a common factor but also to rewrite an algebraic expression so that the variable’s coefficient is 1."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": []
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Creative Expression",
+                    "overview_item_data_group_item_description": "Students develop an understanding of algebraic expressions by using visual models.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Rewriting Algebraic Expressions involving Division",
+                    "overview_item_data_group_item_description": "Students use models to make sense of the Distributive Property with division.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Factoring Algebraic Expressions",
+                    "overview_item_data_group_item_description": "Students use the Distributive Property to rewrite algebraic expressions.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Writing Algebraic Expressions from a Situation",
+                    "overview_item_data_group_item_description": "Students write algebraic expressions based on different perspectives from a situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Math Magic",
+                    "overview_item_data_group_item_description": "Students write algebraic expressions to demonstrate why a number trick works.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

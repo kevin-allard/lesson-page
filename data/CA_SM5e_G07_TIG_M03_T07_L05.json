@@ -1,0 +1,195 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "Be Greater Than",
+    "overview_subtitle": "Solving Inequalities with Inverse Operations",
+    "overview_description": "In this lesson, students develop the rules to solve inequalities in one variable by adding, subtracting, multiplying, or dividing each side of the inequality by the same value and observing its impact on the inequality statement. They solve one-step inequalities and graph their solution sets. Students describe how solving an equation and inequality are similar and how they are different."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can graph the solution set of an inequality in the form <math><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo>&gt;</mo><mi>r</mi></math> and <math><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo>&lt;</mo><mi>r</mi></math>.",
+          "I can solve one-step inequalities and graph the solution sets on a number line.",
+          "I can interpret the graph of a solution set for inequalities of the form <math><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo>&gt;</mo><mi>r</mi></math> or <math><mi>p</mi><mi>x</mi><mo>+</mo><mi>q</mi><mo>&lt;</mo><mi>r</mi></math> in the context of a real-world or mathematical problem."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Unit Rates in the World"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "An inequality is any mathematical sentence that has an inequality symbol.",
+          "The solution set of an inequality is all values that makes the inequality statement true.",
+          "The graph of an inequality in one variable is the set of all points on a number line that makes the inequality true.",
+          "The Properties of Inequalities allow you to solve inequalities involving any numbers.",
+          "To solve a one-step inequality, apply the same inverse operation steps that would solve a one-step equation; however, reverse the inequality symbol when you multiply or divide both sides by a negative value."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "inequality",
+              "solve an inequality",
+              "solution set"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "rate of change"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Odd One Out: Graphs of Inequalities",
+                    "overview_item_data_group_item_description": "Students analyze number lines to determine which one is the odd one out.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Adding and Subtracting with Inequalities",
+                    "overview_item_data_group_item_description": "Students investigate what happens when you add or subtract both sides of an inequality by the same number.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Multiplying and Dividing by Positive Numbers",
+                    "overview_item_data_group_item_description": "Students investigate what happens when you multiply or divide an inequality by a positive number.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Solving and Graphing Inequalities",
+                    "overview_item_data_group_item_description": "Students solve one-step inequalities and graph their solution sets.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Multiplying and Dividing by Negative Numbers",
+                    "overview_item_data_group_item_description": "Students investigate what happens when you multiply or divide an inequality by a negative number.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Summarizing Inequalities",
+                    "overview_item_data_group_item_description": "Students generalize their understanding of the Properties of Inequalities.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

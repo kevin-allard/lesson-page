@@ -1,0 +1,179 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 11,
+    "overview_title": "The Arts Are Alive",
+    "overview_subtitle": "Using Linear Equations",
+    "overview_description": "In this lesson, students write equations in standard form, interpret the terms in context, and graph their lines using the <math><mi>x</mi></math>- and <math><mi>y</mi></math>-intercepts. They also express the slope and intercepts from <math><mi>A</mi><mi>x</mi><mo>+</mo><mi>B</mi><mi>y</mi><mo>=</mo><mi>C</mi></math> in general form. They compare point-slope, slope-intercept, and standard forms and identify the slope and intercept from their equations."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can create an equation to model a linear relationship between two quantities.",
+          "I can rewrite equations from point-slope or standard form to slope-intercept form.",
+          "I can graph lines using the standard form of a linear equation."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Linear Equations",
+          "Functions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The standard form of a linear equation is <math><mi>A</mi><mi>x</mi><mo>+</mo><mi>B</mi><mi>y</mi><mo>=</mo><mi>C</mi></math>, where <math><mi>A</mi></math>, <math><mi>B</mi></math>, and <math><mi>C</mi></math> are constants, and <math><mi>A</mi></math> and <math><mi>B</mi></math> are not both 0.",
+          "An efficient method to graph a line in standard form is to use the <math><mi>x</mi></math>-intercept and <math><mi>y</mi></math>-intercept.",
+          "You can express lines in slope-intercept, point slope, and standard form. You can also use the equations <math><mi>y</mi><mo>=</mo><mi>c</mi></math> and <math><mi>y</mi><mo>=</mo><mi>b</mi></math>, where <math><mi>c</mi></math> and <math><mi>b</mi></math> are constants, to represent lines.",
+          "You can determine the slope and <math><mi>y</mi></math>-intercept from any form of an equation of a line.",
+          "A situation, equation, table, or graph with a constant rate (or an undefined slope or slope of 0) models a linear relationship."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activate",
+            "overview_item_data_group_items": [
+              "standard form",
+              "<math><mi>x</mi></math>-intercept"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Jump in the Line",
+                    "overview_item_data_group_item_description": "Students identify the characteristics of a line from its equation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Matching Representations",
+                    "overview_item_data_group_item_description": "Students match six linear equations to a table, a graph, or a context.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Standard Form of a Linear Equation",
+                    "overview_item_data_group_item_description": "Students write equations and interpret the standard form of a linear equation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Identifying Slope and y-Intercept",
+                    "overview_item_data_group_item_description": "Students identify the slope and the <math><mi>y</mi></math>-intercept of linear equations in various forms.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 25
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "graphic_organizer",
+                    "overview_item_data_group_item_title": "All the Way Down the Line",
+                    "overview_item_data_group_item_description": "Students describe how to determine whether a relationship is linear.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Straightedges",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

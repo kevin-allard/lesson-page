@@ -1,0 +1,219 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "Putting the V in Absolute Value",
+    "overview_subtitle": "Define Absolute Value Functions and Transformations",
+    "overview_description": "In this lesson, students model absolute value functions and their transformations on a human coordinate plane. They explore and analyze different transformations of absolute value functions, graphs, and equations, and summarize the effects of these transformations. Students distinguish between the effects of changing values inside the argument of the function vs. changing values outside the function."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can graph absolute value functions and transformations of absolute value functions.",
+          "I can determine the effect of replacing the basic absolute value function <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>|</mo><mi>x</mi><mo>|</mo></math> with <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>D</mi></math>, <math><mi>A</mi><mo>⋅</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>, and <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>C</mi><mo>)</mo></math> for different values of <math><mi>A</mi></math>, <math><mi>C</mi></math>, and <math><mi>D</mi></math>.",
+          "I can distinguish between function transformations that occur outside the function and inside the argument of the function."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Function Investigations",
+          "Features of Functions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The absolute value function is a function of the form <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>|</mo><mi>x</mi><mo>|</mo></math>.",
+          "A function <math><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>D</mi></math> is a vertical translation of the function <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> and a function <math><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>A</mi><mo>⋅</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> is a vertical dilation of the function <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>.",
+          "A function <math><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> is a vertical dilation of the function <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>. For <math><mo>|</mo><mi>A</mi><mo>|</mo><mo>&gt;</mo><mn>1</mn></math>, the graph is vertically stretched by a factor of <math><mi>A</mi></math>. For <math><mn>0</mn><mo>&lt;</mo><mo>|</mo><mi>A</mi><mo>|</mo><mo>&lt;</mo><mn>1</mn></math>, the graph vertically compresses by a factor of <math><mi>A</mi></math>, and for <math><mi>A</mi><mo>&lt;</mo><mn>0</mn></math>, the graph also reflects across the x-axis.",
+          "A function <math><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>C</mi><mo>)</mo></math> is a horizontal translation of the function <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>. For <math><mi>B</mi><mo>&gt;</mo><mn>1</mn></math>, the graph is horizontally compressed by a factor of <math><mfrac><mn>1</mn><mi>B</mi></mfrac></math>. For <math><mn>0</mn><mo>&lt;</mo><mi>B</mi><mo>&lt;</mo><mn>1</mn></math>, the graph is horizontally stretched by a factor of <math><mfrac><mn>1</mn><mi>B</mi></mfrac></math>, and for <math><mi>B</mi><mo>&lt;</mo><mn>0</mn></math>, the graph also reflects across the y-axis.",
+          "Transforming a function by changing the <math><mi>A</mi></math>- or <math><mi>D</mi></math>-values affects the output of the function, <math><mi>y</mi></math>.",
+          "Transforming a function by changing the <math><mi>C</mi></math>-value affects the input of the function, <math><mi>x</mi></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "absolute value"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "reflection",
+              "vertical dilation"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "argument of a function"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Distance Is Always Positive",
+                    "overview_item_data_group_item_description": "Students analyze values of values to identify patterns, make conjectures about the function, and share their reasoning.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Graphs of Absolute Value Functions",
+                    "overview_item_data_group_item_description": "Students model absolute value functions on a classroom coordinate plane.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Transformations Outside the Function",
+                    "overview_item_data_group_item_description": "Students generalize that the <math><mi>D</mi></math>-value in the function transformation form, <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>D</mi></math>, vertically translates the graph, and that the <math><mi>A</mi></math>-value in the function transformation form, <math><mi>A</mi><mo>⋅</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>, vertically stretches or compresses the graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "The Truth About A, C, and D",
+                    "overview_item_data_group_item_description": "Students address true/false statements about the effects of transformations on domain and range.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Transformations Inside the Function",
+                    "overview_item_data_group_item_description": "Students generalize that the <math><mi>C</mi></math>-value in the function transformation form, <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>-</mo><mi>C</mi><mo>)</mo></math>, horizontally translates the graph, and that the <math><mi>B</mi></math>-value in the function transformation form, <math><mi>f</mi><mo>(</mo><mi>B</mi><mi>x</mi><mo>)</mo></math>, horizontally compresses or stretches the graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Combining Transformations of Absolute Value Functions",
+                    "overview_item_data_group_item_description": "Students consider a horizontal dilation occurs by changing the <math><mi>C</mi></math>-value inside the function and vertical translations and dilations occur by changing values outside the function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "The Truth About A, C, and D",
+                    "overview_item_data_group_item_description": "Students address true/false statements about the effects of transformations on domain and range.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Blank paper (8 per teacher)",
+          "marker (1 per teacher)",
+          "masking tape (1 roll per teacher)",
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

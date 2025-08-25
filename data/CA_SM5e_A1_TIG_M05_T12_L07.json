@@ -1,0 +1,160 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 7,
+    "overview_title": "You Lose Some, You Lose Some",
+    "overview_subtitle": "Comparing Functions Using Key Characteristics and Average Rate of Change",
+    "overview_description": "In this lesson, students compare quadratic functions in standard form, factored form, and vertex form, then analyze the properties of each form. They then answer questions to compare linear, quadratic, and exponential functions. Students compute average rates of change for the functions across different intervals and then compare the change in the average rates of change across the different intervals."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can use multiple representations of quadratic functions to identify and interpret key characteristics.",
+          "I can identify and describe how rearranging a quadratic equation into general form, factored form, and vertex form reveals key features of the function.",
+          "I can compare exponential, linear, and quadratic functions represented in different ways by analyzing key characteristics and the average rate of change."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Function Families",
+          "Function Investigations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The average rate of change of any function over an interval is the slope of a linear function passing through the interval's endpoints.",
+          "A quantity increasing exponentially eventually exceeds a quantity increasing linearly or quadratically.",
+          "The average rate of change of an increasing exponential function will eventually exceed the average rate of change for increasing linear and quadratic functions.",
+          "A function written in equivalent forms can reveal different characteristics of the function it defines.",
+          "You can compare quadratic equations in different forms by identifying key characteristics of their representations or changing one representation to match the other for comparison purposes."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": []
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Would You Rather?: Increasing Amounts",
+                    "overview_item_data_group_item_description": "Students compare growth patterns and justify their choice between fixed and percentage-based increases.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Comparing Functions Increasing Linearly, Quadratically, and Exponentially",
+                    "overview_item_data_group_item_description": "Students calculate and compare the average rates of change of a linear, quadratic, and exponential function across the same intervals.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Comparing Equations, Tables, and Graphs",
+                    "overview_item_data_group_item_description": "Students analyze quadratic functions represented in different forms to compare various characteristics.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "More Ups and Downs",
+                    "overview_item_data_group_item_description": "Students analyze pairs of functions represented in different forms.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

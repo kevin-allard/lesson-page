@@ -1,0 +1,200 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 7,
+    "overview_title": "The Missing Link",
+    "overview_subtitle": "Factoring and Completing the Square",
+    "overview_description": "In this lesson, students factor out the GCF from different polynomials. They follow examples to factor quadratic trinomials, first using area models and then recognizing patterns in the coefficients. Students use the Zero Product Property to solve quadratic equations by factoring. They complete the square to solve quadratic equations that cannot be solved using other methods."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can factor out the greatest common factor (GCF) of polynomials.",
+          "I can factor quadratic trinomials to determine the roots of quadratic equations and to rewrite polynomial expressions.",
+          "I can rewrite quadratic equations of the form <math><mi>x</mi><msup><mi></mi><mn>2</mn></msup></math> + <math><mi>b</mi><mi>x</mi></math> + <math><mi>c</mi></math> in vertex form by completing the square.",
+          "I can use the process of completing the square to determine the vertex of a quadratic equation and use the method to determine the roots of quadratic equations of the form <math><mi>a</mi><mi>x</mi><msup><mi></mi><mn>2</mn></msup></math> + <math><mi>b</mi><mi>x</mi></math> + <math><mi>c</mi></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Reasoning with Equations and Expressions",
+          "Functions: Structure and Features of Functions",
+          "Algebra: Standards"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can solve a quadratic equation in general form by factoring the polynomial expression and applying the Zero Product Property.",
+          "To solve a quadratic equation that is not factorable, you can complete the square, express the perfect square trinomial as a binomial squared, and use algebra to solve for <math><mi>x</mi></math>.",
+          "To rewrite a quadratic equation in general form to vertex form, you can complete the square of the polynomial expression.",
+          "You can express a quadratic equation in different forms to identify key characteristics of its graph.",
+          "You can sketch the graph of a quadratic function by plotting its vertex, <math><mi>x</mi></math>-intercepts, and <math><mi>y</mi></math>-intercept."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "completing the square"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "The Form of a Function",
+                    "overview_item_data_group_item_description": "Students consider different forms of a quadratic equation in relation to a situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Factoring Trinomials",
+                    "overview_item_data_group_item_description": "Students use an area model to factor quadratic trinomials.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Solving Quadratic Equations by Factoring",
+                    "overview_item_data_group_item_description": "Students use factoring and the Zero Product Property to determine the roots of a given quadratic equation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Completing the Square",
+                    "overview_item_data_group_item_description": "Students investigate completing the square conceptually and procedurally to rewrite the function in vertex form.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Completing the Square to Determine Roots",
+                    "overview_item_data_group_item_description": "Students learn how to complete the square to determine the zeros of the quadratic function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Rewriting a Quadratic in Vertex Form",
+                    "overview_item_data_group_item_description": "Students analyze a Worked Example to rewrite <math><mi>y</mi></math> = <math><mi>a</mi><mi>x</mi><msup><mi></mi><mn>2</mn></msup></math> + <math><mi>b</mi><mi>x</mi></math> + <math><mi>c</mi></math> in vertex form by completing the square.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Play It Again",
+                    "overview_item_data_group_item_description": "Students rewrite a quadratic function in the form <math><mi>y</mi></math> = <math><mi>a</mi><mi>x</mi><msup><mi></mi><mn>2</mn></msup></math> + <math><mi>b</mi><mi>x</mi></math> + <math><mi>c</mi></math> in factored form and vertex form.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

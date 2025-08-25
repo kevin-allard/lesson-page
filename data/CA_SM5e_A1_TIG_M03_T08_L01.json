@@ -1,0 +1,188 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "A Constant Ratio",
+    "overview_subtitle": "Geometric Sequences and Exponential Functions",
+    "overview_description": "In this lesson, students learn that they can only represent some geometric sequences as exponential functions. They show algebraically that they can represent the constant ratio between output values of an exponential function with the variable <math><mi>n</mi></math> in <math><mi>f</mi><mo>(</mo><mi>n</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>⋅</mo><msup><mi>b</mi><mi>n</mi></msup></math>. Students identify the <math><mi>y</mi></math>-value of this form as the <math><mi>y</mi></math>-intercept of the graph of the function. They write an exponential equation from two given points."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can recognize exponential functions and identify the constant ratio and <math><mi>y</mi></math>-intercept in multiple representations.",
+          "I can write a geometric sequence as an exponential function in the form <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>⋅</mo><msup><mi>b</mi><mi>x</mi></msup></math>.",
+          "I can show that for an exponential function in the form <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>⋅</mo><msup><mi>b</mi><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></msup></math>, the ratio <math><mfrac><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac></math> is constant and equal to <math><mi>b</mi></math>, and the <math><mi>y</mi></math>-intercept is represented by the ordered pair <math><mo>(</mo><mn>0</mn><mo>,</mo><mi>a</mi><mo>)</mo></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Systems of Equations",
+          "Growth and Decay"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "All geometric sequences are functions. Only geometric sequences with a positive constant ratio are exponential functions.",
+          "When a geometric sequence represents an exponential function, you can use the Product of Powers Rule and the definition of negative exponents to rewrite the explicit formula for the sequence as an exponential function.",
+          "The form of an exponential function with a constant ratio is <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>⋅</mo><msup><mi>b</mi><mi>x</mi></msup></math>, where <math><mi>b</mi></math> represents the constant ratio and <math><mo>(</mo><mn>0</mn><mo>,</mo><mi>a</mi><mo>)</mo></math> represents the <math><mi>y</mi></math>-intercept.",
+          "For an exponential function in the form <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>⋅</mo><msup><mi>b</mi><mfrac><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac></msup></math>, the ratio <math><mfrac><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac></math> is constant and equal to <math><mi>b</mi></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": []
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": []
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Function Family Feud",
+                    "overview_item_data_group_item_description": "Students compare various representations of different sequences and identify which graphs represent a specific function family.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Exponential Growth",
+                    "overview_item_data_group_item_description": "Students convert from the explicit formula of a geometric sequence to function notation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Identifying Exponential Functions",
+                    "overview_item_data_group_item_description": "Students write an exponential function to model a scenario and calculate the constant ratio from a corresponding table of values.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Writing Exponential Functions",
+                    "overview_item_data_group_item_description": "Students investigate a problem situation represented by a decreasing exponential function and write exponential functions given tables and a graph.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Did We Mention Constant Ratio?",
+                    "overview_item_data_group_item_description": "Students connect the variable <math><mi>b</mi></math> of <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>a</mi><mo>⋅</mo><msup><mi>b</mi><mi>x</mi></msup></math>, the expression <math><mfrac><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac></math>, and the common ratio of a geometric sequence.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 90
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "2",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 1,
+    "overview_title": "The Right Triangle Connection",
+    "overview_subtitle": "The Pythagorean Theorem",
+    "overview_description": "In this lesson, students square right triangles’ side lengths and recognize that the sum of the two shorter sides’ squares equals the longest side’s square. They identify this relationship as the Pythagorean Theorem. Students use cutouts and guided directions to explain proofs of the theorem. They apply the Pythagorean Theorem to solve for the hypotenuse or a leg length of a right triangle with or without context."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can explain a proof of the Pythagorean Theorem.",
+          "I can use the Pythagorean Theorem to determine the unknown side lengths in right triangles."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Pythagorean Explorations",
+          "Shape, Number, and Expressions"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "In a right triangle, the hypotenuse is the side opposite the right angle. The hypotenuse is the longest side of the right triangle, and the legs are the two shorter sides.",
+          "According to the Pythagorean Theorem, in a right triangle, <math><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup></math>, where <math><mi>a</mi></math> and <math><mi>b</mi></math> are the leg lengths and <math><mi>c</mi></math> is the hypotenuse length.",
+          "You can use area models to explain geometric proofs of the Pythagorean Theorem.",
+          "When you draw squares on all three sides of a right triangle, the sum of the areas of the squares drawn on the two legs equals the area of the square drawn on the hypotenuse.",
+          "Given the length of two sides of a right triangle, you can use the Pythagorean Theorem to calculate the third side’s length."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "hypotenuse",
+              "legs",
+              "Pythagorean Theorem"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "proof",
+              "diagonal of a square"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Triangle Talk",
+                    "overview_item_data_group_item_description": "Students consider two triangles and share what they notice and wonder.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Introducing the Pythagorean Theorem",
+                    "overview_item_data_group_item_description": "Students verify that the Pythagorean Theorem holds given the side lengths of a right triangle.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Proving the Pythagorean Theorem",
+                    "overview_item_data_group_item_description": "Students use geometric proofs involving area to make sense of the Pythagorean Theorem.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "In Your Own Words",
+                    "overview_item_data_group_item_description": "Students explain a proof of the Pythagorean Theorem in their own words.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Using the Pythagorean Theorem",
+                    "overview_item_data_group_item_description": "Students solve mathematical and real-world problems using the Pythagorean Theorem.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 30
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Colored pencils, glue sticks or tape, Proving the Pythagorean Theorem Graphic Organizers, Proving the Pythagorean Theorem Proof Cutouts, scissors, straightedges",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

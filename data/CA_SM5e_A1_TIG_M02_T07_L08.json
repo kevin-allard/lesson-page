@@ -1,0 +1,173 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 45
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "1",
+      "overview_label_title": "Session"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 8,
+    "overview_title": "A Riddle Wrapped in a Mystery",
+    "overview_subtitle": "Inverses of Linear Functions",
+    "overview_description": "In this lesson, students use a table of values to determine the inverse of a given problem situation. They then determine the inverse of a function algebraically. Students create the graph of the inverse of a linear function by reflecting the original function across the line <math><mi>y</mi><mo>=</mo><mi>x</mi></math> using patty paper. They determine whether given functions are one-to-one functions."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can determine the inverse of a given situation using words.",
+          "I can determine the inverse of a function numerically using a table, an equation, and a graph.",
+          "I can determine whether given functions are one-to-one functions."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Function Investigations"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "You can determine the inverses of functions algebraically and graphically.",
+          "Determine the inverse of a function by replacing <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math> with <math><mi>y</mi></math>, switching the <math><mi>x</mi></math> and <math><mi>y</mi></math> variables, and solving for <math><mi>y</mi></math>.",
+          "The graph of the inverse of a function reflects that function across the line <math><mi>y</mi><mo>=</mo><mi>x</mi></math>.",
+          "A one-to-one function is a function in which its inverse is also a function.",
+          "For a one-to-one function <math><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>, the notation for its inverse is <math><msup><mi>f</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mo>(</mo><mi>x</mi><mo>)</mo></math>."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "inverse of a function"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "one-to-one function"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Inside an Enigma",
+                    "overview_item_data_group_item_description": "Students write a coded note using a numeric rule and decode classmates’ notes.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "The Inverse of a Function",
+                    "overview_item_data_group_item_description": "Students use intuition to complete a table and write an equation for the inverse of a situation.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Graphing Inverses of Functions",
+                    "overview_item_data_group_item_description": "Students investigate inverse functions by reflecting a graph across the line <math><mi>y</mi><mo>=</mo><mi>x</mi></math>.\nMaterials: Patty paper",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "One-to-One Functions",
+                    "overview_item_data_group_item_description": "Students learn that a one-to-one function is a function whose inverse is also a function.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_title": "Strike that. Invert It.",
+                    "overview_item_data_group_item_description": "Students define and describe how to determine the inverse of a linear function algebraically, graphically, and numerically.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Patty paper",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}

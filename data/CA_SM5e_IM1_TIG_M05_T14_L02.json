@@ -1,0 +1,223 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "minutes",
+    "pacing_amount": 135
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "3",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 2,
+    "overview_title": "ASA, SAS, and SSS",
+    "overview_subtitle": "Proving Triangle Congruence Theorems",
+    "overview_description": "In this lesson, students analyze a Worked Example that proves you can map a segment onto itself in at most two reflections. They then use reflections to prove the Side-Side-Side, Side-Angle-Side, and Angle-Side-Angle Congruence Theorems for triangles. Students use corresponding parts of congruent triangles are congruent (CPCTC) reasoning to write congruence statements."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "My Learning Goals",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "I can use the definition of congruence in terms of rigid motions to show that two triangles are congruent.",
+          "I can prove the Side-Side-Side Congruence Theorem, the Side-Angle-Side Congruence Theorem, and the Angle-Side-Angle Congruence Theorem using rigid motion transformations."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "big_ideas",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Big Idea",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "Shapes in Structures",
+          "Geometry Standards",
+          "Congruence"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Essential Ideas",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "It is possible to conclude two triangles are congruent using fewer than six pairs of corresponding parts.",
+          "If three sides of one triangle are congruent to the corresponding sides of another triangle, then the triangles are congruent.",
+          "If two triangles have two corresponding sides and their included angles congruent, then the triangles are congruent.",
+          "If two triangles have two corresponding angles and their included sides congruent, then the triangles are congruent.",
+          "Corresponding parts of congruent triangles are congruent, CPCTC, which means that when two triangles are congruent, each part of one triangle is congruent to the other triangle’s corresponding part."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 2",
+            "overview_item_data_group_items": [
+              "Side-Side-Side Congruence Theorem (SSS)",
+              "corresponding parts of congruent triangles are congruent (CPCTC)"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 3",
+            "overview_item_data_group_items": [
+              "included side",
+              "Side-Angle-Side Congruence Theorem (SAS)"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Activity 4",
+            "overview_item_data_group_items": [
+              "included angle",
+              "Angle-Side-Angle Congruence Theorem (ASA)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Session 1",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Activate",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_title": "Necessary Conditions",
+                    "overview_item_data_group_item_description": "Students describe how to use measuring tools to determine whether two triangles are congruent.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 5
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 1",
+                    "overview_item_data_group_item_title": "Congruent Line Segments by Reflection",
+                    "overview_item_data_group_item_description": "Students interpret notation for congruent segments and angles.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 35
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 2",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 2",
+                    "overview_item_data_group_item_title": "Side-Side-Side Congruence",
+                    "overview_item_data_group_item_description": "Students use reflections to prove the Side-Side-Side Congruence Theorem for triangles.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 3",
+                    "overview_item_data_group_item_title": "Side-Angle-Side Congruence",
+                    "overview_item_data_group_item_description": "Students analyze a Worked Example that proves the Side-Angle-Side (SAS) Congruence Theorem.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Session 3",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "Explore and Develop",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 4",
+                    "overview_item_data_group_item_title": "Angle-Side-Angle Congruence",
+                    "overview_item_data_group_item_description": "Students prove the Angle-Side-Angle Congruence Theorem using reflections.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_prefix": "Activity 5",
+                    "overview_item_data_group_item_title": "Non-Examples of Congruence Theorems",
+                    "overview_item_data_group_item_description": "Students investigate non-examples of congruence theorems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              },
+              {
+                "overview_item_data_group_title": "Reflect",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": "graphic_organizer",
+                    "overview_item_data_group_item_title": "The Right Combination",
+                    "overview_item_data_group_item_description": "Students complete a graphic organizer that summarizes the triangle congruence theorems.",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 10
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials Needed",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "If facilitating this lesson without student devices, no additional materials are needed.",
+          "To avoid printing additional materials not included in MATHbook (like Activate activities and Session Quick Checks) project them using the Present button above."
+        ]
+      }
+    }
+  ]
+}
