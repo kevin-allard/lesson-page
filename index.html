@@ -104,44 +104,8 @@
         const tabsContainer = document.getElementById('tabs-container');
         const panelsContainer = document.getElementById('tab-panels-container');
 
-        const LearnosityLoader = {
-            loadedScripts: {},
-            load(serviceName) {
-                return new Promise((resolve, reject) => {
-                    const learnosityServices = { items: 'items', reports: 'reportsapi' };
-                    const learnosityVersion = 'v2023.2.LTS'; // Using a placeholder version
-                    const baseUrl = 'https://';
-                    if (!learnosityServices[serviceName]) { return reject(new Error(`Unknown Learnosity service: ${serviceName}`)); }
-                    const scriptUrl = `${baseUrl}${learnosityServices[serviceName]}.learnosity.com/?${learnosityVersion}`;
-                    if (this.loadedScripts[scriptUrl]) {
-                        console.log(`Learnosity service "${serviceName}" script already loaded.`);
-                        return resolve();
-                    }
-                    const script = document.createElement('script');
-                    script.src = scriptUrl;
-                    script.onload = () => {
-                        console.log(`Learnosity service "${serviceName}" loaded successfully.`);
-                        this.loadedScripts[scriptUrl] = true;
-                        // A simple check for the global object
-                        const serviceGlobal = `Learnosity${serviceName.charAt(0).toUpperCase() + serviceName.slice(1)}`;
-                        if (window[serviceGlobal]) { resolve(); } 
-                        else { reject(new Error(`${serviceGlobal} object not found on window after script load.`)); }
-                    };
-                    script.onerror = () => {
-                        console.error(`Failed to load Learnosity service: ${serviceName}`);
-                        reject(new Error(`Failed to load script: ${scriptUrl}`));
-                    };
-                    document.head.appendChild(script);
-                });
-            }
-        };
-
         async function initializeApp() {
             try {
-                // Load critical external scripts first
-                await LearnosityLoader.load('items');
-                
-                // Then proceed with app logic
                 const response = await fetch('manifest.json');
                 if (!response.ok) throw new Error("Manifest file not found.");
                 fullManifestData = await response.json();
@@ -151,15 +115,57 @@
                 await handleCourseChange();
             } catch (error) {
                 console.error("Initialization failed:", error);
-                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not initialize the application. A required script may have failed to load.</p>`;
+                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json.</p>`;
             }
         }
 
-        function populateCourseSelector() { /* Unchanged */ }
-        async function populateLessonSelector(courseName) { /* Unchanged */ }
-        async function handleCourseChange() { /* Unchanged */ }
-        async function handleLessonChange() { /* Unchanged */ }
-        async function loadAndDisplayLesson(filePath) { /* Unchanged */ }
+        function populateCourseSelector() {
+            fullManifestData.forEach(course => {
+                courseSelector.add(new Option(course.courseName, course.courseName));
+            });
+        }
+
+        function populateLessonSelector(courseName) {
+            lessonSelector.innerHTML = '';
+            const course = fullManifestData.find(c => c.courseName === courseName);
+            if (course && course.lessons.length > 0) {
+                lessonSelector.disabled = false;
+                course.lessons.forEach(lesson => {
+                    lessonSelector.add(new Option(lesson.name, lesson.path));
+                });
+            } else {
+                lessonSelector.disabled = true;
+                lessonSelector.add(new Option('No lessons available', ''));
+            }
+        }
+
+        async function handleCourseChange() {
+            populateLessonSelector(courseSelector.value);
+            await handleLessonChange();
+        }
+        
+        async function handleLessonChange() {
+            if (lessonSelector.value) {
+                await loadAndDisplayLesson(lessonSelector.value);
+            } else {
+                clearLessonDisplay();
+            }
+        }
+        
+        async function loadAndDisplayLesson(filePath) { 
+            try { 
+                const response = await fetch(filePath); 
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`); 
+                const lessonData = await response.json(); 
+                renderLesson(lessonData); 
+                contentArea.style.display = 'block'; 
+            } catch (error) { 
+                console.error("Could not load or render lesson:", error); 
+                clearLessonDisplay(); 
+                panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'.</p>`; 
+            } 
+        }
+
         function clearLessonDisplay() { /* Unchanged */ }
         function renderLesson(lessonData) { /* Unchanged */ }
         function renderTabsAndPanels(lessonData) { /* Unchanged */ }
