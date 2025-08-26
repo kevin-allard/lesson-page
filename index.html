@@ -1,4 +1,4 @@
-<!-- Editor Version: rc1.beta.0.53 -->
+<!-- Editor Version: rc1.beta.0.54 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson Plan Prototype</title>
     <style>
+        /* All CSS is unchanged */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
         :root {
             --primary-green: #27894D; --primary-blue: #008FFD; --light-purple-bg: #F7F2FE;
@@ -53,8 +54,6 @@
         .key-terms-list { list-style-type: none; padding: 0; }
         .key-terms-list li { font-size: 1.1rem; margin-bottom: 0.75rem; }
         .content-placeholder { text-align: center; color: var(--text-medium); padding: 4rem 2rem; }
-
-        /* Rich Text / Markdown Styles */
         .md-content { font-size: 0.9rem; color: var(--text-medium); line-height: 1.6; }
         .md-content p { margin: 0.5rem 0 1rem 0; }
         .md-content p:first-child { margin-top: 0; }
@@ -98,12 +97,50 @@
         const tabsContainer = document.getElementById('tabs-container');
         const panelsContainer = document.getElementById('tab-panels-container');
 
-        async function initializeApp() { try { const response = await fetch('manifest.json'); if (!response.ok) throw new Error("Manifest file not found."); fullManifestData = await response.json(); populateCourseSelector(); courseSelector.addEventListener('change', handleCourseChange); lessonSelector.addEventListener('change', handleLessonChange); handleCourseChange(); } catch (error) { console.error("Initialization failed:", error); contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json.</p>`; } }
+        async function initializeApp() { try { const response = await fetch('manifest.json'); if (!response.ok) throw new Error("Manifest file not found."); fullManifestData = await response.json(); populateCourseSelector(); courseSelector.addEventListener('change', handleCourseChange); lessonSelector.addEventListener('change', handleLessonChange); await handleCourseChange(); } catch (error) { console.error("Initialization failed:", error); contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json.</p>`; } }
         function populateCourseSelector() { fullManifestData.forEach(course => { courseSelector.add(new Option(course.courseName, course.courseName)); }); }
-        function populateLessonSelector(courseName) { lessonSelector.innerHTML = ''; const course = fullManifestData.find(c => c.courseName === courseName); if (course && course.lessons.length > 0) { lessonSelector.disabled = false; course.lessons.forEach(lesson => lessonSelector.add(new Option(lesson.name, lesson.path))); } else { lessonSelector.disabled = true; lessonSelector.add(new Option('No lessons available', '')); } }
-        function handleCourseChange() { populateLessonSelector(courseSelector.value); handleLessonChange(); }
-        function handleLessonChange() { if (lessonSelector.value) { loadAndDisplayLesson(lessonSelector.value); } else { clearLessonDisplay(); } }
-        async function loadAndDisplayLesson(filePath) { try { const response = await fetch(filePath); if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`); const lessonData = await response.json(); renderLesson(lessonData); contentArea.style.display = 'block'; } catch (error) { console.error("Could not load or render lesson:", error); clearLessonDisplay(); panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'.</p>`; } }
+        
+        async function populateLessonSelector(courseName) {
+            lessonSelector.innerHTML = '';
+            const course = fullManifestData.find(c => c.courseName === courseName);
+            if (course && course.lessons.length > 0) {
+                lessonSelector.disabled = false;
+                course.lessons.forEach(lesson => {
+                    lessonSelector.add(new Option(lesson.name, lesson.path));
+                });
+                await handleLessonChange(); // Load the first lesson automatically
+            } else {
+                lessonSelector.disabled = true;
+                lessonSelector.add(new Option('No lessons available', ''));
+                clearLessonDisplay();
+            }
+        }
+
+        async function handleCourseChange() {
+            await populateLessonSelector(courseSelector.value);
+        }
+        
+        async function handleLessonChange() {
+            if (lessonSelector.value) {
+                await loadAndDisplayLesson(lessonSelector.value);
+            } else {
+                clearLessonDisplay();
+            }
+        }
+        
+        async function loadAndDisplayLesson(filePath) { 
+            try { 
+                const response = await fetch(filePath); 
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`); 
+                const lessonData = await response.json(); 
+                renderLesson(lessonData); 
+                contentArea.style.display = 'block'; 
+            } catch (error) { 
+                console.error("Could not load or render lesson:", error); 
+                clearLessonDisplay(); 
+                panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'.</p>`; 
+            } 
+        }
 
         function clearLessonDisplay() { titleEl.innerHTML = 'No Lesson Selected'; pacingEl.innerHTML = ''; descriptionEl.innerHTML = ''; contentArea.style.display = 'none'; }
         
@@ -112,13 +149,12 @@
             const subtitle = metadata.overview_subtitle ? `<span class="subtitle">${metadata.overview_subtitle}</span>` : '';
             titleEl.innerHTML = `Lesson ${metadata.overview_number}: ${metadata.overview_title} ${subtitle}`;
             pacingEl.innerHTML = lessonData.overview_pacing?.pacing_amount ? `${icons.clock || ''} ${lessonData.overview_pacing.pacing_amount} mins` : '';
-            
-            // CORRECTED LOGIC
             descriptionEl.innerHTML = metadata.overview_description || '';
-
             renderTabsAndPanels(lessonData);
             setupTabInteraction();
-            MathJax.typesetPromise();
+            if (window.MathJax) {
+                MathJax.typesetPromise();
+            }
         }
 
         function renderTabsAndPanels(lessonData) {
@@ -245,14 +281,4 @@
                         }
                     } else { html += `<p>${firstLine}</p>${blockContent}`; }
                 });
-                return `<div class="md-content">${html}</div>`;
-            }
-            return `<div class="md-content"><p>${text}</p></div>`;
-        }
-        
-        function setupTabInteraction() { tabsContainer.addEventListener('click', (e) => { const clickedTab = e.target.closest('.tab-button'); if (!clickedTab) return; tabsContainer.querySelectorAll('.tab-button').forEach(tab => { tab.classList.remove('active'); tab.setAttribute('aria-selected', 'false'); }); panelsContainer.querySelectorAll('.tab-panel').forEach(panel => { panel.classList.remove('active'); }); clickedTab.classList.add('active'); clickedTab.setAttribute('aria-selected', 'true'); document.getElementById(clickedTab.getAttribute('aria-controls')).classList.add('active'); }); }
-        initializeApp();
-    });
-    </script>
-</body>
-</html>
+                return `<div class="md-content">${html}</
