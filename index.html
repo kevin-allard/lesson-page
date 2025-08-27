@@ -154,13 +154,9 @@
             await populateLessonSelector(courseSelector.value);
         }
         
-        // --- FINAL FIX: Dynamically load the correct file from the manifest path ---
         async function handleLessonChange() {
             const lessonPath = lessonSelector.value;
             if (lessonPath) {
-                // Transform the absolute path from the manifest to a relative one
-                // This makes it work when opening index.html directly from the file system.
-                // It changes "/data/file.json" to "data/file.json"
                 const relativePath = lessonPath.startsWith('/') ? lessonPath.substring(1) : lessonPath;
                 await loadAndDisplayLesson(relativePath);
             } else {
@@ -205,6 +201,16 @@
                 }
             }
         }
+        
+        // --- NEW: Helper function to check for empty data ---
+        function isSectionDataEmpty(item) {
+            // A section is considered empty if the main data block is missing,
+            // or if the list of items within it is missing or has a length of 0.
+            if (!item.overview_item_data || !item.overview_item_data.overview_item_data_items) {
+                return true;
+            }
+            return item.overview_item_data.overview_item_data_items.length === 0;
+        }
 
         function renderTabsAndPanels(lessonData) {
             const tabDefinitions = {
@@ -215,28 +221,37 @@
                 pacing_guide: { title: 'Pacing Guide', icon: icons.pacing_guide, renderer: renderPacingGuide },
                 materials_needed: { title: 'Materials Needed', icon: icons.materials_needed, renderer: renderList }
             };
-            const availableItems = lessonData.overview_items || [];
-            if (availableItems.length === 0) {
+
+            // --- MODIFIED: Filter out empty items before rendering ---
+            const visibleItems = (lessonData.overview_items || []).filter(item => !isSectionDataEmpty(item));
+
+            if (visibleItems.length === 0) {
                 tabsContainer.innerHTML = '';
                 panelsContainer.innerHTML = '<p class="content-placeholder">No detailed information available for this lesson.</p>';
                 return;
             }
+            
             let tabsHTML = '', panelsHTML = '';
             let isFirstTab = true;
-            availableItems.forEach((item) => {
+
+            // Iterate over the VISIBLE items only
+            visibleItems.forEach((item) => {
                 const tabDef = tabDefinitions[item.overview_item_type];
                 if (!tabDef) return;
+
                 const isActive = isFirstTab;
                 isFirstTab = false;
+                
                 const tabId = item.overview_item_type.replace(/_/g, '-');
                 const title = item.overview_item_title || tabDef.title;
-                let content = '<p class="content-placeholder">No data available.</p>';
-                if (item.overview_item_data) {
-                    content = tabDef.renderer(item);
-                }
+                
+                // We no longer need to check for empty data here, because we already filtered.
+                const content = tabDef.renderer(item);
+                
                 tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tabId}" role="tab" aria-controls="panel-${tabId}" aria-selected="${isActive}">${tabDef.icon || ''}<span>${title}</span></button>`;
                 panelsHTML += `<div class="tab-panel ${isActive ? 'active' : ''}" id="panel-${tabId}" role="tabpanel" aria-labelledby="tab-${tabId}">${content}</div>`;
             });
+
             tabsContainer.innerHTML = tabsHTML;
             panelsContainer.innerHTML = panelsHTML;
         }
