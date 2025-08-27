@@ -202,14 +202,29 @@
             }
         }
         
-        // --- NEW: Helper function to check for empty data ---
+        // --- UPDATED: Smarter function to check for empty data based on type ---
         function isSectionDataEmpty(item) {
-            // A section is considered empty if the main data block is missing,
-            // or if the list of items within it is missing or has a length of 0.
             if (!item.overview_item_data || !item.overview_item_data.overview_item_data_items) {
                 return true;
             }
-            return item.overview_item_data.overview_item_data_items.length === 0;
+
+            const items = item.overview_item_data.overview_item_data_items;
+            const dataType = item.overview_item_data.overview_item_data_type;
+
+            if (dataType === 'group_list') {
+                // For a group_list, it's empty if there are no groups, OR
+                // if NONE of the groups have any items in their own list.
+                if (items.length === 0) return true;
+                // The 'some' method checks if at least one element passes the test.
+                // If we find even one group that has items, the section is NOT empty.
+                const hasContent = items.some(group => 
+                    group.overview_item_data_group_items && group.overview_item_data_group_items.length > 0
+                );
+                return !hasContent; // Return true (is empty) if no content was found.
+            } else {
+                // For all other types ('list', 'session_list'), we just check the top-level items array.
+                return items.length === 0;
+            }
         }
 
         function renderTabsAndPanels(lessonData) {
@@ -222,7 +237,6 @@
                 materials_needed: { title: 'Materials Needed', icon: icons.materials_needed, renderer: renderList }
             };
 
-            // --- MODIFIED: Filter out empty items before rendering ---
             const visibleItems = (lessonData.overview_items || []).filter(item => !isSectionDataEmpty(item));
 
             if (visibleItems.length === 0) {
@@ -234,7 +248,6 @@
             let tabsHTML = '', panelsHTML = '';
             let isFirstTab = true;
 
-            // Iterate over the VISIBLE items only
             visibleItems.forEach((item) => {
                 const tabDef = tabDefinitions[item.overview_item_type];
                 if (!tabDef) return;
@@ -245,7 +258,6 @@
                 const tabId = item.overview_item_type.replace(/_/g, '-');
                 const title = item.overview_item_title || tabDef.title;
                 
-                // We no longer need to check for empty data here, because we already filtered.
                 const content = tabDef.renderer(item);
                 
                 tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tabId}" role="tab" aria-controls="panel-${tabId}" aria-selected="${isActive}">${tabDef.icon || ''}<span>${title}</span></button>`;
@@ -263,11 +275,14 @@
 
         function renderKeyTerms(item) {
             const groups = item.overview_item_data.overview_item_data_items || [];
-            if (groups.length === 0) return '<p class="content-placeholder">No key terms available.</p>';
-            return groups.map(group => {
+            // Filter out groups that have no items before rendering them
+            const visibleGroups = groups.filter(group => group.overview_item_data_group_items && group.overview_item_data_group_items.length > 0);
+
+            if (visibleGroups.length === 0) return '<p class="content-placeholder">No key terms available.</p>';
+            
+            return visibleGroups.map(group => {
                 const groupTitle = group.overview_item_data_group_title;
                 const groupItems = group.overview_item_data_group_items || [];
-                if (groupItems.length === 0) return '';
                 return `<div class="key-terms-group"><h4>${groupTitle}</h4><ul class="key-terms-list">${groupItems.map(term => `<li>${term}</li>`).join('')}</ul></div>`;
             }).join('');
         }
