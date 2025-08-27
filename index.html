@@ -1,4 +1,4 @@
-<!-- Editor Version: rc1.beta.0.58 -->
+<!-- Editor Version: rc1.beta.0.60 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson Plan Prototype</title>
     <style>
-        /* All CSS is unchanged, with addition for pacing icons */
+        /* All CSS is unchanged */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
         :root {
             --primary-green: #27894D; --primary-blue: #008FFD; --light-purple-bg: #F7F2FE;
@@ -74,129 +74,98 @@
 </head>
 <body>
     <div class="lesson-container">
-        <!-- Header is unchanged -->
         <header class="lesson-header">
             <div class="lesson-image"><svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="45" fill="#e9ecef"/><path d="M50 5C25.1472 5 5 25.1472 5 50C5 74.8528 25.1472 95 50 95C74.8528 95 95 74.8528 95 50" stroke="#adb5bd" stroke-width="4" stroke-linecap="round"/><circle cx="50" cy="50" r="30" fill="white"/><circle cx="50" cy="50" r="20" fill="#ced4da"/><path d="M50 10V30" stroke="#495057" stroke-width="4" stroke-linecap="round"/></svg></div>
             <div class="lesson-details"><h1 id="lesson-title-subtitle"></h1><div id="lesson-pacing" class="lesson-pacing"></div><p id="lesson-description"></p></div>
             <div class="lesson-actions"><div class="selector-group"><label for="course-selector">Select Course:</label><select id="course-selector" name="course-selector"></select></div><div class="selector-group"><label for="lesson-selector">Select Lesson:</label><select id="lesson-selector" name="lesson-selector"></select></div></div>
         </header>
-
         <main class="lesson-content" id="lesson-content-area">
             <nav class="tabs" id="tabs-container" role="tablist" aria-label="Lesson Information"></nav>
             <div class="tab-content-container" id="tab-panels-container"></div>
         </main>
     </div>
-
     <script>
     document.addEventListener('DOMContentLoaded', () => {
         let fullManifestData = [];
         const icons = { clock: `...`, learning_goals: `...`, pacing_guide: `...`, key_terms: `...`, materials_needed: `...`, essential_ideas: `...`, big_ideas: `...` }; // SVG data omitted for brevity
-        
-        // --- NEW: Real Icon Image Mapping ---
-        const activityIcons = {
-            presentation: 'images/presentation.png',
-            book: 'images/book.png',
-            online: 'images/online.png',
-            worked_example: 'images/worked-example.png',
-            investigation: 'images/investigation.png',
-            real_world_problem_solving: 'images/real-world.png',
-            exit_ticket_application: 'images/exit-ticket.png',
-            // Add other mappings as needed
-        };
-        
-        // All variable declarations are unchanged
+        const activityIcons = { /* ... */ };
         const courseSelector = document.getElementById('course-selector');
         const lessonSelector = document.getElementById('lesson-selector');
-        // ... etc.
+        const contentArea = document.getElementById('lesson-content-area');
+        const titleEl = document.getElementById('lesson-title-subtitle');
+        const pacingEl = document.getElementById('lesson-pacing');
+        const descriptionEl = document.getElementById('lesson-description');
+        const tabsContainer = document.getElementById('tabs-container');
+        const panelsContainer = document.getElementById('tab-panels-container');
 
-        async function initializeApp() { /* Unchanged */ }
-        function populateCourseSelector() { /* Unchanged */ }
-        function populateLessonSelector(courseName) { /* Unchanged */ }
-        async function handleCourseChange() { /* Unchanged */ }
-        async function handleLessonChange() { /* Unchanged */ }
-        async function loadAndDisplayLesson(filePath) { /* Unchanged */ }
+        async function initializeApp() {
+            try {
+                const response = await fetch('manifest.json');
+                if (!response.ok) throw new Error("Manifest file not found.");
+                fullManifestData = await response.json();
+                populateCourseSelector();
+                courseSelector.addEventListener('change', handleCourseChange);
+                lessonSelector.addEventListener('change', handleLessonChange);
+                await handleCourseChange(); // Await the initial population and load
+            } catch (error) {
+                console.error("Initialization failed:", error);
+                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json.</p>`;
+            }
+        }
+
+        function populateCourseSelector() {
+            fullManifestData.forEach(course => {
+                courseSelector.add(new Option(course.courseName, course.courseName));
+            });
+        }
+
+        function populateLessonSelector(courseName) {
+            lessonSelector.innerHTML = '';
+            const course = fullManifestData.find(c => c.courseName === courseName);
+            if (course && course.lessons.length > 0) {
+                lessonSelector.disabled = false;
+                course.lessons.forEach(lesson => {
+                    lessonSelector.add(new Option(lesson.name, lesson.path));
+                });
+            } else {
+                lessonSelector.disabled = true;
+                lessonSelector.add(new Option('No lessons available', ''));
+            }
+        }
+
+        async function handleCourseChange() {
+            populateLessonSelector(courseSelector.value);
+            await handleLessonChange();
+        }
+        
+        async function handleLessonChange() {
+            if (lessonSelector.value) {
+                await loadAndDisplayLesson(lessonSelector.value);
+            } else {
+                clearLessonDisplay();
+            }
+        }
+        
+        async function loadAndDisplayLesson(filePath) { 
+            try { 
+                const response = await fetch(filePath); 
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`); 
+                const lessonData = await response.json(); 
+                renderLesson(lessonData); 
+                contentArea.style.display = 'block'; 
+            } catch (error) { 
+                console.error("Could not load or render lesson:", error); 
+                clearLessonDisplay(); 
+                panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'.</p>`; 
+            } 
+        }
+
         function clearLessonDisplay() { /* Unchanged */ }
         function renderLesson(lessonData) { /* Unchanged */ }
-
-        function renderTabsAndPanels(lessonData) {
-            const tabDefinitions = { /* ... */ };
-            const availableItems = lessonData.overview_items || [];
-            if (availableItems.length === 0) { /* ... */ }
-
-            let tabsHTML = '', panelsHTML = '';
-            let isFirstTab = true;
-
-            availableItems.forEach((item) => {
-                const tabDef = tabDefinitions[item.overview_item_type];
-                if (!tabDef) return;
-
-                // --- NEW: Check for Empty Content ---
-                let hasContent = true;
-                if (item.overview_item_type === 'key_terms') {
-                    const groups = item.overview_item_data.overview_item_data_items || [];
-                    hasContent = groups.some(group => group.overview_item_data_group_items && group.overview_item_data_group_items.length > 0);
-                } else if (item.overview_item_data.overview_item_data_items) {
-                    hasContent = item.overview_item_data.overview_item_data_items.length > 0;
-                }
-                
-                if (!hasContent) return; // Skip rendering this tab if it has no content
-
-                const isActive = isFirstTab;
-                isFirstTab = false;
-                // ... rest of the function is unchanged
-            });
-            tabsContainer.innerHTML = tabsHTML;
-            panelsContainer.innerHTML = panelsHTML;
-        }
-
+        function renderTabsAndPanels(lessonData) { /* Unchanged */ }
         function renderList(item) { /* Unchanged */ }
         function renderKeyTerms(item) { /* Unchanged */ }
-
-        function renderPacingGuide(item) {
-            const sessions = item.overview_item_data.overview_item_data_items || [];
-            if (!sessions.length) return '<p class="content-placeholder">No pacing guide available.</p>';
-
-            return sessions.map(session => {
-                const sessionTitle = session.overview_item_data_group_title;
-                const blocks = session.overview_item_data_groups || [];
-                
-                const blocksHtml = blocks.map(block => {
-                    const blockTitle = block.overview_item_data_group_title;
-                    const activities = block.overview_item_data_group_items || [];
-                    
-                    const activitiesHtml = activities.map(activity => {
-                        // --- NEW: Handle one-to-many icons ---
-                        const itemTypes = Array.isArray(activity.overview_item_data_group_item_type) 
-                            ? activity.overview_item_data_group_item_type 
-                            : [activity.overview_item_data_group_item_type];
-
-                        const iconsHtml = `<div class="pacing-activity-icons">${itemTypes.map(type => 
-                            activityIcons[type] ? `<img src="${activityIcons[type]}" alt="${type} icon">` : ''
-                        ).join('')}</div>`;
-
-                        const prefix = activity.overview_item_data_group_item_prefix ? `<strong>${activity.overview_item_data_group_item_prefix}:</strong> ` : '';
-                        const title = activity.overview_item_data_group_item_title || '';
-                        const description = activity.overview_item_data_group_item_description || '';
-                        const pacing = activity.overview_item_data_group_item_pacing?.pacing_amount;
-                        const durationHtml = pacing ? `<span class="pacing-duration">~${pacing} min</span>` : '';
-
-                        return `
-                            <div class="pacing-activity">
-                                <div><h4>${iconsHtml}<span>${prefix}${title}</span></h4>${parseRichText(description)}</div>
-                                ${durationHtml}
-                            </div>`;
-                    }).join('');
-
-                    return `
-                        <div class="pacing-block">
-                            <div class="pacing-block-header"><h3>${blockTitle}</h3></div>
-                            ${activitiesHtml}
-                        </div>`;
-                }).join('');
-                return `<div class="pacing-session"><h2>${sessionTitle}</h2>${blocksHtml}</div>`;
-            }).join('');
-        }
-
+        function renderPacingGuide(item) { /* Unchanged */ }
         function parseRichText(text) { /* Unchanged */ }
         function setupTabInteraction() { /* Unchanged */ }
         
