@@ -106,11 +106,10 @@
         const panelsContainer = document.getElementById('tab-panels-container');
 
         async function initializeApp() {
-            // --- FIX FOR NULL ERROR: Check if critical elements exist before proceeding ---
             if (!courseSelector || !lessonSelector || !contentArea) {
                 console.error("Initialization failed: A critical UI element could not be found in the DOM. Halting execution.");
                 document.body.innerHTML = `<p style="color:red; font-family: sans-serif; padding: 2rem;"><strong>Error:</strong> The application could not start because a critical HTML element is missing. Please check the console for details.</p>`;
-                return; // Stop the function
+                return;
             }
             
             try {
@@ -155,15 +154,15 @@
             await populateLessonSelector(courseSelector.value);
         }
         
+        // --- FINAL FIX: Dynamically load the correct file from the manifest path ---
         async function handleLessonChange() {
-            if (lessonSelector.value) {
-                // Simplified loader for local prototype using sample files
-                if (lessonSelector.value.includes("Re-Engaging with the Distributive Property") || lessonSelector.value.includes("L02")) {
-                     await loadAndDisplayLesson('lesson-overview-re-engagement-sample.json');
-                } else {
-                     // Default to the concept sample for all other lessons
-                     await loadAndDisplayLesson('lesson-overview-concept-sample.json');
-                }
+            const lessonPath = lessonSelector.value;
+            if (lessonPath) {
+                // Transform the absolute path from the manifest to a relative one
+                // This makes it work when opening index.html directly from the file system.
+                // It changes "/data/file.json" to "data/file.json"
+                const relativePath = lessonPath.startsWith('/') ? lessonPath.substring(1) : lessonPath;
+                await loadAndDisplayLesson(relativePath);
             } else {
                 clearLessonDisplay();
             }
@@ -179,7 +178,7 @@
             } catch (error) { 
                 console.error("Could not load or render lesson:", error); 
                 clearLessonDisplay(); 
-                panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'.</p>`; 
+                panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'. Ensure the file exists and the path is correct.</p>`; 
             } 
         }
 
@@ -198,7 +197,6 @@
             descriptionEl.innerHTML = metadata.overview_description || '';
             renderTabsAndPanels(lessonData);
             setupTabInteraction();
-            // Check if MathJax is available before trying to use it
             if (window.MathJax) {
                 try {
                     MathJax.typesetPromise();
@@ -234,7 +232,6 @@
                 const title = item.overview_item_title || tabDef.title;
                 let content = '<p class="content-placeholder">No data available.</p>';
                 if (item.overview_item_data) {
-                    // --- PREVIOUS BUG #1 FIX: Pass the full item object to the renderer ---
                     content = tabDef.renderer(item);
                 }
                 tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tabId}" role="tab" aria-controls="panel-${tabId}" aria-selected="${isActive}">${tabDef.icon || ''}<span>${title}</span></button>`;
@@ -284,11 +281,8 @@
             }).join('');
         }
 
-        // --- PREVIOUS BUG #2 FIX: Corrected rich text parsing ---
         function parseRichText(text) {
             if (!text || typeof text !== 'string') return '';
-            
-            // Handle complex "###" block structure
             if (text.includes('### ')) {
                 const blocks = text.trim().split(/(?=###\s)/g);
                 let html = '';
@@ -311,7 +305,6 @@
                 });
                 return `<div class="md-content">${html}</div>`;
             }
-            // Handle simple text (no special markdown)
             return `<div class="md-content"><p>${text.replace(/\n/g, '<br>')}</p></div>`;
         }
         
