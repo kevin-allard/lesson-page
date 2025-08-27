@@ -1,4 +1,4 @@
-<!-- Editor Version: rc1.beta.0.60 -->
+<!-- Editor Version: rc1.beta.0.61 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,4 +65,255 @@
         .md-playlist > h4:first-child { margin-top: 0; }
         .md-center-block { border-top: 1px solid var(--border-light); padding-top: 1.5rem; margin-top: 1.5rem; }
         .md-center-title { display: inline-block; font-weight: 700; border: 2px solid var(--orange-accent); border-radius: 1rem; padding: 0.1rem 0.8rem; margin-bottom: 0.5rem; background-color: #fff; color: var(--text-dark); }
-        .md-content ul { list-style:
+        .md-content ul { list-style: none; padding-left: 1rem; margin: 0.5rem 0; }
+        .md-content ul li { padding-left: 1.5rem; position: relative; margin-bottom: 0.5rem; }
+        .md-content ul li::before { position: absolute; left: 0; top: 0.4em; color: var(--primary-green); font-weight: bold; }
+        .md-content > ul > li::before { content: '•'; }
+        .md-content ul ul li::before { content: 'º'; }
+    </style>
+</head>
+<body>
+    <div class="lesson-container">
+        <header class="lesson-header">
+            <!-- Header content unchanged -->
+        </header>
+
+        <main class="lesson-content" id="lesson-content-area">
+            <!-- Main content area -->
+        </main>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        let fullManifestData = [];
+        const icons = { /* Icon SVGs unchanged */ };
+        const activityIcons = { /* Icon paths unchanged */ };
+        const courseSelector = document.getElementById('course-selector');
+        const lessonSelector = document.getElementById('lesson-selector');
+        const contentArea = document.getElementById('lesson-content-area');
+        const titleEl = document.getElementById('lesson-title-subtitle');
+        const pacingEl = document.getElementById('lesson-pacing');
+        const descriptionEl = document.getElementById('lesson-description');
+        
+        async function initializeApp() {
+            try {
+                const response = await fetch('manifest.json');
+                if (!response.ok) throw new Error("Manifest file not found.");
+                fullManifestData = await response.json();
+                
+                populateCourseSelector();
+                courseSelector.addEventListener('change', handleCourseChange);
+                lessonSelector.addEventListener('change', handleLessonChange);
+
+                // Initial population and load sequence
+                handleCourseChange();
+            } catch (error) {
+                console.error("Initialization failed:", error);
+                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json.</p>`;
+            }
+        }
+
+        function populateCourseSelector() {
+            fullManifestData.forEach(course => {
+                courseSelector.add(new Option(course.courseName, course.courseName));
+            });
+        }
+
+        function populateLessonSelector(courseName) {
+            lessonSelector.innerHTML = '';
+            const course = fullManifestData.find(c => c.courseName === courseName);
+            if (course && course.lessons.length > 0) {
+                lessonSelector.disabled = false;
+                course.lessons.forEach(lesson => {
+                    lessonSelector.add(new Option(lesson.name, lesson.path));
+                });
+            } else {
+                lessonSelector.disabled = true;
+                lessonSelector.add(new Option('No lessons available', ''));
+            }
+        }
+
+        function handleCourseChange() {
+            populateLessonSelector(courseSelector.value);
+            handleLessonChange(); // Trigger lesson load for the new course's first lesson
+        }
+        
+        async function handleLessonChange() {
+            const filePath = lessonSelector.value;
+            if (filePath) {
+                await loadAndDisplayLesson(filePath);
+            } else {
+                clearLessonDisplay();
+            }
+        }
+        
+        async function loadAndDisplayLesson(filePath) { 
+            contentArea.innerHTML = '<div class="content-placeholder">Loading lesson...</div>';
+            try { 
+                const response = await fetch(filePath); 
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`); 
+                const lessonData = await response.json(); 
+                renderLesson(lessonData); 
+                contentArea.style.display = 'block'; 
+            } catch (error) { 
+                console.error("Could not load or render lesson:", error); 
+                clearLessonDisplay(); 
+                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load lesson file from '${filePath}'.</p>`; 
+            } 
+        }
+
+        function clearLessonDisplay() {
+            titleEl.innerHTML = 'No Lesson Selected';
+            pacingEl.innerHTML = '';
+            descriptionEl.innerHTML = '';
+            contentArea.style.display = 'none';
+        }
+        
+        function renderLesson(lessonData) {
+            const metadata = lessonData.overview_metadata;
+            const subtitle = metadata.overview_subtitle ? `<span class="subtitle">${metadata.overview_subtitle}</span>` : '';
+            titleEl.innerHTML = `Lesson ${metadata.overview_number}: ${metadata.overview_title} ${subtitle}`;
+            pacingEl.innerHTML = lessonData.overview_pacing?.pacing_amount ? `${icons.clock || ''} ${lessonData.overview_pacing.pacing_amount} mins` : '';
+            descriptionEl.innerHTML = metadata.overview_description || '';
+            
+            const tabsContainer = document.getElementById('tabs-container');
+            const panelsContainer = document.getElementById('tab-panels-container');
+
+            renderTabsAndPanels(lessonData, tabsContainer, panelsContainer);
+            setupTabInteraction(tabsContainer, panelsContainer);
+            
+            if (window.MathJax) {
+                MathJax.typesetPromise();
+            }
+        }
+
+        function renderTabsAndPanels(lessonData, tabsContainer, panelsContainer) {
+            const tabDefinitions = {
+                learning_goals: { title: 'Learning Goals', icon: icons.learning_goals, renderer: renderList },
+                big_ideas: { title: 'Big Ideas', icon: icons.big_ideas, renderer: renderList },
+                essential_ideas: { title: 'Essential Ideas', icon: icons.essential_ideas, renderer: renderList },
+                key_terms: { title: 'Key Terms', icon: icons.key_terms, renderer: renderKeyTerms },
+                pacing_guide: { title: 'Pacing Guide', icon: icons.pacing_guide, renderer: renderPacingGuide },
+                materials_needed: { title: 'Materials Needed', icon: icons.materials_needed, renderer: renderList }
+            };
+            const availableItems = lessonData.overview_items || [];
+            if (availableItems.length === 0) {
+                tabsContainer.innerHTML = '';
+                panelsContainer.innerHTML = '<p class="content-placeholder">No detailed information available for this lesson.</p>';
+                return;
+            }
+            let tabsHTML = '', panelsHTML = '';
+            let isFirstTab = true;
+            availableItems.forEach((item) => {
+                const tabDef = tabDefinitions[item.overview_item_type];
+                if (!tabDef) return;
+                
+                let hasContent = true;
+                if (item.overview_item_type === 'key_terms') {
+                    const groups = item.overview_item_data.overview_item_data_items || [];
+                    hasContent = groups.some(group => group.overview_item_data_group_items && group.overview_item_data_group_items.length > 0);
+                } else if (item.overview_item_data.overview_item_data_items) {
+                    hasContent = item.overview_item_data.overview_item_data_items.length > 0;
+                }
+                
+                if (!hasContent) return;
+
+                const isActive = isFirstTab;
+                isFirstTab = false;
+                const tabId = item.overview_item_type.replace(/_/g, '-');
+                const title = item.overview_item_title || tabDef.title;
+                let content = '<p class="content-placeholder">No data available.</p>';
+                if (item.overview_item_data) {
+                    content = tabDef.renderer(item);
+                }
+                tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tabId}" role="tab" aria-controls="panel-${tabId}" aria-selected="${isActive}">${tabDef.icon || ''}<span>${title}</span></button>`;
+                panelsHTML += `<div class="tab-panel ${isActive ? 'active' : ''}" id="panel-${tabId}" role="tabpanel" aria-labelledby="tab-${tabId}">${content}</div>`;
+            });
+            tabsContainer.innerHTML = tabsHTML;
+            panelsContainer.innerHTML = panelsHTML;
+        }
+
+        function renderList(item) {
+            const items = item.overview_item_data.overview_item_data_items || [];
+            return `<ul>${items.map(item => `<li>${item}</li>`).join('')}</ul>`;
+        }
+
+        function renderKeyTerms(item) {
+            const groups = item.overview_item_data.overview_item_data_items || [];
+            if (groups.length === 0) return '<p class="content-placeholder">No key terms available.</p>';
+            return groups.map(group => {
+                const groupTitle = group.overview_item_data_group_title;
+                const groupItems = group.overview_item_data_group_items || [];
+                if (groupItems.length === 0) return '';
+                return `<div class="key-terms-group"><h4>${groupTitle}</h4><ul class="key-terms-list">${groupItems.map(item => `<li>${item}</li>`).join('')}</ul></div>`;
+            }).join('');
+        }
+
+        function renderPacingGuide(item) {
+            const sessions = item.overview_item_data.overview_item_data_items || [];
+            if (!sessions.length) return '<p class="content-placeholder">No pacing guide available.</p>';
+            return sessions.map(session => {
+                const sessionTitle = session.overview_item_data_group_title;
+                const blocks = session.overview_item_data_groups || [];
+                const blocksHtml = blocks.map(block => {
+                    const blockTitle = block.overview_item_data_group_title;
+                    const activities = block.overview_item_data_group_items || [];
+                    const activitiesHtml = activities.map(activity => {
+                        const itemTypes = Array.isArray(activity.overview_item_data_group_item_type) ? activity.overview_item_data_group_item_type : [activity.overview_item_data_group_item_type];
+                        const iconsHtml = `<div class="pacing-activity-icons">${itemTypes.map(type => activityIcons[type] ? `<img src="${activityIcons[type]}" alt="${type} icon">` : '').join('')}</div>`;
+                        const prefix = activity.overview_item_data_group_item_prefix ? `<strong>${activity.overview_item_data_group_item_prefix}:</strong> ` : '';
+                        const title = activity.overview_item_data_group_item_title || '';
+                        const description = activity.overview_item_data_group_item_description || '';
+                        const pacing = activity.overview_item_data_group_item_pacing?.pacing_amount;
+                        const durationHtml = pacing ? `<span class="pacing-duration">~${pacing} min</span>` : '';
+                        return `<div class="pacing-activity"><div><h4>${iconsHtml}<span>${prefix}${title}</span></h4>${parseRichText(description)}</div>${durationHtml}</div>`;
+                    }).join('');
+                    return `<div class="pacing-block"><div class="pacing-block-header"><h3>${blockTitle}</h3></div>${activitiesHtml}</div>`;
+                }).join('');
+                return `<div class="pacing-session"><h2>${sessionTitle}</h2>${blocksHtml}</div>`;
+            }).join('');
+        }
+
+        function parseRichText(text) {
+            if (!text || typeof text !== 'string') return '';
+            if (text.includes('### ')) {
+                const blocks = text.trim().split(/(?=###\s)/g);
+                let html = '';
+                blocks.forEach(blockText => {
+                    if (!blockText.trim()) return;
+                    const lines = blockText.trim().split('\n').filter(line => line.trim());
+                    const firstLine = lines.shift()?.trim() || '';
+                    let blockContent = lines.map(line => {
+                        line = line.trim();
+                        if (line.startsWith('•\t')) { return `<ul><li>${line.substring(2)}</li></ul>`; }
+                        if (line.startsWith('◦\t')) { return `<ul><ul><li>${line.substring(2)}</li></ul></ul>`; }
+                        return `<p>${line}</p>`;
+                    }).join('');
+                    if (firstLine.startsWith('### ')) {
+                        const title = firstLine.substring(4);
+                        if (title === 'MATHia Playlist') { html += `<div class="md-playlist"><h3>${title}</h3>${blockContent}</div>`; } 
+                        else { html += `<div class="md-center-block"><span class="md-center-title">${title}</span>${blockContent}</div>`; }
+                    } else { html += `<p>${firstLine}</p>${blockContent}`; }
+                });
+                return `<div class="md-content">${html}</div>`;
+            }
+            return `<div class="md-content"><p>${text}</p></div>`;
+        }
+        
+        function setupTabInteraction(tabsContainer, panelsContainer) { 
+            tabsContainer.addEventListener('click', (e) => { 
+                const clickedTab = e.target.closest('.tab-button'); 
+                if (!clickedTab) return; 
+                tabsContainer.querySelectorAll('.tab-button').forEach(tab => { tab.classList.remove('active'); tab.setAttribute('aria-selected', 'false'); }); 
+                panelsContainer.querySelectorAll('.tab-panel').forEach(panel => { panel.classList.remove('active'); }); 
+                clickedTab.classList.add('active'); 
+                clickedTab.setAttribute('aria-selected', 'true'); 
+                document.getElementById(clickedTab.getAttribute('aria-controls')).classList.add('active'); 
+            }); 
+        }
+        
+        initializeApp();
+    });
+    </script>
+</body>
+</html>
