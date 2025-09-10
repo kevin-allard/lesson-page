@@ -93,7 +93,7 @@
                 "overview_item_data_group_title": "Activate",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_item_type": "presentation",
+                    "overview_item_data_group_item_type": ["presentation"],
                     "overview_item_data_group_item_title": "Explicitly Matched",
                     "overview_item_data_group_item_description": "Students investigate the relationship between an explicit formula for an arithmetic sequence and its graph.",
                     "overview_item_data_group_item_pacing": {
@@ -107,7 +107,7 @@
                 "overview_item_data_group_title": "Explore and Develop",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_type": ["book"],
                     "overview_item_data_group_item_prefix": "Activity 1",
                     "overview_item_data_group_item_title": "Connecting Forms",
                     "overview_item_data_group_item_description": "Students discover that the common difference of an arithmetic sequence is the slope of the linear function.",
@@ -122,7 +122,7 @@
                 "overview_item_data_group_title": "Reflect",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_type": ["book"],
                     "overview_item_data_group_item_title": "Line Up in Sequential Order",
                     "overview_item_data_group_item_description": "Students analyze two sequences and create a table of values to determine which graph represents a linear function.",
                     "overview_item_data_group_item_pacing": {
@@ -141,7 +141,7 @@
                 "overview_item_data_group_title": "Explore and Develop",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_type": ["book"],
                     "overview_item_data_group_item_prefix": "Activity 2",
                     "overview_item_data_group_item_title": "Verifying that Slope Is Constant",
                     "overview_item_data_group_item_description": "Students generalize about the connection between slope and average rate of change.",
@@ -151,7 +151,7 @@
                     }
                   },
                   {
-                    "overview_item_data_group_item_type": "book",
+                    "overview_item_data_group_item_type": ["book"],
                     "overview_item_data_group_item_prefix": "Activity 3",
                     "overview_item_data_group_item_title": "Analyzing Tables of Values",
                     "overview_item_data_group_item_description": "Students use first differences to determine whether a table of values represents a linear function.",
@@ -166,7 +166,7 @@
                 "overview_item_data_group_title": "Close",
                 "overview_item_data_group_items": [
                   {
-                    "overview_item_data_group_item_type": "quick_check",
+                    "overview_item_data_group_item_type": ["online"],
                     "overview_item_data_group_item_title": "Quick Check",
                     "overview_item_data_group_item_description": "Students go online to access the quick check.",
                     "overview_item_data_group_item_pacing": {
