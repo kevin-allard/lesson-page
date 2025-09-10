@@ -50,7 +50,7 @@
         "overview_item_data_type": "list",
         "overview_item_data_items": [
           "You can write an explicit formula of an arithmetic sequence in slope-intercept form.",
-          "The explicit formula of an arithmetic sequence, <math><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mi>d</mi><mo stretchy="false">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></math>, includes the first term of the sequence, f(1), and the common difference. The slope-intercept form of a linear function, <math><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, includes f(0) and the slope.",
+          "The explicit formula of an arithmetic sequence, <math><msub><mi>a</mi><mi>n</mi></msub><mo>=</mo><msub><mi>a</mi><mn>1</mn></msub><mo>+</mo><mi>d</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo stretchy=\"false\">)</mo></math>, includes the first term of the sequence, f(1), and the common difference. The slope-intercept form of a linear function, <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>m</mi><mi>x</mi><mo>+</mo><mi>b</mi></math>, includes f(0) and the slope.",
           "You can use the average rate of change formula to calculate the unit rate over a given interval.",
           "You can calculate the first differences of a table by subtracting consecutive output values when the input values have an interval of 1. When the first differences are constant, you can model the table of values with a linear function.",
           "The arithmetic sequence’s domain includes the counting numbers, while the linear function’s domain includes all real numbers."
