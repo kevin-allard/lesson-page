@@ -89,7 +89,6 @@
     document.addEventListener('DOMContentLoaded', () => {
         let fullManifestData = [];
         const icons = { clock: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>`, learning_goals: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>`, pacing_guide: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 21h-4.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v3" /><path d="M14 2v4h-8v-4" /><path d="M1 10h12" /><path d="M19 16l-2 3h4l-2 3" /><path d="M19 21v-8" /></svg>`, key_terms: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" /><path d="M3 6v13" /><path d="M12 6v13" /><path d="M21 6v13" /></svg>`, materials_needed: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v13" /><path d="M5 21v-10.5a1.5 1.5 0 0 1 3 0v10.5" /><path d="M19 21v-10.5a1.5 1.5 0 0 0 -3 0v10.5" /><path d="M12 21v-10.5a1.5 1.5 0 0 0 -3 0v10.5" /><path d="M8 5a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v3h-8v-3z" /></svg>`, essential_ideas: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" /><path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" /><path d="M9.7 17l4.6 0" /></svg>`, big_ideas: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a2 2 0 0 0 -2 2v1l-1 1l-2 2a1 1 0 0 0 1 1h8a1 1 0 0 0 1 -1l-2 -2l-1 -1v-1a2 2 0 0 0 -2 -2z" /><path d="M12 11v10" /><path d="M10 21h4" /></svg>`,
-            // --- NEW: A generic icon for unknown section types ---
             generic: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2h-8a2 2 0 0 0 -2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-12z" /><path d="M14 2v6h6" /></svg>`
         };
         const activityIcons = {
@@ -105,8 +104,13 @@
 
         const courseSelector = document.getElementById('course-selector');
         const lessonSelector = document.getElementById('lesson-selector');
-        // ... (rest of element getters are unchanged)
-        
+        const contentArea = document.getElementById('lesson-content-area');
+        const titleEl = document.getElementById('lesson-title-subtitle');
+        const pacingEl = document.getElementById('lesson-pacing');
+        const descriptionEl = document.getElementById('lesson-description');
+        const tabsContainer = document.getElementById('tabs-container');
+        const panelsContainer = document.getElementById('tab-panels-container');
+
         // --- NEW: A map of data types to their rendering functions ---
         const renderers = {
             list: renderList,
@@ -114,11 +118,130 @@
             session_list: renderPacingGuide
         };
 
-        // --- Functions from initializeApp to renderLesson are unchanged ---
+        async function initializeApp() {
+            if (!courseSelector || !lessonSelector || !contentArea) {
+                console.error("Initialization failed: A critical UI element could not be found in the DOM. Halting execution.");
+                document.body.innerHTML = `<p style="color:red; font-family: sans-serif; padding: 2rem;"><strong>Error:</strong> The application could not start because a critical HTML element is missing. Please check the console for details.</p>`;
+                return;
+            }
+            try {
+                const response = await fetch('manifest.json');
+                if (!response.ok) throw new Error("Manifest file not found.");
+                fullManifestData = await response.json();
+                populateCourseSelector();
+                courseSelector.addEventListener('change', handleCourseChange);
+                lessonSelector.addEventListener('change', handleLessonChange);
+                await handleCourseChange();
+            } catch (error) {
+                console.error("Initialization failed:", error);
+                contentArea.innerHTML = `<p class="content-placeholder" style="color: red;">Error: Could not load manifest.json.</p>`;
+            }
+        }
+
+        function populateCourseSelector() {
+            fullManifestData.forEach(course => {
+                courseSelector.add(new Option(course.courseName, course.courseName));
+            });
+        }
+
+        async function populateLessonSelector(courseName) {
+            lessonSelector.innerHTML = '';
+            const course = fullManifestData.find(c => c.courseName === courseName);
+            if (course && course.lessons.length > 0) {
+                lessonSelector.disabled = false;
+                course.lessons.forEach(lesson => {
+                    lessonSelector.add(new Option(lesson.name, lesson.path));
+                });
+                await handleLessonChange();
+            } else {
+                lessonSelector.disabled = true;
+                lessonSelector.add(new Option('No lessons available', ''));
+                clearLessonDisplay();
+            }
+        }
+
+        async function handleCourseChange() {
+            await populateLessonSelector(courseSelector.value);
+        }
         
-        // --- The core of the new logic is in renderTabsAndPanels ---
+        async function handleLessonChange() {
+            const lessonPath = lessonSelector.value;
+            if (lessonPath) {
+                const relativePath = lessonPath.startsWith('/') ? lessonPath.substring(1) : lessonPath;
+                await loadAndDisplayLesson(relativePath);
+            } else {
+                clearLessonDisplay();
+            }
+        }
+        
+        async function loadAndDisplayLesson(filePath) { 
+            let response;
+            try { 
+                response = await fetch(filePath); 
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const lessonData = await response.json();
+                renderLesson(lessonData); 
+                contentArea.style.display = 'block'; 
+            } catch (error) { 
+                console.error("Could not load or render lesson:", error); 
+                clearLessonDisplay(); 
+                
+                let errorMessage = `Error loading lesson file from '${filePath}'.<br>`;
+                if (error instanceof SyntaxError) {
+                    errorMessage += 'The file was found, but it contains a JSON syntax error. Please validate the file.';
+                } else if (response && response.status === 404) {
+                    errorMessage += 'The file could not be found. Please check the file name and path.';
+                } else {
+                    errorMessage += 'An unknown error occurred. Check the console for details.';
+                }
+                panelsContainer.innerHTML = `<p class="content-placeholder" style="color: red;">${errorMessage}</p>`;
+            } 
+        }
+
+        function clearLessonDisplay() {
+            titleEl.innerHTML = 'No Lesson Selected';
+            pacingEl.innerHTML = '';
+            descriptionEl.innerHTML = '';
+            contentArea.style.display = 'none';
+        }
+        
+        function renderLesson(lessonData) {
+            const metadata = lessonData.overview_metadata;
+            const subtitle = metadata.overview_subtitle ? `<span class="subtitle">${metadata.overview_subtitle}</span>` : '';
+            titleEl.innerHTML = `Lesson ${metadata.overview_number}: ${metadata.overview_title} ${subtitle}`;
+            pacingEl.innerHTML = lessonData.overview_pacing?.pacing_amount ? `${icons.clock || ''} ${lessonData.overview_pacing.pacing_amount} mins` : '';
+            descriptionEl.innerHTML = metadata.overview_description || '';
+            renderTabsAndPanels(lessonData);
+            setupTabInteraction();
+            if (window.MathJax) {
+                try {
+                    MathJax.typesetPromise();
+                } catch(e) {
+                    console.warn("MathJax could not process the page.", e);
+                }
+            }
+        }
+        
+        function isSectionDataEmpty(item) {
+            if (!item.overview_item_data || !item.overview_item_data.overview_item_data_items) {
+                return true;
+            }
+            const items = item.overview_item_data.overview_item_data_items;
+            const dataType = item.overview_item_data.overview_item_data_type;
+            if (dataType === 'group_list') {
+                if (items.length === 0) return true;
+                const hasContent = items.some(group => 
+                    group.overview_item_data_group_items && group.overview_item_data_group_items.length > 0
+                );
+                return !hasContent;
+            } else {
+                return items.length === 0;
+            }
+        }
+
         function renderTabsAndPanels(lessonData) {
-            // This object defines the known section types and their specific icons/titles.
             const tabDefinitions = {
                 learning_goals: { title: 'Learning Goals', icon: icons.learning_goals },
                 big_ideas: { title: 'Big Ideas', icon: icons.big_ideas },
@@ -126,7 +249,6 @@
                 key_terms: { title: 'Key Terms', icon: icons.key_terms },
                 pacing_guide: { title: 'Pacing Guide', icon: icons.pacing_guide },
                 materials_needed: { title: 'Materials Needed', icon: icons.materials_needed }
-                // Note: "basic" is not needed here; it will be handled by the fallback.
             };
 
             const visibleItems = (lessonData.overview_items || []).filter(item => !isSectionDataEmpty(item));
@@ -140,29 +262,25 @@
             let tabsHTML = '', panelsHTML = '';
             let isFirstTab = true;
 
-            visibleItems.forEach((item) => {
-                const itemType = item.overview_item_type; // e.g., "learning_goals", "basic"
-                const dataType = item.overview_item_data.overview_item_data_type; // e.g., "list", "group_list"
-
-                // Find the correct renderer based on the DATA type, not the section type
+            visibleItems.forEach((item, index) => {
+                const itemType = item.overview_item_type;
+                const dataType = item.overview_item_data.overview_item_data_type;
                 const renderer = renderers[dataType];
 
-                // If we don't have a renderer for this data type, skip this section
                 if (!renderer) {
-                    console.warn(`No renderer found for data type: ${dataType}. Skipping section.`);
+                    console.warn(`No renderer found for data type: ${dataType}. Skipping section "${item.overview_item_title}".`);
                     return;
                 }
 
-                // Get tab info from our definitions, or create a fallback for unknown types like "basic"
                 const tabDef = tabDefinitions[itemType] || { 
-                    title: item.overview_item_title || "Details", // Use title from JSON or a generic one
-                    icon: icons.generic // Use the generic icon
+                    title: item.overview_item_title || "Details",
+                    icon: icons.generic
                 };
 
                 const isActive = isFirstTab;
                 isFirstTab = false;
                 
-                const tabId = `${itemType}-${item.overview_item_title.replace(/\s/g, '')}`; // More unique ID
+                const tabId = `${itemType}-${index}`;
                 const title = item.overview_item_title || tabDef.title;
                 const content = renderer(item);
                 
@@ -174,13 +292,10 @@
             panelsContainer.innerHTML = panelsHTML;
         }
 
-        // --- UPDATED: renderList now respects the content type ---
         function renderList(item) {
             const items = item.overview_item_data.overview_item_data_items || [];
             const contentType = item.overview_item_content_type;
-
-            // If the content is 'text', we should escape any potential HTML to prevent it from rendering.
-            // This correctly displays things like "<b>text</b>" as literal text.
+            
             if (contentType === 'text') {
                 return `<ul>${items.map(listItem => {
                     const tempDiv = document.createElement('div');
@@ -189,11 +304,9 @@
                 }).join('')}</ul>`;
             }
 
-            // Otherwise (for 'html'), render it directly.
             return `<ul>${items.map(listItem => `<li>${listItem}</li>`).join('')}</ul>`;
         }
 
-        // --- RENAMED and GENERALIZED: from renderKeyTerms to renderGroupList ---
         function renderGroupList(item) {
             const groups = item.overview_item_data.overview_item_data_items || [];
             const visibleGroups = groups.filter(group => group.overview_item_data_group_items && group.overview_item_data_group_items.length > 0);
@@ -207,9 +320,88 @@
             }).join('');
         }
         
-        // --- The rest of the file (pacing guide, etc.) is unchanged ---
-        // ... (all other functions like initializeApp, renderPacingGuide, etc. remain the same as the previous version) ...
+        function renderPacingGuide(item) {
+            const sessions = item.overview_item_data.overview_item_data_items || [];
+            if (!sessions.length) return '<p class="content-placeholder">No pacing guide available.</p>';
+            return sessions.map(session => {
+                const sessionTitle = session.overview_item_data_group_title;
+                const blocks = session.overview_item_data_groups || [];
+                const blocksHtml = blocks.map(block => {
+                    const blockTitle = block.overview_item_data_group_title;
+                    const activities = block.overview_item_data_group_items || [];
+                    const activitiesHtml = activities.map(activity => {
+                        let iconTypes = activity.overview_item_data_group_item_type;
+                        let iconHtml = '';
 
+                        if (iconTypes) {
+                            if (!Array.isArray(iconTypes)) {
+                                iconTypes = [iconTypes];
+                            }
+                            iconTypes.forEach(type => {
+                                if (activityIcons[type]) {
+                                    iconHtml += `<img src="${activityIcons[type]}" alt="${type} icon" class="pacing-icon">`;
+                                }
+                            });
+                        }
+
+                        const prefix = activity.overview_item_data_group_item_prefix ? `<strong>${activity.overview_item_data_group_item_prefix}:</strong> ` : '';
+                        const title = activity.overview_item_data_group_item_title || '';
+                        const description = activity.overview_item_data_group_item_description || '';
+                        const pacing = activity.overview_item_data_group_item_pacing?.pacing_amount;
+                        const durationHtml = pacing ? `<span class="pacing-duration">~${pacing} min</span>` : '';
+                        return `<div class="pacing-activity"><div><h4>${iconHtml}<span>${prefix}${title}</span></h4>${parseRichText(description)}</div>${durationHtml}</div>`;
+                    }).join('');
+                    return `<div class="pacing-block"><div class="pacing-block-header"><h3>${blockTitle}</h3></div>${activitiesHtml}</div>`;
+                }).join('');
+                return `<div class="pacing-session"><h2>${sessionTitle}</h2>${blocksHtml}</div>`;
+            }).join('');
+        }
+
+        function parseRichText(text) {
+            if (!text || typeof text !== 'string') return '';
+            if (text.includes('### ')) {
+                const blocks = text.trim().split(/(?=###\s)/g);
+                let html = '';
+                blocks.forEach(blockText => {
+                    if (!blockText.trim()) return;
+                    const lines = blockText.trim().split('\n').filter(line => line.trim());
+                    const firstLine = lines.shift()?.trim() || '';
+                    let blockContent = lines.map(line => `<p>${line.trim()}</p>`).join('');
+                    if (firstLine.startsWith('### ')) {
+                        const title = firstLine.substring(4);
+                        if (title === 'MATHia Playlist') {
+                            html += `<div class="md-playlist"><h3>${title}</h3>${blockContent}</div>`;
+                        } else {
+                            html += `<div class="md-center-block"><span class="md-center-title">${title}</span>${blockContent}</div>`;
+                        }
+                    } else { 
+                        html += `<p>${firstLine}</p>${blockContent}`; 
+                    }
+                });
+                return `<div class="md-content">${html}</div>`;
+            }
+            return `<div class="md-content"><p>${text.replace(/\n/g, '<br>')}</p></div>`;
+        }
+        
+        function setupTabInteraction() { 
+            tabsContainer.addEventListener('click', (e) => { 
+                const clickedTab = e.target.closest('.tab-button'); 
+                if (!clickedTab) return; 
+                tabsContainer.querySelectorAll('.tab-button').forEach(tab => { 
+                    tab.classList.remove('active'); 
+                    tab.setAttribute('aria-selected', 'false'); 
+                }); 
+                panelsContainer.querySelectorAll('.tab-panel').forEach(panel => { 
+                    panel.classList.remove('active'); 
+                }); 
+                clickedTab.classList.add('active'); 
+                clickedTab.setAttribute('aria-selected', 'true'); 
+                document.getElementById(clickedTab.getAttribute('aria-controls')).classList.add('active'); 
+            }); 
+        }
+        
+        initializeApp();
+    });
     </script>
 </body>
 </html>
