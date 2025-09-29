@@ -1,0 +1,330 @@
+{
+  "overview_type": "concept",
+  "overview_pacing": {
+    "pacing_type": "days",
+    "pacing_amount": 3
+  },
+  "overview_labels": [
+    {
+      "overview_label_type": "session",
+      "overview_label_prefix": "4",
+      "overview_label_title": "Sessions"
+    }
+  ],
+  "overview_metadata": {
+    "overview_number": 5,
+    "overview_title": "ELA / WL POC Testing Lesson",
+    "overview_subtitle": "For QA and Exploration Purposes ONLY!",
+    "overview_description": "This asset exists to try out random fun ideas likely to be explored by the ELA or WL teams when they begin to use Lesson Page features in 2026 and beyond."
+  },
+  "overview_items": [
+    {
+      "overview_item_type": "learning_goals",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Session Focus Skills",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_content_type": "html",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Reading Skills",
+            "overview_item_data_group_items": [
+              "Generate questions",
+              "Draw inferences"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Writing Skills",
+            "overview_item_data_group_items": [
+              "Analyze the task",
+              "Generate additional questions"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Speaking & Listening Skills",
+            "overview_item_data_group_items": [
+              "Exchange ideas",
+              "Elaborate on ideas in response to others"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "basic",
+      "overview_item_content_type": "html",
+      "overview_item_title": "WL HTML Character Tester",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "<i>NOTE: This example is set to \"HTML\" so it *should* render HTML codes properly.</i>",
+          "<b>SPANISH</b>",
+          "À or &#192; reference>> https://symbl.cc/en/00C0/",
+          "á or &#225; reference>> https://symbl.cc/en/00E1/",
+          "É or &#201; reference>> https://symbl.cc/en/00C9/",
+          "é or &#233; reference>> https://symbl.cc/en/00E9/",
+          "Í or &#205; reference>> https://symbl.cc/en/00CD/",
+          "í or &#237; reference>> https://symbl.cc/en/00ED/",
+          "Ñ or &#209; reference>> https://symbl.cc/en/00D1/",
+          "ñ or &#241; reference>> https://symbl.cc/en/00F1/",
+          "Ó or &#211; reference>> https://symbl.cc/en/00D3/",
+          "ó or &#243; reference>> https://symbl.cc/en/00F3/",
+          "Ú or &#218; reference>> https://symbl.cc/en/00DA/",
+          "ú or &#250; reference>> https://symbl.cc/en/00FA/",
+          "Ü or &#220; reference>> https://symbl.cc/en/00DC/",
+          "ü or &#252; reference>> https://symbl.cc/en/00FC/",
+          "€ or &#128; reference>> https://symbl.cc/en/0080/",
+          "¿ or &#191; reference>> https://symbl.cc/en/00BF/",
+          "¡ or &#161; reference>> https://symbl.cc/en/00A1/",
+          "<b>FRENCH</b>",
+          "à or &#224; reference>> https://symbl.cc/en/00E0/",
+          "Â or &#194; reference>> https://symbl.cc/en/00C2/",
+          "â or &#226; reference>> https://symbl.cc/en/00E2/",
+          "Ç or &#199; reference>> https://symbl.cc/en/00C7/",
+          "ç or &#231; reference>> https://symbl.cc/en/00E7/",
+          "È or &#200; reference>> https://symbl.cc/en/00C8/",
+          "è or &#232; reference>> https://symbl.cc/en/00E8/",
+          "É or &#201; reference>> https://symbl.cc/en/00C9/",
+          "é or &#233; reference>> https://symbl.cc/en/00E9/",
+          "Ê or &#202; reference>> https://symbl.cc/en/00CA/",
+          "ê or &#234; reference>> https://symbl.cc/en/00EA/",
+          "Ë or &#203; reference>> https://symbl.cc/en/00CB/",
+          "ë or &#235; reference>> https://symbl.cc/en/00EB/",
+          "Î or &#206; reference>> https://symbl.cc/en/00CE/",
+          "î or &#238; reference>> https://symbl.cc/en/00EE/",
+          "Ï or &#207; reference>> https://symbl.cc/en/00CF/",
+          "ï or &#239; reference>> https://symbl.cc/en/00EF/",
+          "Ô or &#212; reference>> https://symbl.cc/en/00D4/",
+          "ô or &#244; reference>> https://symbl.cc/en/00F4/",
+          "Û or &#219; reference>> https://symbl.cc/en/00DB/",
+          "û or &#251; reference>> https://symbl.cc/en/00FB/",
+          "Ù or &#217; reference>> https://symbl.cc/en/00D9/",
+          "ù or &#249; reference>> https://symbl.cc/en/00F9/",
+          "Ü or &#220; reference>> https://symbl.cc/en/00DC/",
+          "ü or &#252; reference>> https://symbl.cc/en/00FC/",
+          "Æ or &#198; reference>> https://symbl.cc/en/00C6/",
+          "æ or &#230; reference>> https://symbl.cc/en/00E6/",
+          "€ or &#128; reference>> https://symbl.cc/en/0080/",
+          "<b>GERMAN</b>",
+          "Ä or &#196; reference>> https://symbl.cc/en/00C4/",
+          "ä or &#228; reference>> https://symbl.cc/en/00E4/",
+          "Ö or &#214; reference>> https://symbl.cc/en/00D6/",
+          "ö or &#246; reference>> https://symbl.cc/en/00F6/",
+          "Ü or &#220; reference>> https://symbl.cc/en/00DC/",
+          "ü or &#252; reference>> https://symbl.cc/en/00FC/",
+          "ß or &#223; reference>> https://symbl.cc/en/00DF/",
+          "€ or &#128; reference>> https://symbl.cc/en/0080/"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "basic",
+      "overview_item_content_type": "text",
+      "overview_item_title": "WL Text Character Tester",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "<i>NOTE: This example is set to \"text\" so it might not render HTML codes properly.</i>",
+          "<b>SPANISH</b>",
+          "À or &#192; reference>> https://symbl.cc/en/00C0/",
+          "á or &#225; reference>> https://symbl.cc/en/00E1/",
+          "É or &#201; reference>> https://symbl.cc/en/00C9/",
+          "é or &#233; reference>> https://symbl.cc/en/00E9/",
+          "Í or &#205; reference>> https://symbl.cc/en/00CD/",
+          "í or &#237; reference>> https://symbl.cc/en/00ED/",
+          "Ñ or &#209; reference>> https://symbl.cc/en/00D1/",
+          "ñ or &#241; reference>> https://symbl.cc/en/00F1/",
+          "Ó or &#211; reference>> https://symbl.cc/en/00D3/",
+          "ó or &#243; reference>> https://symbl.cc/en/00F3/",
+          "Ú or &#218; reference>> https://symbl.cc/en/00DA/",
+          "ú or &#250; reference>> https://symbl.cc/en/00FA/",
+          "Ü or &#220; reference>> https://symbl.cc/en/00DC/",
+          "ü or &#252; reference>> https://symbl.cc/en/00FC/",
+          "€ or &#128; reference>> https://symbl.cc/en/0080/",
+          "¿ or &#191; reference>> https://symbl.cc/en/00BF/",
+          "¡ or &#161; reference>> https://symbl.cc/en/00A1/",
+          "<b>FRENCH</b>",
+          "à or &#224; reference>> https://symbl.cc/en/00E0/",
+          "Â or &#194; reference>> https://symbl.cc/en/00C2/",
+          "â or &#226; reference>> https://symbl.cc/en/00E2/",
+          "Ç or &#199; reference>> https://symbl.cc/en/00C7/",
+          "ç or &#231; reference>> https://symbl.cc/en/00E7/",
+          "È or &#200; reference>> https://symbl.cc/en/00C8/",
+          "è or &#232; reference>> https://symbl.cc/en/00E8/",
+          "É or &#201; reference>> https://symbl.cc/en/00C9/",
+          "é or &#233; reference>> https://symbl.cc/en/00E9/",
+          "Ê or &#202; reference>> https://symbl.cc/en/00CA/",
+          "ê or &#234; reference>> https://symbl.cc/en/00EA/",
+          "Ë or &#203; reference>> https://symbl.cc/en/00CB/",
+          "ë or &#235; reference>> https://symbl.cc/en/00EB/",
+          "Î or &#206; reference>> https://symbl.cc/en/00CE/",
+          "î or &#238; reference>> https://symbl.cc/en/00EE/",
+          "Ï or &#207; reference>> https://symbl.cc/en/00CF/",
+          "ï or &#239; reference>> https://symbl.cc/en/00EF/",
+          "Ô or &#212; reference>> https://symbl.cc/en/00D4/",
+          "ô or &#244; reference>> https://symbl.cc/en/00F4/",
+          "Û or &#219; reference>> https://symbl.cc/en/00DB/",
+          "û or &#251; reference>> https://symbl.cc/en/00FB/",
+          "Ù or &#217; reference>> https://symbl.cc/en/00D9/",
+          "ù or &#249; reference>> https://symbl.cc/en/00F9/",
+          "Ü or &#220; reference>> https://symbl.cc/en/00DC/",
+          "ü or &#252; reference>> https://symbl.cc/en/00FC/",
+          "Æ or &#198; reference>> https://symbl.cc/en/00C6/",
+          "æ or &#230; reference>> https://symbl.cc/en/00E6/",
+          "€ or &#128; reference>> https://symbl.cc/en/0080/",
+          "<b>GERMAN</b>",
+          "Ä or &#196; reference>> https://symbl.cc/en/00C4/",
+          "ä or &#228; reference>> https://symbl.cc/en/00E4/",
+          "Ö or &#214; reference>> https://symbl.cc/en/00D6/",
+          "ö or &#246; reference>> https://symbl.cc/en/00F6/",
+          "Ü or &#220; reference>> https://symbl.cc/en/00DC/",
+          "ü or &#252; reference>> https://symbl.cc/en/00FC/",
+          "ß or &#223; reference>> https://symbl.cc/en/00DF/",
+          "€ or &#128; reference>> https://symbl.cc/en/0080/"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "essential_ideas",
+      "overview_item_content_type": "html",
+      "overview_item_title": "MathML Example",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "The function <math><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>D</mi></math> is a vertical translation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mi>D</mi><mo>&gt;</mo><mn>0</mn></math>, the graph vertically shifts up, and when <math><mi>D</mi><mo>&lt;</mo><mn>0</mn></math>, the graph vertically shifts down. The amount of shift is given by <math><mrow><mo>|</mo></mrow><mi>D</mi><mrow><mo>|</mo></mrow></math>.",
+          "The function <math><mi>y</mi><mo>=</mo><mi>A</mi><mo>⋅</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> is a vertical dilation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mrow><mo>|</mo></mrow><mi>A</mi><mrow><mo>|</mo></mrow><mo>&gt;</mo><mn>1</mn></math>, the graph stretches vertically by a factor of <math><mrow><mo>|</mo></mrow><mi>A</mi><mrow><mo>|</mo></mrow></math>, and when <math><mn>0</mn><mo>&lt;</mo><mrow><mo>|</mo></mrow><mi>A</mi><mrow><mo>|</mo></mrow><mo>&lt;</mo><mn>1</mn></math>, the graph compresses vertically by a factor of <math><mi>A</mi></math>. When <math><mi>A</mi><mo>&lt;</mo><mn>0</mn></math>, the graph reflects across the x-axis.",
+          "The function <math><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo>−<!-- − --></mo><mi>C</mi><mo stretchy=\"false\">)</mo></math> is a horizontal translation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mi>C</mi><mo>&gt;</mo><mn>0</mn></math>, the graph horizontally shifts right, and when <math><mi>C</mi><mo>&lt;</mo><mn>0</mn></math>, the graph horizontally shifts left. The amount of shift is given by <math><mrow><mo>|</mo></mrow><mi>C</mi><mrow><mo>|</mo></mrow></math>.",
+          "The function <math><mi>y</mi><mo>=</mo><mi>f</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo>⋅</mo><mi>x</mi><mo stretchy=\"false\">)</mo></math> is a horizontal dilation of the basic function <math><mi>f</mi><mo stretchy=\"false\">(</mo><mi>x</mi><mo stretchy=\"false\">)</mo><mo>=</mo><mi>x</mi></math>. When <math><mrow><mo>|</mo></mrow><mi>B</mi><mrow><mo>|</mo></mrow><mo>&gt;</mo><mn>1</mn></math>, the graph compresses horizontally by a factor of <math><mfrac><mn>1</mn><mrow><mo>|</mo><mi>B</mi><mo>|</mo></mrow></mfrac></math>. When <math><mn>0</mn><mo>&lt;</mo><mrow><mo>|</mo></mrow><mi>B</mi><mrow><mo>|</mo></mrow><mo>&lt;</mo><mn>1</mn></math>, the graph stretches horizontally by a factor of <math><mfrac><mn>1</mn><mrow><mo>|</mo><mi>B</mi><mo>|</mo></mrow></mfrac></math>. When <math><mi>B</mi><mo>&lt;</mo><mn>0</mn></math>, the graph reflects across the y-axis."
+        ]
+      }
+    },
+    {
+      "overview_item_type": "basic",
+      "overview_item_content_type": "html",
+      "overview_item_title": "Unit Text List",
+      "overview_item_data": {
+        "overview_item_data_type": "list",
+        "overview_item_data_items": [
+          "<table style=\"width:100%; border-collapse:collapse; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; font-size:14px; line-height:1.4; color:#222;\">\n  <caption style=\"caption-side:top; text-align:left; font-weight:700; font-size:16px; padding:8px 0 10px;\">Unit Text List</caption>\n  <thead>\n    <tr>\n      <th scope=\"col\" style=\"text-align:left; background:#f2f7ff; border:1px solid #cfd7e6; padding:10px;\">Title</th>\n      <th scope=\"col\" style=\"text-align:left; background:#f2f7ff; border:1px solid #cfd7e6; padding:10px;\">Author(s)</th>\n      <th scope=\"col\" style=\"text-align:left; background:#f2f7ff; border:1px solid #cfd7e6; padding:10px;\">Lexile</th>\n      <th scope=\"col\" style=\"text-align:left; background:#f2f7ff; border:1px solid #cfd7e6; padding:10px;\">Knowledge Builder</th>\n      <th scope=\"col\" style=\"text-align:left; background:#f2f7ff; border:1px solid #cfd7e6; padding:10px;\">Genre Study</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">Where I’m From</th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Misa Sugiura</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">770L</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n    </tr>\n\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">from <em>Identity: Definition, Types, &amp; Examples</em></th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Eser Yilmaz</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">\n        <ul style=\"margin:0; padding-left:18px;\">\n          <li>1180L</li>\n          <li>980L <span style=\"opacity:0.75;\">(light)</span></li>\n          <li>840L <span style=\"opacity:0.75;\">(moderate)</span></li>\n        </ul>\n      </td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">✓</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n    </tr>\n\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">Self-Concept in Psychology: Definition, Development, Examples</th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Saul McLeod</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">\n        <ul style=\"margin:0; padding-left:18px;\">\n          <li>1070L</li>\n          <li>890L <span style=\"opacity:0.75;\">(light)</span></li>\n          <li>670L <span style=\"opacity:0.75;\">(moderate)</span></li>\n        </ul>\n      </td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">✓</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n    </tr>\n\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">Identity</th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Julio Noboa Polanco</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">n/a</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">✓</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n    </tr>\n\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">I Know My Soul</th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Claude McKay</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">n/a</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n    </tr>\n\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">The Struggle to Be an All-American Girl</th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Elizabeth Wong</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">1080L</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">✓</td>\n    </tr>\n\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">This is Not Who We Are</th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Naomi Shihab Nye</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">1000L</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">✓</td>\n    </tr>\n\n    <tr>\n      <th scope=\"row\" style=\"font-weight:600; border:1px solid #e1e6ef; padding:10px;\">Eleven</th>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">Sandra Cisneros</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\">890L</td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n      <td style=\"border:1px solid #e1e6ef; padding:10px;\"></td>\n    </tr>\n  </tbody>\n</table>"
+        ]
+      }
+    },
+    {
+      "overview_item_type": "key_terms",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Key Terms",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Activity 1",
+            "overview_item_data_group_items": [
+              "basic function"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "pacing_guide",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Lesson Structure and Pacing Guide",
+      "overview_item_data": {
+        "overview_item_data_type": "session_list",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Lesson 12",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "TBD What goes here?",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": ["book"],
+                    "overview_item_data_group_item_title": "4.1 Preview the Section",
+                    "overview_item_data_group_item_description": "Explore the skills and key ideas from Section 4. <br> <b>Artifact of Learning:</b> Written Response",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Lesson 13",
+            "overview_item_data_groups": [
+              {
+                "overview_item_data_group_title": "TBD What goes here",
+                "overview_item_data_group_items": [
+                  {
+                    "overview_item_data_group_item_type": ["book"],
+                    "overview_item_data_group_item_title": "4.2 Annotate for Conflicting Aspects of Identity",
+                    "overview_item_data_group_item_description": "Read “The Struggle to Be an All-American Girl” and annotate for sentences that reveal conflicting aspects of the narrator’s personality or identity. <br> <b>Artifact of Learning:</b> Annotations in “The Struggle to Be an All-American Girl”",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 20
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": ["book"],
+                    "overview_item_data_group_item_prefix": "",
+                    "overview_item_data_group_item_title": "4.3 Determine Conflict",
+                    "overview_item_data_group_item_description": "Record examples of internal and external conflict in “The Struggle to Be an All-American Girl” and explain what they reveal about the narrator’s identity development.  <br> <b>Artifact of Learning:</b> Word Choice Chart",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  },
+                  {
+                    "overview_item_data_group_item_type": ["presentation"],
+                    "overview_item_data_group_item_prefix": "",
+                    "overview_item_data_group_item_title": "4.4 Define Loanwords",
+                    "overview_item_data_group_item_description": "Determine the origins and meanings of loanwords.  <br> <b>Artifact of Learning:</b> Loanwords Analysis Chart",
+                    "overview_item_data_group_item_pacing": {
+                      "pacing_type": "minutes",
+                      "pacing_amount": 15
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "overview_item_type": "materials_needed",
+      "overview_item_content_type": "text",
+      "overview_item_title": "Materials and Classroom Preparations",
+      "overview_item_data": {
+        "overview_item_data_type": "group_list",
+        "overview_item_data_content_type": "html",
+        "overview_item_data_items": [
+          {
+            "overview_item_data_group_title": "Your students will need",
+            "overview_item_data_group_items": [
+              "Digital platform access",
+              "Print Student Edition (optional) p. 2"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Classroom Setup <br><i>In this lesson, students will be able to participate in:</i>",
+            "overview_item_data_group_items": [
+              "Partner work",
+              "Independent focused work",
+              "Small-group discussion"
+            ]
+          },
+          {
+            "overview_item_data_group_title": "Facilitation Modes",
+            "overview_item_data_group_items": [
+              "Facilitate discussion",
+              "Circulate and support"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}I want to update the viewer so that it can render this lesson.

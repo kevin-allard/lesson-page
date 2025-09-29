@@ -1,5 +1,14 @@
 [
   {
+    "courseName": "Test",
+    "lessons": [
+      {
+        "name": "Test JSON for Lenses & World Languages",
+        "path": "/data/ELA-WL-POC-Tester-LessonPageInfoWidget.json"
+      }
+    ]
+  },
+  {
     "courseName": "Algebra I",
     "lessons": [
       {
