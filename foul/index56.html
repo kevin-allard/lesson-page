@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson Plan Prototype</title>
     <style>
-        /* All CSS is unchanged */
+        /* All CSS is unchanged, with one addition */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
         :root {
             --primary-green: #27894D; --primary-blue: #008FFD; --light-purple-bg: #F7F2FE;
@@ -111,6 +111,7 @@
         const tabsContainer = document.getElementById('tabs-container');
         const panelsContainer = document.getElementById('tab-panels-container');
 
+        // --- NEW: A map of data types to their rendering functions ---
         const renderers = {
             list: renderList,
             group_list: renderGroupList,
@@ -241,14 +242,13 @@
         }
 
         function renderTabsAndPanels(lessonData) {
-            // --- UPDATED: Centralized titles for consistency ---
             const tabDefinitions = {
                 learning_goals: { title: 'Learning Goals', icon: icons.learning_goals },
                 big_ideas: { title: 'Big Ideas', icon: icons.big_ideas },
                 essential_ideas: { title: 'Essential Ideas', icon: icons.essential_ideas },
                 key_terms: { title: 'Key Terms', icon: icons.key_terms },
                 pacing_guide: { title: 'Pacing Guide', icon: icons.pacing_guide },
-                materials_needed: { title: 'Materials', icon: icons.materials_needed }
+                materials_needed: { title: 'Materials Needed', icon: icons.materials_needed }
             };
 
             const visibleItems = (lessonData.overview_items || []).filter(item => !isSectionDataEmpty(item));
@@ -280,11 +280,8 @@
                 const isActive = isFirstTab;
                 isFirstTab = false;
                 
-                // Use a more unique ID to prevent collisions with generic types
                 const tabId = `${itemType}-${index}`;
-                
-                // --- UPDATED: Prioritize hardcoded title over JSON title ---
-                const title = tabDef.title || item.overview_item_title;
+                const title = item.overview_item_title || tabDef.title;
                 const content = renderer(item);
                 
                 tabsHTML += `<button class="tab-button ${isActive ? 'active' : ''}" id="tab-${tabId}" role="tab" aria-controls="panel-${tabId}" aria-selected="${isActive}">${tabDef.icon || ''}<span>${title}</span></button>`;
@@ -319,7 +316,6 @@
             return visibleGroups.map(group => {
                 const groupTitle = group.overview_item_data_group_title;
                 const groupItems = group.overview_item_data_group_items || [];
-                // Use the 'text' content type logic for group items, as they are simple strings
                 return `<div class="key-terms-group"><h4>${groupTitle}</h4><ul class="key-terms-list">${groupItems.map(term => `<li>${term}</li>`).join('')}</ul></div>`;
             }).join('');
         }
